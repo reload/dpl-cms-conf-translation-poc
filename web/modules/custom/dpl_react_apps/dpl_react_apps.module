@@ -45,6 +45,8 @@ function dpl_react_apps_texts(): array {
   // Instead of defining them for each app separately we define them here in
   // case they are reused in multiple apps and we overlook it.
   return [
+    // Po POC texts
+    'mikkel-is-testing-normal-po-translation' => t('Mikkel is testing normal po translation', [], ['context' => 'Po POC']),
     // Blocked patron.
     'blocked-patron-close-modal-aria-label' => t('Close blocked patron modal', [], ['context' => 'Global (Aria)']),
     'blocked-patron-d-body' => t('Blocked patron body text (d)', [], ['context' => 'Global']),
