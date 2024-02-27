@@ -30,13 +30,14 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
     - name: Setup site
       run: task ci:reset
-    - name: Scan translations
-      run: LANGUAGE=da task translations:scan
-    - name: Commit translations
-      uses: stefanzweifel/git-auto-commit-action@v5
-      with:
-        file_pattern: './web/profiles/dpl_cms/translations/*.po'
-        commit_message: New translations were found
+    # Because of 1000 strings limit we'll skip this for now.
+    # - name: Scan translations
+    #   run: LANGUAGE=da task translations:scan
+    # - name: Commit translations
+    #   uses: stefanzweifel/git-auto-commit-action@v5
+    #   with:
+    #     file_pattern: './web/profiles/dpl_cms/translations/*.po'
+    #     commit_message: New translations were found
     - name: Make Poeditor look for changes in translation strings
       uses: distributhor/workflow-webhook@v3
       env:
