@@ -165,12 +165,12 @@ tasks:
       # Clear all caches to ensure we have a pristine setup.
       # - task dev:cache:clear:all
       # Ensure site is reachable and warm any caches
-      - task dev:cli -- curl --silent --show-error --fail --output /dev/null http://varnish:8080/
-      # Enable dev modules.
-      - task dev:enable-dev-tools
-      - task dev:create-users
+      # - task dev:cli -- curl --silent --show-error --fail --output /dev/null http://varnish:8080/
+      # # Enable dev modules.
+      # - task dev:enable-dev-tools
+      # - task dev:create-users
       # Show a one-time login to the local site.
-      - task dev:cli -- drush user-login
+      # - task dev:cli -- drush user-login
 
   dev:openid:configure:
     desc: Set openid connect settings based on .env variables. And run cron.
