@@ -37,12 +37,19 @@ jobs:
       with:
         file_pattern: './web/profiles/dpl_cms/translations/*.po'
         commit_message: New translations were found
-    - name: Make Poeditor look for changes
+    - name: Make Poeditor look for changes in translation strings
       uses: distributhor/workflow-webhook@v3
       env:
         webhook_url: ${{ secrets.POEDITOR_WEBHOOK_URL }}
         # POEditor webhooks to not use secrets but the action requires a value.
         webhook_secret: 'xxxx'
+    - name: Make Poeditor look for changes in configuration strings
+      uses: distributhor/workflow-webhook@v3
+      env:
+        webhook_url: ${{ secrets.POEDITOR_CONF_WEBHOOK_URL }}
+        # POEditor webhooks to not use secrets but the action requires a value.
+        webhook_secret: 'xxxx'
+
 
   # Publish translations to GitHub Pages to support consumption by Drupal.
   # The localization system requires translation files to be served with a
