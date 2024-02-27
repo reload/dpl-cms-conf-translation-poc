@@ -21,7 +21,7 @@ msgstr "DPL React library mangler (@dir) "
 
 #: 
 msgid "Mikkel is testing a new string"
-msgstr ""
+msgstr "John"
 
 #: 
 msgctxt "node.type.campaign:description"
