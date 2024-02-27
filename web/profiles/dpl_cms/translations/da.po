@@ -20,3 +20,6 @@ msgstr "Library er "
 
 msgid "DDB React library is missing (@dir)"
 msgstr "DPL React library mangler (@dir) "
+
+msgid "Mikkel is testing a new string"
+msgstr ""
