@@ -1,0 +1,8 @@
+services:
+  dpl_admin.commands:
+    class: \Drupal\dpl_admin\Commands\DplAdminCommands
+    arguments:
+      - '@ctp.config_manager'
+      - '@file_system'
+    tags:
+      - { name: drush.command }
