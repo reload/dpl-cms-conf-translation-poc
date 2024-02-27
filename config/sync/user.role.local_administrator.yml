@@ -14,9 +14,6 @@ dependencies:
     - taxonomy.vocabulary.categories
     - taxonomy.vocabulary.tags
   module:
-    - dpl_instant_loan
-    - dpl_library_agency
-    - dpl_url_proxy
     - file
     - filter
     - media

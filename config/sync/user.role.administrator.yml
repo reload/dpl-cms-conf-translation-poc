@@ -15,10 +15,6 @@ dependencies:
     - taxonomy.vocabulary.tags
   module:
     - block
-    - dpl_instant_loan
-    - dpl_library_agency
-    - dpl_mapp
-    - dpl_url_proxy
     - entity_reference_revisions
     - file
     - filter
