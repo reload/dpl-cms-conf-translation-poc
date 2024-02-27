@@ -1,10 +1,7 @@
-name: DPL CMS
+name: DPL Admin
 type: profile
 description: "Web platform for the Danish Public Libraries"
 core_version_requirement: ^9 || ^10
-
-distribution:
-  name: DPL CMS
 
 # The following distribution options are intentionally left out.
 # The installation process should be run with the --existing-config option. This
@@ -22,5 +19,5 @@ distribution:
 # Note that this will not set any theme as the default theme.
 #themes:
 
-"interface translation project": dpl_cms
-"interface translation server pattern": https://github.com/reload/dpl-cms/translations/%language.po
+"interface translation project": dpl_admin
+"interface translation server pattern": https://github.com/reload/dpl-cms/translations/%language.conf.po
