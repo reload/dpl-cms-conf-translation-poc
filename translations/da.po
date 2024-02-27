@@ -1,0 +1,30 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: dpl-cms-conf-poc\n"
+"Language: da\n"
+
+#: 
+msgid "React DDB Library"
+msgstr "React DPL Library"
+
+#: 
+msgid "Library is present"
+msgstr "Library er "
+
+#: 
+msgid "DDB React library is missing (@dir)"
+msgstr "DPL React library mangler (@dir) "
+
+#: 
+msgid "Mikkel is testing a new string"
+msgstr ""
+
+#: 
+msgctxt "node.type.campaign:description"
+msgid "Campaign to be shown among search results depending on matching facets and terms"
+msgstr ""
+
