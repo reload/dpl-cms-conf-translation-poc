@@ -2,9 +2,6 @@ uuid: 3d9d6604-7f39-467d-9bc6-0cd44e69fd96
 langcode: en
 status: true
 dependencies:
-  config:
-    - rest.resource.campaign.match
-    - rest.resource.proxy-url
   module:
     - file
     - node

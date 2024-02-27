@@ -2,9 +2,6 @@ uuid: ac73cc4c-82c5-44f5-a4a9-b84be3bbe547
 langcode: en
 status: true
 dependencies:
-  config:
-    - rest.resource.campaign.match
-    - rest.resource.proxy-url
   module:
     - media
     - openapi
