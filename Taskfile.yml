@@ -163,7 +163,7 @@ tasks:
           task dev:cli -- drush locale-update
         fi
       # Clear all caches to ensure we have a pristine setup.
-      - task dev:cache:clear:all
+      # - task dev:cache:clear:all
       # Ensure site is reachable and warm any caches
       - task dev:cli -- curl --silent --show-error --fail --output /dev/null http://varnish:8080/
       # Enable dev modules.
