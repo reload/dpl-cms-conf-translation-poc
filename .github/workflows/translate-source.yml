@@ -79,7 +79,7 @@ jobs:
       with:
         fetch-depth: 0
     - name: Install go-task
-      uses: arduino/setup-task@v2
+      uses: arduino/setup-task@v2.0.0
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
     - name: Setup site
