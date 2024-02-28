@@ -508,7 +508,7 @@ tasks:
     cmds:
       - |
         export ME=$(id -u);
-        task dev:cli -- chown $ME:$ME web/{{ .PATH_TO_FILE }}
+        task dev:cli -- chown $ME:$ME web/$PATH_TO_FILE
     env:
       PATH_TO_FILE: "{{ .PATH_TO_FILE }}"
 
@@ -522,7 +522,7 @@ tasks:
     # Generate translations for custom themes
       - task dev:cli -- drush potion:generate $LANGUAGE themes/custom/ {{ .PO_DIR }} --recursive --default-write-mode=merge
     # Fill translations from db
-      - task dev:cli -- drush potion:fill $LANGUAGE {{ .PATH_TO_FILE }}
+      - task dev:cli -- drush potion:fill $LANGUAGE $PATH_TO_FILE
     # We need to chown the PO file in the container with the user of the host
     # in order to be able to commit the file afterwards.
       - task translations:chown
@@ -534,7 +534,7 @@ tasks:
     desc: Exports current configuration into po file
     cmds:
      # Generate translations from configuration strings
-      - task dev:cli -- drush dpl_cms:export-config-po $LANGUAGE {{ .PATH_TO_FILE }}
+      - task dev:cli -- drush dpl_cms:export-config-po $LANGUAGE $PATH_TO_FILE
     # We need to chown the PO file in the container with the user of the host
     # in order to be able to commit the file afterwards.
       - task translations:chown
@@ -546,7 +546,7 @@ tasks:
   translations:conf:merge:
     desc: Merge configuration translations into the combined translation file
     cmds:
-      - msgcat -o {{ .PATH_TO_FILE }} --sort-by-file {{ .FILE_A }} {{ .FILE_B }}
+      - msgcat -o $PATH_TO_FILE --sort-by-file $FILE_A $FILE_B
       # We need to chown the PO file in the container with the user of the host
       # in order to be able to commit the file afterwards.
       - task translations:chown
