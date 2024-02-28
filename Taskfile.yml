@@ -551,17 +551,19 @@ tasks:
   translations:separate:translations:
     desc: Save translations from combined file into separate file
     cmds:
-      - task dev:cli -- drush dpl_cms:extract-config $LANGUAGE $PATH_TO_FILE
+      - task dev:cli -- drush dpl_cms:extract-ui $LANGUAGE $SOURCE $DESTINATION
       - task translations:chown
     env:
       LANGUAGE: "{{ .LANGUAGE }}"
-      PATH_TO_FILE: "{{ .PO_DIR }}/{{ .LANGUAGE }}.config.po"
+      SOURCE: "{{ .PO_DIR }}/{{ .LANGUAGE }}.combined.po"
+      DESTINATION: "{{ .PO_DIR }}/{{ .LANGUAGE }}.po"
 
   translations:separate:config:
     desc: Save configuration translations from combined file into separate file
     cmds:
-      - task dev:cli -- drush dpl_cms:extract-ui $LANGUAGE $PATH_TO_FILE
+      - task dev:cli -- drush dpl_cms:extract-config $LANGUAGE $SOURCE $DESTINATION
       - task translations:chown
     env:
       LANGUAGE: "{{ .LANGUAGE }}"
-      PATH_TO_FILE: "{{ .PO_DIR }}/{{ .LANGUAGE }}.po"
+      SOURCE: "{{ .PO_DIR }}/{{ .LANGUAGE }}.combined.po"
+      DESTINATION: "{{ .PO_DIR }}/{{ .LANGUAGE }}.config.po"
