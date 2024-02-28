@@ -1,6 +1,6 @@
 services:
-  dpl_admin.commands:
-    class: \Drupal\dpl_admin\Commands\DplAdminCommands
+  dpl_cms.commands:
+    class: \Drupal\dpl_cms\Commands\DplCmsCommands
     arguments:
       - '@ctp.config_manager'
       - '@file_system'
