@@ -2,6 +2,8 @@ services:
   dpl_cms.commands:
     class: \Drupal\dpl_cms\Commands\DplCmsCommands
     arguments:
+      - '@config.factory'
+      - '@ctp.config_manager'
       - '@file_system'
       - '@module_handler'
     tags:

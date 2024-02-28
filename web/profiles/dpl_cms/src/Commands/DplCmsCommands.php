@@ -2,8 +2,11 @@
 
 namespace Drupal\dpl_cms\Commands;
 
+use Drupal\Component\Gettext\PoHeader;
 use Drupal\Component\Gettext\PoStreamReader;
 use Drupal\Component\Gettext\PoStreamWriter;
+use Drupal\config_translation_po\Services\CtpConfigManager;
+use Drupal\Core\Config\ConfigFactoryInterface;
 use Drupal\Core\Extension\ModuleHandlerInterface;
 use Drupal\Core\File\FileSystemInterface;
 use Drupal\Core\StringTranslation\StringTranslationTrait;
@@ -75,7 +78,12 @@ class DplCmsCommands extends DrushCommands {
   /**
    * Class constructor.
    */
-  public function __construct(protected FileSystemInterface $fileSystem, protected ModuleHandlerInterface $moduleHandler) {}
+  public function __construct(
+    protected ConfigFactoryInterface $configFactory,
+    protected CtpConfigManager $cteiConfigManager,
+    protected FileSystemInterface $fileSystem,
+    protected ModuleHandlerInterface $moduleHandler
+  ) {}
 
   /**
    * Create a .po file with only the configuration strings.
@@ -182,6 +190,53 @@ class DplCmsCommands extends DrushCommands {
     }
 
     drush_backend_batch_process();
+  }
+
+  /**
+   * Export configuration to a .po file.
+   *
+   * @param string $langcode
+   *   The langcode to import. Eg. 'en' or 'fr'.
+   * @param string $destination
+   *   The path to the destination .po file.
+   *
+   * @command dpl_cms:export-config-po
+   * @usage drush dpl_cms:export-config-po da da.config.po
+   *   Imports the configuration po file into the system.
+   */
+  public function exportConfigPoFile(string $langcode, string $destination) {
+    $this->setLanguageCode($langcode);
+    $this->setDestination($destination);
+    $this->validateDestination();
+
+    $names = $this->cteiConfigManager->getComponentNames([]);
+    $items = $this->cteiConfigManager
+      ->exportConfigTranslations($names, [$langcode]);
+
+    if (!empty($items)) {
+      $uri = $this->fileSystem->tempnam('temporary://', 'po_');
+      $header = new PoHeader($langcode);
+      $header->setProjectName($this->configFactory->get('system.site')->get('name'));
+      $header->setLanguageName($langcode);
+
+      $writer = new PoStreamWriter();
+      $writer->setURI($uri);
+      $writer->setHeader($header);
+
+      $writer->open();
+      foreach ($items as $item) {
+        $writer->writeItem($item);
+      }
+      $writer->close();
+      $file = new \SplFileInfo($this->fileSystem->realpath($uri));
+
+      if (!$destination = $this->moveFile($file)) {
+        $this->io()->error($this->t('Could not create PO file.'));
+        return;
+      }
+
+      $this->io()->success($this->t('File created on: @destination', ['@destination' => $destination]));
+    }
   }
 
   /**
