@@ -82,6 +82,8 @@ jobs:
       uses: arduino/setup-task@v2
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Setup site
+      run: task ci:reset
     - name: Separate danish translations into po file
       run: task translations:separate:translations
       env:
