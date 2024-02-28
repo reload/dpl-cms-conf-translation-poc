@@ -34,9 +34,8 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
     - name: Setup site
       run: task ci:reset
-    # Because of 1000 strings limit we'll skip this for now.
-    # - name: Scan translations
-    #   run: LANGUAGE=da task translations:scan
+    - name: Scan translations
+      run: LANGUAGE=da task translations:scan
     - name: Export Configuration strings
       run: task translations:conf:export
       env:
