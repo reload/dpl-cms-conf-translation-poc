@@ -32,14 +32,14 @@ jobs:
       uses: arduino/setup-task@v2
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-    - name: Setup site
-      run: task ci:reset
-    - name: Scan translations
-      run: LANGUAGE=da task translations:scan
-    - name: Export Configuration strings
-      run: task translations:conf:export
-      env:
-        LANGUAGE: da
+    # - name: Setup site
+    #   run: task ci:reset
+    # - name: Scan translations
+    #   run: LANGUAGE=da task translations:scan
+    # - name: Export Configuration strings
+    #   run: task translations:conf:export
+    #   env:
+    #     LANGUAGE: da
     # - name: Combine po files
     #   run: task translations:conf:merge
     #   env:
@@ -54,18 +54,12 @@ jobs:
     #     commit_message: New translations were found
 
 
-    # - name: Make Poeditor look for changes in translation strings
-    #   uses: distributhor/workflow-webhook@v3
-    #   env:
-    #     webhook_url: ${{ secrets.POEDITOR_WEBHOOK_URL }}
-    #     # POEditor webhooks to not use secrets but the action requires a value.
-    #     webhook_secret: 'xxxx'
-    # - name: Make Poeditor look for changes in configuration strings
-    #   uses: distributhor/workflow-webhook@v3
-    #   env:
-    #     webhook_url: ${{ secrets.POEDITOR_CONF_WEBHOOK_URL }}
-    #     # POEditor webhooks to not use secrets but the action requires a value.
-    #     webhook_secret: 'xxxx'
+    - name: Make Poeditor look for changes in translation strings
+      uses: distributhor/workflow-webhook@v3
+      env:
+        webhook_url: ${{ secrets.POEDITOR_WEBHOOK_URL }}
+        # POEditor webhooks to not use secrets but the action requires a value.
+        webhook_secret: 'xxxx'
 
 
   # Publish translations to GitHub Pages to support consumption by Drupal.
