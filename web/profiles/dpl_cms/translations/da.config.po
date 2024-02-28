@@ -1,0 +1,3762 @@
+# da translation of DPL CMS
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2024-02-28 19:54+0100\n"
+"PO-Revision-Date: 2024-02-28 19:54+0100\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgctxt "block.block.claro_breadcrumbs:settings:label"
+msgid "Breadcrumbs"
+msgstr "Breadcrumbs"
+
+msgctxt "block.block.claro_content:settings:label"
+msgid "Main page content"
+msgstr "Main page content"
+
+msgctxt "block.block.claro_local_actions:settings:label"
+msgid "Primary admin actions"
+msgstr "Primary admin actions"
+
+msgctxt "block.block.claro_messages:settings:label"
+msgid "Status messages"
+msgstr "Status messages"
+
+msgctxt "block.block.claro_page_title:settings:label"
+msgid "Page title"
+msgstr "Page title"
+
+msgctxt "block.block.claro_primary_local_tasks:settings:label"
+msgid "Primary tabs"
+msgstr "Primary tabs"
+
+msgctxt "block.block.claro_secondary_local_tasks:settings:label"
+msgid "Secondary tabs"
+msgstr "Secondary tabs"
+
+msgctxt "block.block.gin_breadcrumbs:settings:label"
+msgid "Breadcrumbs"
+msgstr "Breadcrumbs"
+
+msgctxt "block.block.gin_content:settings:label"
+msgid "Main page content"
+msgstr "Main page content"
+
+msgctxt "block.block.gin_local_actions:settings:label"
+msgid "Primary admin actions"
+msgstr "Primary admin actions"
+
+msgctxt "block.block.gin_messages:settings:label"
+msgid "Status messages"
+msgstr "Status messages"
+
+msgctxt "block.block.gin_page_title:settings:label"
+msgid "Page title"
+msgstr "Page title"
+
+msgctxt "block.block.gin_primary_local_tasks:settings:label"
+msgid "Primary tabs"
+msgstr "Primary tabs"
+
+msgctxt "block.block.gin_secondary_local_tasks:settings:label"
+msgid "Secondary tabs"
+msgstr "Secondary tabs"
+
+msgctxt "block.block.novel_admin:settings:label"
+msgid "Administration"
+msgstr "Administration"
+
+msgctxt "block.block.novel_branding:settings:label"
+msgid "Site branding"
+msgstr "Site branding"
+
+msgctxt "block.block.novel_local_actions:settings:label"
+msgid "Primary admin actions"
+msgstr "Primary admin actions"
+
+msgctxt "block.block.novel_local_tasks:settings:label"
+msgid "Tabs"
+msgstr "Tabs"
+
+msgctxt "block.block.novel_messages:settings:label"
+msgid "Status messages"
+msgstr "Status messages"
+
+msgctxt "block.block.novel_tools:settings:label"
+msgid "Tools"
+msgstr "Tools"
+
+msgctxt "core.base_field_override.media.image.status:label"
+msgid "Published"
+msgstr "Published"
+
+msgctxt "core.base_field_override.media.image.status:settings:on_label"
+msgid "On"
+msgstr "On"
+
+msgctxt "core.base_field_override.media.image.status:settings:off_label"
+msgid "Off"
+msgstr "Off"
+
+msgctxt "core.base_field_override.node.article.promote:label"
+msgid "Promoted to front page"
+msgstr "Promoted to front page"
+
+msgctxt "core.base_field_override.node.article.promote:settings:on_label"
+msgid "On"
+msgstr "On"
+
+msgctxt "core.base_field_override.node.article.promote:settings:off_label"
+msgid "Off"
+msgstr "Off"
+
+msgctxt "core.base_field_override.node.campaign.promote:label"
+msgid "Promoted to front page"
+msgstr "Promoted to front page"
+
+msgctxt "core.base_field_override.node.campaign.promote:settings:on_label"
+msgid "On"
+msgstr "On"
+
+msgctxt "core.base_field_override.node.campaign.promote:settings:off_label"
+msgid "Off"
+msgstr "Off"
+
+msgctxt "core.base_field_override.node.page.promote:label"
+msgid "Promoted to front page"
+msgstr "Promoted to front page"
+
+msgctxt "core.base_field_override.node.page.promote:settings:on_label"
+msgid "On"
+msgstr "On"
+
+msgctxt "core.base_field_override.node.page.promote:settings:off_label"
+msgid "Off"
+msgstr "Off"
+
+msgctxt "core.base_field_override.node.user_registration.promote:label"
+msgid "Promoted to front page"
+msgstr "Promoted to front page"
+
+msgctxt "core.base_field_override.node.user_registration.promote:settings:on_label"
+msgid "On"
+msgstr "On"
+
+msgctxt "core.base_field_override.node.user_registration.promote:settings:off_label"
+msgid "Off"
+msgstr "Off"
+
+msgctxt "core.date_format.date_full_month:label"
+msgid "Date full month"
+msgstr "Date full month"
+
+msgctxt "core.date_format.date_full_month:pattern"
+msgid "d. F Y"
+msgstr "d. F Y"
+
+msgctxt "core.date_format.date_short_month:label"
+msgid "Date short month"
+msgstr "Date short month"
+
+msgctxt "core.date_format.date_short_month:pattern"
+msgid "d. M Y"
+msgstr "d. M Y"
+
+msgctxt "core.date_format.fallback:label"
+msgid "Fallback date format"
+msgstr "Fallback date format"
+
+msgctxt "core.date_format.html_date:label"
+msgid "HTML Date"
+msgstr "HTML Date"
+
+msgctxt "core.date_format.html_datetime:label"
+msgid "HTML Datetime"
+msgstr "HTML Datetime"
+
+msgctxt "core.date_format.html_month:label"
+msgid "HTML Month"
+msgstr "HTML Month"
+
+msgctxt "core.date_format.html_time:label"
+msgid "HTML Time"
+msgstr "HTML Time"
+
+msgctxt "core.date_format.html_week:label"
+msgid "HTML Week"
+msgstr "HTML Week"
+
+msgctxt "core.date_format.html_year:label"
+msgid "HTML Year"
+msgstr "HTML Year"
+
+msgctxt "core.date_format.html_yearless_date:label"
+msgid "HTML Yearless date"
+msgstr "HTML Yearless date"
+
+msgctxt "core.date_format.long:label"
+msgid "Default long date"
+msgstr "Default long date"
+
+msgctxt "core.date_format.long:pattern"
+msgid "l, F j, Y - H:i"
+msgstr "l, F j, Y - H:i"
+
+msgctxt "core.date_format.medium:label"
+msgid "Default medium date"
+msgstr "Default medium date"
+
+msgctxt "core.date_format.medium:pattern"
+msgid "D, m/d/Y - H:i"
+msgstr "D, m/d/Y - H:i"
+
+msgctxt "core.date_format.short:label"
+msgid "Default short date"
+msgstr "Default short date"
+
+msgctxt "core.date_format.short:pattern"
+msgid "m/d/Y - H:i"
+msgstr "m/d/Y - H:i"
+
+msgctxt "core.entity_form_display.eventinstance.default.default:third_party_settings:field_group:group_teaser_card:label"
+msgid "Teaser card"
+msgstr "Teaser card"
+
+msgctxt "core.entity_form_display.eventinstance.default.default:content:field_event_paragraphs:settings:title"
+msgid "Paragraph"
+msgstr "Paragraph"
+
+msgctxt "core.entity_form_display.eventinstance.default.default:content:field_event_paragraphs:settings:title_plural"
+msgid "Paragraphs"
+msgstr "Paragraphs"
+
+msgctxt "core.entity_form_display.eventinstance.default.default:content:field_ticket_categories:settings:title"
+msgid "Paragraph"
+msgstr "Paragraph"
+
+msgctxt "core.entity_form_display.eventinstance.default.default:content:field_ticket_categories:settings:title_plural"
+msgid "Paragraphs"
+msgstr "Paragraphs"
+
+msgctxt "core.entity_form_display.eventseries.default.default:third_party_settings:field_group:group_teaser_card:label"
+msgid "Teaser card"
+msgstr "Teaser card"
+
+msgctxt "core.entity_form_display.eventseries.default.default:third_party_settings:field_group:group_tagging:label"
+msgid "Tagging"
+msgstr "Tagging"
+
+msgctxt "core.entity_form_display.eventseries.default.default:third_party_settings:field_group:group_event_details:label"
+msgid "Event details"
+msgstr "Event details"
+
+msgctxt "core.entity_form_display.eventseries.default.default:content:field_event_paragraphs:settings:title"
+msgid "Paragraph"
+msgstr "Paragraph"
+
+msgctxt "core.entity_form_display.eventseries.default.default:content:field_event_paragraphs:settings:title_plural"
+msgid "Paragraphs"
+msgstr "Paragraphs"
+
+msgctxt "core.entity_form_display.eventseries.default.default:content:field_ticket_categories:settings:title"
+msgid "Paragraph"
+msgstr "Paragraph"
+
+msgctxt "core.entity_form_display.eventseries.default.default:content:field_ticket_categories:settings:title_plural"
+msgid "Paragraphs"
+msgstr "Paragraphs"
+
+msgctxt "core.entity_form_display.node.article.default:third_party_settings:field_group:group_article_meta_tags:label"
+msgid "Meta tags"
+msgstr "Meta tags"
+
+msgctxt "core.entity_form_display.node.article.default:third_party_settings:field_group:group_teaser_card:label"
+msgid "Teaser card"
+msgstr "Teaser card"
+
+msgctxt "core.entity_form_display.node.article.default:content:field_paragraphs:settings:title"
+msgid "Paragraph"
+msgstr "Paragraph"
+
+msgctxt "core.entity_form_display.node.article.default:content:field_paragraphs:settings:title_plural"
+msgid "Paragraphs"
+msgstr "Paragraphs"
+
+msgctxt "core.entity_form_display.node.campaign.default:content:field_campaign_rules:settings:title"
+msgid "Paragraph"
+msgstr "Paragraph"
+
+msgctxt "core.entity_form_display.node.campaign.default:content:field_campaign_rules:settings:title_plural"
+msgid "Paragraphs"
+msgstr "Paragraphs"
+
+msgctxt "core.entity_form_display.node.page.default:content:field_paragraphs:settings:title"
+msgid "Paragraph"
+msgstr "Paragraph"
+
+msgctxt "core.entity_form_display.node.page.default:content:field_paragraphs:settings:title_plural"
+msgid "Paragraphs"
+msgstr "Paragraphs"
+
+msgctxt "core.entity_form_display.node.user_registration.default:content:field_content:settings:title"
+msgid "Paragraph"
+msgstr "Paragraph"
+
+msgctxt "core.entity_form_display.node.user_registration.default:content:field_content:settings:title_plural"
+msgid "Paragraphs"
+msgstr "Paragraphs"
+
+msgctxt "core.entity_form_display.paragraph.card_grid_manual.default:content:field_grid_content:settings:placeholder"
+msgid "Search content.."
+msgstr "Search content.."
+
+msgctxt "core.entity_form_display.paragraph.event_ticket_category.default:third_party_settings:field_group:group_inline_fields:label"
+msgid "Inline fields"
+msgstr "Inline fields"
+
+msgctxt "core.entity_form_mode.media.media_library:label"
+msgid "Media library"
+msgstr "Media library"
+
+msgctxt "core.entity_form_mode.user.register:label"
+msgid "Register"
+msgstr "Register"
+
+msgctxt "core.entity_view_display.eventinstance.default.card:content:date:settings:date_format"
+msgid "Y-m-d\\TH:i:s"
+msgstr "Y-m-d\\TH:i:s"
+
+msgctxt "core.entity_view_display.eventinstance.default.card:content:date:settings:one_day"
+msgid "d F Y"
+msgstr "d F Y"
+
+msgctxt "core.entity_view_display.eventinstance.default.card:content:date:settings:one_month"
+msgid "d - {d} F Y"
+msgstr "d - {d} F Y"
+
+msgctxt "core.entity_view_display.eventinstance.default.card:content:date:settings:several_months"
+msgid "d F - {d} {F} Y"
+msgstr "d F - {d} {F} Y"
+
+msgctxt "core.entity_view_display.eventinstance.default.card:content:date:settings:several_years"
+msgid "d F Y - {d} {F} {Y}"
+msgstr "d F Y - {d} {F} {Y}"
+
+msgctxt "core.entity_view_display.eventinstance.default.default:content:date:settings:date_format"
+msgid "Y-m-d\\TH:i:s"
+msgstr "Y-m-d\\TH:i:s"
+
+msgctxt "core.entity_view_display.eventinstance.default.default:content:date:settings:one_day"
+msgid "d F Y"
+msgstr "d F Y"
+
+msgctxt "core.entity_view_display.eventinstance.default.default:content:date:settings:one_month"
+msgid "d - {d} F Y"
+msgstr "d - {d} F Y"
+
+msgctxt "core.entity_view_display.eventinstance.default.default:content:date:settings:several_months"
+msgid "d F - {d} {F} Y"
+msgstr "d F - {d} {F} Y"
+
+msgctxt "core.entity_view_display.eventinstance.default.default:content:date:settings:several_years"
+msgid "d F Y - {d} {F} {Y}"
+msgstr "d F Y - {d} {F} {Y}"
+
+msgctxt "core.entity_view_display.eventinstance.default.list:content:date:settings:separator"
+msgid "-"
+msgstr "-"
+
+msgctxt "core.entity_view_display.eventinstance.default.list_teaser:content:date:settings:date_format"
+msgid "Y-m-d\\TH:i:s"
+msgstr "Y-m-d\\TH:i:s"
+
+msgctxt "core.entity_view_display.eventinstance.default.list_teaser:content:date:settings:one_day"
+msgid "d. M Y"
+msgstr "d. M Y"
+
+msgctxt "core.entity_view_display.eventinstance.default.list_teaser:content:date:settings:one_month"
+msgid "d. - {d}. M Y"
+msgstr "d. - {d}. M Y"
+
+msgctxt "core.entity_view_display.eventinstance.default.list_teaser:content:date:settings:several_months"
+msgid "d. M - {d}. {M} Y"
+msgstr "d. M - {d}. {M} Y"
+
+msgctxt "core.entity_view_display.eventinstance.default.list_teaser:content:date:settings:several_years"
+msgid "d. M Y - {d}. {M} {Y}"
+msgstr "d. M Y - {d}. {M} {Y}"
+
+msgctxt "core.entity_view_mode.block.token:label"
+msgid "Token"
+msgstr "Token"
+
+msgctxt "core.entity_view_mode.eventinstance.card:label"
+msgid "Card"
+msgstr "Card"
+
+msgctxt "core.entity_view_mode.eventinstance.list:label"
+msgid "List"
+msgstr "List"
+
+msgctxt "core.entity_view_mode.eventinstance.list_teaser:label"
+msgid "List teaser"
+msgstr "List teaser"
+
+msgctxt "core.entity_view_mode.eventinstance.nav_spot:label"
+msgid "Nav spot"
+msgstr "Nav spot"
+
+msgctxt "core.entity_view_mode.eventinstance.nav_teaser:label"
+msgid "Navigation teaser"
+msgstr "Navigation teaser"
+
+msgctxt "core.entity_view_mode.eventseries.card:label"
+msgid "Card"
+msgstr "Card"
+
+msgctxt "core.entity_view_mode.eventseries.list:label"
+msgid "List"
+msgstr "List"
+
+msgctxt "core.entity_view_mode.eventseries.nav_spot:label"
+msgid "Nav spot"
+msgstr "Nav spot"
+
+msgctxt "core.entity_view_mode.eventseries.nav_teaser:label"
+msgid "Navigation teaser"
+msgstr "Navigation teaser"
+
+msgctxt "core.entity_view_mode.file.token:label"
+msgid "Token"
+msgstr "Token"
+
+msgctxt "core.entity_view_mode.media.full:label"
+msgid "Full content"
+msgstr "Full content"
+
+msgctxt "core.entity_view_mode.media.hero_wide:label"
+msgid "Hero wide (4/3)"
+msgstr "Hero wide (4/3)"
+
+msgctxt "core.entity_view_mode.media.media_library:label"
+msgid "Media library"
+msgstr "Media library"
+
+msgctxt "core.entity_view_mode.media.paragraph_squared:label"
+msgid "Paragraph, squared"
+msgstr "Paragraph, squared"
+
+msgctxt "core.entity_view_mode.media.paragraph_wide:label"
+msgid "Paragraph, wide"
+msgstr "Paragraph, wide"
+
+msgctxt "core.entity_view_mode.node.card:label"
+msgid "Card"
+msgstr "Card"
+
+msgctxt "core.entity_view_mode.node.full:label"
+msgid "Full content"
+msgstr "Full content"
+
+msgctxt "core.entity_view_mode.node.list_teaser:label"
+msgid "List teaser"
+msgstr "List teaser"
+
+msgctxt "core.entity_view_mode.node.nav_spot:label"
+msgid "Nav spot"
+msgstr "Nav spot"
+
+msgctxt "core.entity_view_mode.node.nav_teaser:label"
+msgid "Navigation teaser"
+msgstr "Navigation teaser"
+
+msgctxt "core.entity_view_mode.node.rss:label"
+msgid "RSS"
+msgstr "RSS"
+
+msgctxt "core.entity_view_mode.node.search_index:label"
+msgid "Search index"
+msgstr "Search index"
+
+msgctxt "core.entity_view_mode.node.search_result:label"
+msgid "Search result highlighting input"
+msgstr "Search result highlighting input"
+
+msgctxt "core.entity_view_mode.node.teaser:label"
+msgid "Teaser"
+msgstr "Teaser"
+
+msgctxt "core.entity_view_mode.node.token:label"
+msgid "Token"
+msgstr "Token"
+
+msgctxt "core.entity_view_mode.paragraph.alternative:label"
+msgid "Alternative"
+msgstr "Alternative"
+
+msgctxt "core.entity_view_mode.paragraph.preview:label"
+msgid "Preview"
+msgstr "Preview"
+
+msgctxt "core.entity_view_mode.paragraph.token:label"
+msgid "Token"
+msgstr "Token"
+
+msgctxt "core.entity_view_mode.path_alias.token:label"
+msgid "Token"
+msgstr "Token"
+
+msgctxt "core.entity_view_mode.taxonomy_term.full:label"
+msgid "Taxonomy term page"
+msgstr "Taxonomy term page"
+
+msgctxt "core.entity_view_mode.user.compact:label"
+msgid "Compact"
+msgstr "Compact"
+
+msgctxt "core.entity_view_mode.user.full:label"
+msgid "User account"
+msgstr "User account"
+
+msgctxt "core.entity_view_mode.user.token:label"
+msgid "Token"
+msgstr "Token"
+
+msgctxt "crop.type.focal_point:label"
+msgid "Focal point"
+msgstr "Focal point"
+
+msgctxt "crop.type.focal_point:description"
+msgid "Crop type used by Focal point module."
+msgstr "Crop type used by Focal point module."
+
+msgctxt "field.field.eventinstance.default.field_categories:label"
+msgid "Categories"
+msgstr "Categories"
+
+msgctxt "field.field.eventinstance.default.field_event_address:label"
+msgid "Address"
+msgstr "Address"
+
+msgctxt "field.field.eventinstance.default.field_event_description:label"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field.field.eventinstance.default.field_event_image:label"
+msgid "Image"
+msgstr "Image"
+
+msgctxt "field.field.eventinstance.default.field_event_link:label"
+msgid "Link"
+msgstr "Link"
+
+msgctxt "field.field.eventinstance.default.field_event_paragraphs:label"
+msgid "Paragraphs"
+msgstr "Paragraphs"
+
+msgctxt "field.field.eventinstance.default.field_event_partners:label"
+msgid "Partners"
+msgstr "Partners"
+
+msgctxt "field.field.eventinstance.default.field_event_partners:description"
+msgid "A list of partners for the event"
+msgstr "A list of partners for the event"
+
+msgctxt "field.field.eventinstance.default.field_event_place:label"
+msgid "Place"
+msgstr "Place"
+
+msgctxt "field.field.eventinstance.default.field_event_state:label"
+msgid "State"
+msgstr "State"
+
+msgctxt "field.field.eventinstance.default.field_event_title:label"
+msgid "Title"
+msgstr "Title"
+
+msgctxt "field.field.eventinstance.default.field_tags:label"
+msgid "Tags"
+msgstr "Tags"
+
+msgctxt "field.field.eventinstance.default.field_teaser_image:label"
+msgid "Teaser image"
+msgstr "Teaser image"
+
+msgctxt "field.field.eventinstance.default.field_teaser_image:description"
+msgid ""
+"The teaser fields are used for the card of display.\r\n"
+"If no image "
+"has been selected, the text will be shown instead:\r\n"
+"\r\n"
+"<img "
+"src=\"/themes/custom/novel/images/teaser-text-image.jpg\" "
+"/>\r\n"
+"\r\n"
+"<hr/>"
+msgstr ""
+"The teaser fields are used for the card of display.\r\n"
+"If no image "
+"has been selected, the text will be shown instead:\r\n"
+"\r\n"
+"<img "
+"src=\"/themes/custom/novel/images/teaser-text-image.jpg\" "
+"/>\r\n"
+"\r\n"
+"<hr/>"
+
+msgctxt "field.field.eventinstance.default.field_teaser_text:label"
+msgid "Teaser text"
+msgstr "Teaser text"
+
+msgctxt "field.field.eventinstance.default.field_ticket_categories:label"
+msgid "Ticket categories"
+msgstr "Ticket categories"
+
+msgctxt "field.field.eventseries.default.field_categories:label"
+msgid "Categories"
+msgstr "Categories"
+
+msgctxt "field.field.eventseries.default.field_event_address:label"
+msgid "Address"
+msgstr "Address"
+
+msgctxt "field.field.eventseries.default.field_event_description:label"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field.field.eventseries.default.field_event_image:label"
+msgid "Image"
+msgstr "Image"
+
+msgctxt "field.field.eventseries.default.field_event_link:label"
+msgid "Link"
+msgstr "Link"
+
+msgctxt "field.field.eventseries.default.field_event_paragraphs:label"
+msgid "Paragraphs"
+msgstr "Paragraphs"
+
+msgctxt "field.field.eventseries.default.field_event_partners:label"
+msgid "Partners"
+msgstr "Partners"
+
+msgctxt "field.field.eventseries.default.field_event_partners:description"
+msgid "A list of partners for the event"
+msgstr "A list of partners for the event"
+
+msgctxt "field.field.eventseries.default.field_event_place:label"
+msgid "Place"
+msgstr "Place"
+
+msgctxt "field.field.eventseries.default.field_event_state:label"
+msgid "State"
+msgstr "State"
+
+msgctxt "field.field.eventseries.default.field_tags:label"
+msgid "Tags"
+msgstr "Tags"
+
+msgctxt "field.field.eventseries.default.field_teaser_image:label"
+msgid "Teaser image"
+msgstr "Teaser image"
+
+msgctxt "field.field.eventseries.default.field_teaser_image:description"
+msgid ""
+"The teaser fields are used for the card of display.\r\n"
+"If no image "
+"has been selected, the text will be shown instead:\r\n"
+"\r\n"
+"<img "
+"src=\"/themes/custom/novel/images/teaser-text-image.jpg\" "
+"/>\r\n"
+"\r\n"
+"<hr/>"
+msgstr ""
+"The teaser fields are used for the card of display.\r\n"
+"If no image "
+"has been selected, the text will be shown instead:\r\n"
+"\r\n"
+"<img "
+"src=\"/themes/custom/novel/images/teaser-text-image.jpg\" "
+"/>\r\n"
+"\r\n"
+"<hr/>"
+
+msgctxt "field.field.eventseries.default.field_teaser_text:label"
+msgid "Teaser text"
+msgstr "Teaser text"
+
+msgctxt "field.field.eventseries.default.field_ticket_categories:label"
+msgid "Ticket categories"
+msgstr "Ticket categories"
+
+msgctxt "field.field.media.document.field_media_file:label"
+msgid "File"
+msgstr "File"
+
+msgctxt "field.field.media.image.field_byline:label"
+msgid "Byline"
+msgstr "Byline"
+
+msgctxt "field.field.media.image.field_byline:description"
+msgid ""
+"Used for public credit and copyright information. Will usually be "
+"displayed along with the media."
+msgstr ""
+"Used for public credit and copyright information. Will usually be "
+"displayed along with the media."
+
+msgctxt "field.field.media.image.field_media_image:label"
+msgid "Image"
+msgstr "Image"
+
+msgctxt "field.field.media.image.field_media_image:description"
+msgid ""
+"You can set a focal point, by clicking on the preview on the image, "
+"moving the white target.<br>\r\n"
+"By setting a focal point, you tell "
+"the system which part of the image to keep in focus when it gets "
+"cropped.<br>\r\n"
+"Use the \"preview\" function, to see how your image "
+"will be cropped across image styles."
+msgstr ""
+"You can set a focal point, by clicking on the preview on the image, "
+"moving the white target.<br>\r\n"
+"By setting a focal point, you tell "
+"the system which part of the image to keep in focus when it gets "
+"cropped.<br>\r\n"
+"Use the \"preview\" function, to see how your image "
+"will be cropped across image styles."
+
+msgctxt "field.field.media.video.field_media_oembed_video:label"
+msgid "Remote video URL"
+msgstr "Remote video URL"
+
+msgctxt "field.field.node.article.field_canonical_url:label"
+msgid "Canonical url"
+msgstr "Canonical url"
+
+msgctxt "field.field.node.article.field_canonical_url:description"
+msgid ""
+"Please provide a canonical URL if this content has been duplicated "
+"from other websites. This helps signal to search engines that the "
+"preferred source of this content is the specified canonical URL, "
+"preventing potential duplicate content issues and ensuring proper "
+"attribution to the original source."
+msgstr ""
+"Please provide a canonical URL if this content has been duplicated "
+"from other websites. This helps signal to search engines that the "
+"preferred source of this content is the specified canonical URL, "
+"preventing potential duplicate content issues and ensuring proper "
+"attribution to the original source."
+
+msgctxt "field.field.node.article.field_categories:label"
+msgid "Categories"
+msgstr "Categories"
+
+msgctxt "field.field.node.article.field_override_author:label"
+msgid "Override author"
+msgstr "Override author"
+
+msgctxt "field.field.node.article.field_paragraphs:label"
+msgid "Paragraphs"
+msgstr "Paragraphs"
+
+msgctxt "field.field.node.article.field_show_override_author:label"
+msgid "Override the author\t"
+msgstr "Override the author\t"
+
+msgctxt "field.field.node.article.field_show_override_author:description"
+msgid ""
+"By default, the author is set to the Drupal user that owns the "
+"content.<br>\r\n"
+"If you want to override this, with a manual text, you "
+"can check this."
+msgstr ""
+"By default, the author is set to the Drupal user that owns the "
+"content.<br>\r\n"
+"If you want to override this, with a manual text, you "
+"can check this."
+
+msgctxt "field.field.node.article.field_show_override_author:settings:on_label"
+msgid "On"
+msgstr "On"
+
+msgctxt "field.field.node.article.field_show_override_author:settings:off_label"
+msgid "Off"
+msgstr "Off"
+
+msgctxt "field.field.node.article.field_subtitle:label"
+msgid "Subtitle"
+msgstr "Subtitle"
+
+msgctxt "field.field.node.article.field_tags:label"
+msgid "Tags"
+msgstr "Tags"
+
+msgctxt "field.field.node.article.field_teaser_image:label"
+msgid "Teaser image"
+msgstr "Teaser image"
+
+msgctxt "field.field.node.article.field_teaser_image:description"
+msgid ""
+"The teaser fields are used for the card of display.\r\n"
+"If no image "
+"has been selected, the text will be shown instead:\r\n"
+"\r\n"
+"<img "
+"src=\"/themes/custom/novel/images/teaser-text-image.jpg\" "
+"/>\r\n"
+"\r\n"
+"<hr/>"
+msgstr ""
+"The teaser fields are used for the card of display.\r\n"
+"If no image "
+"has been selected, the text will be shown instead:\r\n"
+"\r\n"
+"<img "
+"src=\"/themes/custom/novel/images/teaser-text-image.jpg\" "
+"/>\r\n"
+"\r\n"
+"<hr/>"
+
+msgctxt "field.field.node.article.field_teaser_text:label"
+msgid "Teaser text"
+msgstr "Teaser text"
+
+msgctxt "field.field.node.campaign.field_campaign_image:label"
+msgid "Image"
+msgstr "Image"
+
+msgctxt "field.field.node.campaign.field_campaign_link:label"
+msgid "Link"
+msgstr "Link"
+
+msgctxt "field.field.node.campaign.field_campaign_rules:label"
+msgid "Triggers"
+msgstr "Triggers"
+
+msgctxt "field.field.node.campaign.field_campaign_rules_logic:label"
+msgid "Trigger Logic"
+msgstr "Trigger Logic"
+
+msgctxt "field.field.node.campaign.field_campaign_rules_logic:description"
+msgid ""
+"Choose if all triggers should match (AND) for a campaign to be "
+"displayed or just one of them (OR)."
+msgstr ""
+"Choose if all triggers should match (AND) for a campaign to be "
+"displayed or just one of them (OR)."
+
+msgctxt "field.field.node.campaign.field_campaign_text:label"
+msgid "Text"
+msgstr "Text"
+
+msgctxt "field.field.node.page.field_paragraphs:label"
+msgid "Paragraphs"
+msgstr "Paragraphs"
+
+msgctxt "field.field.node.user_registration.body:label"
+msgid "Body"
+msgstr "Body"
+
+msgctxt "field.field.node.user_registration.field_content:label"
+msgid "Content"
+msgstr "Content"
+
+msgctxt "field.field.paragraph.accordion.field_accordion_description:label"
+msgid "Accordion description"
+msgstr "Accordion description"
+
+msgctxt "field.field.paragraph.accordion.field_accordion_title:label"
+msgid "Accordion title"
+msgstr "Accordion title"
+
+msgctxt "field.field.paragraph.campaign_rule.field_campaign_rule_facet:label"
+msgid "Facet"
+msgstr "Facet"
+
+msgctxt "field.field.paragraph.campaign_rule.field_campaign_rule_ranking_max:label"
+msgid "Term Ranking Maximum"
+msgstr "Term Ranking Maximum"
+
+msgctxt "field.field.paragraph.campaign_rule.field_campaign_rule_ranking_max:description"
+msgid "The upper limit for a placement/ranking of a term inside a facet group"
+msgstr "The upper limit for a placement/ranking of a term inside a facet group"
+
+msgctxt "field.field.paragraph.campaign_rule.field_campaign_rule_term:label"
+msgid "Term"
+msgstr "Term"
+
+msgctxt "field.field.paragraph.card_grid_automatic.field_filter_content_types:label"
+msgid "Filter: Content types"
+msgstr "Filter: Content types"
+
+msgctxt "field.field.paragraph.card_grid_automatic.field_title:label"
+msgid "Title"
+msgstr "Title"
+
+msgctxt "field.field.paragraph.card_grid_manual.field_grid_content:label"
+msgid "Content"
+msgstr "Content"
+
+msgctxt "field.field.paragraph.card_grid_manual.field_title:label"
+msgid "Title"
+msgstr "Title"
+
+msgctxt "field.field.paragraph.content_slider.field_content_references:label"
+msgid "Contents"
+msgstr "Contents"
+
+msgctxt "field.field.paragraph.content_slider.field_title:label"
+msgid "Title"
+msgstr "Title"
+
+msgctxt "field.field.paragraph.event_ticket_category.field_ticket_category_name:label"
+msgid "Name"
+msgstr "Name"
+
+msgctxt "field.field.paragraph.event_ticket_category.field_ticket_category_price:label"
+msgid "Price"
+msgstr "Price"
+
+msgctxt "field.field.paragraph.files.field_files:label"
+msgid "Files"
+msgstr "Files"
+
+msgctxt "field.field.paragraph.hero.field_hero_categories:label"
+msgid "Hero categories"
+msgstr "Hero categories"
+
+msgctxt "field.field.paragraph.hero.field_hero_content_type:label"
+msgid "Hero content type"
+msgstr "Hero content type"
+
+msgctxt "field.field.paragraph.hero.field_hero_date:label"
+msgid "Hero date"
+msgstr "Hero date"
+
+msgctxt "field.field.paragraph.hero.field_hero_description:label"
+msgid "Hero description"
+msgstr "Hero description"
+
+msgctxt "field.field.paragraph.hero.field_hero_image:label"
+msgid "Hero image"
+msgstr "Hero image"
+
+msgctxt "field.field.paragraph.hero.field_hero_link:label"
+msgid "Hero link"
+msgstr "Hero link"
+
+msgctxt "field.field.paragraph.hero.field_hero_title:label"
+msgid "Hero title"
+msgstr "Hero title"
+
+msgctxt "field.field.paragraph.language_selector.field_language_icon:label"
+msgid "Language icon"
+msgstr "Language icon"
+
+msgctxt "field.field.paragraph.language_selector.field_link_language:label"
+msgid "Link to a different language"
+msgstr "Link to a different language"
+
+msgctxt "field.field.paragraph.links.field_link:label"
+msgid "Link"
+msgstr "Link"
+
+msgctxt "field.field.paragraph.medias.field_medias:label"
+msgid "Medias"
+msgstr "Medias"
+
+msgctxt "field.field.paragraph.nav_grid_manual.field_content_references:label"
+msgid "Contents"
+msgstr "Contents"
+
+msgctxt "field.field.paragraph.nav_grid_manual.field_show_subtitles:label"
+msgid "Show subtitles"
+msgstr "Show subtitles"
+
+msgctxt "field.field.paragraph.nav_grid_manual.field_show_subtitles:settings:on_label"
+msgid "On"
+msgstr "On"
+
+msgctxt "field.field.paragraph.nav_grid_manual.field_show_subtitles:settings:off_label"
+msgid "Off"
+msgstr "Off"
+
+msgctxt "field.field.paragraph.nav_grid_manual.field_title:label"
+msgid "Title"
+msgstr "Title"
+
+msgctxt "field.field.paragraph.nav_spots_manual.field_nav_spots_content:label"
+msgid "Content"
+msgstr "Content"
+
+msgctxt "field.field.paragraph.recommendation.field_image_position_right:label"
+msgid "Image position right"
+msgstr "Image position right"
+
+msgctxt "field.field.paragraph.recommendation.field_image_position_right:description"
+msgid ""
+"This determines whether the image should be positioned to the left or "
+"right. \r\n"
+"If left untoggled (default behaviour) the image is "
+"positioned to the left, if toggled on, the image will be positioned to "
+"the right. "
+msgstr ""
+"This determines whether the image should be positioned to the left or "
+"right. \r\n"
+"If left untoggled (default behaviour) the image is "
+"positioned to the left, if toggled on, the image will be positioned to "
+"the right. "
+
+msgctxt "field.field.paragraph.recommendation.field_image_position_right:settings:on_label"
+msgid "On"
+msgstr "On"
+
+msgctxt "field.field.paragraph.recommendation.field_image_position_right:settings:off_label"
+msgid "Off"
+msgstr "Off"
+
+msgctxt "field.field.paragraph.recommendation.field_recommendation_description:label"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field.field.paragraph.recommendation.field_recommendation_description:description"
+msgid ""
+"This is the description for a recommendation. \r\n"
+"\r\n"
+"If you add a "
+"description, the title of the the material will not be automatically "
+"generated. "
+msgstr ""
+"This is the description for a recommendation. \r\n"
+"\r\n"
+"If you add a "
+"description, the title of the the material will not be automatically "
+"generated. "
+
+msgctxt "field.field.paragraph.recommendation.field_recommendation_title:label"
+msgid "Title"
+msgstr "Title"
+
+msgctxt "field.field.paragraph.recommendation.field_recommendation_title:description"
+msgid ""
+"The title of the recommended material.\r\n"
+"\r\n"
+"If you add a title, "
+"the description for the material will not be automatically generated. "
+msgstr ""
+"The title of the recommended material.\r\n"
+"\r\n"
+"If you add a title, "
+"the description for the material will not be automatically generated. "
+
+msgctxt "field.field.paragraph.recommendation.field_work_id:label"
+msgid "Work ID"
+msgstr "Work ID"
+
+msgctxt "field.field.paragraph.recommendation.field_work_id:description"
+msgid ""
+"This is the work ID used to retrieve the material information. "
+"Example: work-of:870970-basis:136336282\r\n"
+"\r\n"
+"Currently this is "
+"retrieved by performing a search for a material manually, and copying "
+"this value from the URL. \r\n"
+"\r\n"
+""
+msgstr ""
+"This is the work ID used to retrieve the material information. "
+"Example: work-of:870970-basis:136336282\r\n"
+"\r\n"
+"Currently this is "
+"retrieved by performing a search for a material manually, and copying "
+"this value from the URL. \r\n"
+"\r\n"
+""
+
+msgctxt "field.field.paragraph.text_body.field_body:label"
+msgid "Body"
+msgstr "Body"
+
+msgctxt "field.field.paragraph.user_registration_information.field_anchor:label"
+msgid "Anchor"
+msgstr "Anchor"
+
+msgctxt "field.field.paragraph.user_registration_information.field_body:label"
+msgid "Body"
+msgstr "Body"
+
+msgctxt "field.field.paragraph.user_registration_information.field_display_in_navigation:label"
+msgid "Display in navigation"
+msgstr "Display in navigation"
+
+msgctxt "field.field.paragraph.user_registration_information.field_display_in_navigation:description"
+msgid ""
+"Enable this option to display a button at the top of the page for "
+"easier navigation."
+msgstr ""
+"Enable this option to display a button at the top of the page for "
+"easier navigation."
+
+msgctxt "field.field.paragraph.user_registration_information.field_display_in_navigation:settings:on_label"
+msgid "On"
+msgstr "On"
+
+msgctxt "field.field.paragraph.user_registration_information.field_display_in_navigation:settings:off_label"
+msgid "Off"
+msgstr "Off"
+
+msgctxt "field.field.paragraph.user_registration_information.field_link_target:label"
+msgid "Link target"
+msgstr "Link target"
+
+msgctxt "field.field.paragraph.user_registration_information.field_link_target:description"
+msgid "Specify how a linked document should be opened when clicked by a user."
+msgstr "Specify how a linked document should be opened when clicked by a user."
+
+msgctxt "field.field.paragraph.user_registration_information.field_navigation_title:label"
+msgid "Navigation button title"
+msgstr "Navigation button title"
+
+msgctxt "field.field.paragraph.user_registration_information.field_navigation_title:description"
+msgid ""
+"If the navigation button title is left blank, it will automatically "
+"default to the paragraph title."
+msgstr ""
+"If the navigation button title is left blank, it will automatically "
+"default to the paragraph title."
+
+msgctxt "field.field.paragraph.user_registration_information.field_registration_link:label"
+msgid "Registration Link"
+msgstr "Registration Link"
+
+msgctxt "field.field.paragraph.user_registration_information.field_title:label"
+msgid "Title"
+msgstr "Title"
+
+msgctxt "field.field.paragraph.video.field_embed_video:label"
+msgid "Embed video"
+msgstr "Embed video"
+
+msgctxt "field.storage.node.field_campaign_rules_logic:settings:allowed_values:0:label"
+msgid "AND"
+msgstr "AND"
+
+msgctxt "field.storage.node.field_campaign_rules_logic:settings:allowed_values:1:label"
+msgid "OR"
+msgstr "OR"
+
+msgctxt "field.storage.paragraph.field_campaign_rule_facet:settings:allowed_values:0:label"
+msgid "Access"
+msgstr "Access"
+
+msgctxt "field.storage.paragraph.field_campaign_rule_facet:settings:allowed_values:1:label"
+msgid "Children or adult materials"
+msgstr "Children or adult materials"
+
+msgctxt "field.storage.paragraph.field_campaign_rule_facet:settings:allowed_values:2:label"
+msgid "Creators"
+msgstr "Creators"
+
+msgctxt "field.storage.paragraph.field_campaign_rule_facet:settings:allowed_values:3:label"
+msgid "Fiction or non-fiction"
+msgstr "Fiction or non-fiction"
+
+msgctxt "field.storage.paragraph.field_campaign_rule_facet:settings:allowed_values:4:label"
+msgid "Fictional character"
+msgstr "Fictional character"
+
+msgctxt "field.storage.paragraph.field_campaign_rule_facet:settings:allowed_values:5:label"
+msgid "Genre and form"
+msgstr "Genre and form"
+
+msgctxt "field.storage.paragraph.field_campaign_rule_facet:settings:allowed_values:6:label"
+msgid "Main languages"
+msgstr "Main languages"
+
+msgctxt "field.storage.paragraph.field_campaign_rule_facet:settings:allowed_values:7:label"
+msgid "Material types"
+msgstr "Material types"
+
+msgctxt "field.storage.paragraph.field_campaign_rule_facet:settings:allowed_values:8:label"
+msgid "Subjects"
+msgstr "Subjects"
+
+msgctxt "field.storage.paragraph.field_campaign_rule_facet:settings:allowed_values:9:label"
+msgid "Work types"
+msgstr "Work types"
+
+msgctxt "field.storage.paragraph.field_link_target:settings:allowed_values:0:label"
+msgid "Open the linked document in the same window or tab (default)"
+msgstr "Open the linked document in the same window or tab (default)"
+
+msgctxt "field.storage.paragraph.field_link_target:settings:allowed_values:1:label"
+msgid "Open the linked document in a new window or tab"
+msgstr "Open the linked document in a new window or tab"
+
+msgctxt "filter.format.basic:name"
+msgid "Basic"
+msgstr "Basic"
+
+msgctxt "filter.format.limited:name"
+msgid "Limited"
+msgstr "Limited"
+
+msgctxt "filter.format.plain_text:name"
+msgid "Plain text"
+msgstr "Plain text"
+
+msgctxt "image.style.campaign_image:label"
+msgid "Campaign image (? x 150px)"
+msgstr "Campaign image (? x 150px)"
+
+msgctxt "image.style.flag_icon:label"
+msgid "Flag icon"
+msgstr "Flag icon"
+
+msgctxt "image.style.focal_point_preview:label"
+msgid "Focal Point Preview"
+msgstr "Focal Point Preview"
+
+msgctxt "image.style.hero_wide:label"
+msgid "Hero wide (4/3)"
+msgstr "Hero wide (4/3)"
+
+msgctxt "image.style.linkit_result_thumbnail:label"
+msgid "Linkit result thumbnail"
+msgstr "Linkit result thumbnail"
+
+msgctxt "image.style.logo:label"
+msgid "Logo"
+msgstr "Logo"
+
+msgctxt "image.style.media_library:label"
+msgid "Media Library thumbnail (220 x 220px)"
+msgstr "Media Library thumbnail (220 x 220px)"
+
+msgctxt "image.style.paragraph_squared:label"
+msgid "Paragraph, Squared (1:1 / 496x496px)"
+msgstr "Paragraph, Squared (1:1 / 496x496px)"
+
+msgctxt "image.style.paragraph_wide:label"
+msgid "Paragraph, Wide (896x670px)"
+msgstr "Paragraph, Wide (896x670px)"
+
+msgctxt "language.entity.da:label"
+msgid "Danish"
+msgstr "Danish"
+
+msgctxt "language.entity.en:label"
+msgid "English"
+msgstr "English"
+
+msgctxt "language.entity.und:label"
+msgid "Not specified"
+msgstr "Not specified"
+
+msgctxt "language.entity.zxx:label"
+msgid "Not applicable"
+msgstr "Not applicable"
+
+msgctxt "linkit.linkit_profile.default:label"
+msgid "Default"
+msgstr "Default"
+
+msgctxt "media.type.document:label"
+msgid "Document"
+msgstr "Document"
+
+msgctxt "media.type.image:label"
+msgid "Image"
+msgstr "Image"
+
+msgctxt "media.type.video:label"
+msgid "Video"
+msgstr "Video"
+
+msgctxt "metatag.metatag_defaults.403:label"
+msgid "403 access denied"
+msgstr "403 access denied"
+
+msgctxt "metatag.metatag_defaults.403:tags:robots"
+msgid "noindex"
+msgstr "noindex"
+
+msgctxt "metatag.metatag_defaults.403:tags:canonical_url"
+msgid "[site:url]"
+msgstr "[site:url]"
+
+msgctxt "metatag.metatag_defaults.403:tags:shortlink"
+msgid "[site:url]"
+msgstr "[site:url]"
+
+msgctxt "metatag.metatag_defaults.404:label"
+msgid "404 page not found"
+msgstr "404 page not found"
+
+msgctxt "metatag.metatag_defaults.404:tags:canonical_url"
+msgid "[site:url]"
+msgstr "[site:url]"
+
+msgctxt "metatag.metatag_defaults.404:tags:shortlink"
+msgid "[site:url]"
+msgstr "[site:url]"
+
+msgctxt "metatag.metatag_defaults.front:label"
+msgid "Front page"
+msgstr "Front page"
+
+msgctxt "metatag.metatag_defaults.front:tags:canonical_url"
+msgid "[site:url]"
+msgstr "[site:url]"
+
+msgctxt "metatag.metatag_defaults.front:tags:shortlink"
+msgid "[site:url]"
+msgstr "[site:url]"
+
+msgctxt "metatag.metatag_defaults.global:label"
+msgid "Global"
+msgstr "Global"
+
+msgctxt "metatag.metatag_defaults.global:tags:canonical_url"
+msgid "[current-page:url]"
+msgstr "[current-page:url]"
+
+msgctxt "metatag.metatag_defaults.global:tags:title"
+msgid "[current-page:title] | [site:name]"
+msgstr "[current-page:title] | [site:name]"
+
+msgctxt "metatag.metatag_defaults.node:label"
+msgid "Content"
+msgstr "Content"
+
+msgctxt "metatag.metatag_defaults.node:tags:canonical_url"
+msgid "[node:field_canonical_url:uri]"
+msgstr "[node:field_canonical_url:uri]"
+
+msgctxt "metatag.metatag_defaults.node:tags:description"
+msgid "[node:summary]"
+msgstr "[node:summary]"
+
+msgctxt "metatag.metatag_defaults.node:tags:title"
+msgid "[node:title] | [site:name]"
+msgstr "[node:title] | [site:name]"
+
+msgctxt "metatag.metatag_defaults.taxonomy_term:label"
+msgid "Taxonomy term"
+msgstr "Taxonomy term"
+
+msgctxt "metatag.metatag_defaults.taxonomy_term:tags:canonical_url"
+msgid "[term:url]"
+msgstr "[term:url]"
+
+msgctxt "metatag.metatag_defaults.taxonomy_term:tags:description"
+msgid "[term:description]"
+msgstr "[term:description]"
+
+msgctxt "metatag.metatag_defaults.taxonomy_term:tags:title"
+msgid "[term:name] | [site:name]"
+msgstr "[term:name] | [site:name]"
+
+msgctxt "metatag.metatag_defaults.user:label"
+msgid "User"
+msgstr "User"
+
+msgctxt "metatag.metatag_defaults.user:tags:canonical_url"
+msgid "[user:url]"
+msgstr "[user:url]"
+
+msgctxt "metatag.metatag_defaults.user:tags:description"
+msgid "[site:name]"
+msgstr "[site:name]"
+
+msgctxt "metatag.metatag_defaults.user:tags:title"
+msgid "[user:display-name] | [site:name]"
+msgstr "[user:display-name] | [site:name]"
+
+msgctxt "node.type.article:name"
+msgid "Article"
+msgstr "Article"
+
+msgctxt "node.type.article:description"
+msgid ""
+"Use articles for news-worthy content, that does not get updated "
+"regularly."
+msgstr ""
+"Use articles for news-worthy content, that does not get updated "
+"regularly."
+
+msgctxt "node.type.campaign:name"
+msgid "Campaign"
+msgstr "Campaign"
+
+msgctxt "node.type.campaign:description"
+msgid ""
+"Campaign to be shown among search results depending on matching facets "
+"and terms"
+msgstr ""
+"Campaign to be shown among search results depending on matching facets "
+"and terms"
+
+msgctxt "node.type.page:name"
+msgid "Page"
+msgstr "Page"
+
+msgctxt "node.type.user_registration:name"
+msgid "User registration"
+msgstr "User registration"
+
+msgctxt "node.type.user_registration:description"
+msgid "Information on how to register as a user."
+msgstr "Information on how to register as a user."
+
+msgctxt "paragraphs.paragraphs_type.accordion:label"
+msgid "Accordion"
+msgstr "Accordion"
+
+msgctxt "paragraphs.paragraphs_type.campaign_rule:label"
+msgid "Campaign Rule"
+msgstr "Campaign Rule"
+
+msgctxt "paragraphs.paragraphs_type.campaign_rule:description"
+msgid "A rule for selecting a matching campaign"
+msgstr "A rule for selecting a matching campaign"
+
+msgctxt "paragraphs.paragraphs_type.card_grid_automatic:label"
+msgid "Card grid - automatic"
+msgstr "Card grid - automatic"
+
+msgctxt "paragraphs.paragraphs_type.card_grid_manual:label"
+msgid "Card grid - Manual"
+msgstr "Card grid - Manual"
+
+msgctxt "paragraphs.paragraphs_type.content_slider:label"
+msgid "Content slider"
+msgstr "Content slider"
+
+msgctxt "paragraphs.paragraphs_type.event_ticket_category:label"
+msgid "Ticket category"
+msgstr "Ticket category"
+
+msgctxt "paragraphs.paragraphs_type.event_ticket_category:description"
+msgid "A combination of ticket category name and price for an event. "
+msgstr "A combination of ticket category name and price for an event. "
+
+msgctxt "paragraphs.paragraphs_type.files:label"
+msgid "Files"
+msgstr "Files"
+
+msgctxt "paragraphs.paragraphs_type.files:description"
+msgid ""
+"Links with icons. Designed for jpg, jpeg, png, pdf, mp3, mov, mp4, "
+"mpeg files"
+msgstr ""
+"Links with icons. Designed for jpg, jpeg, png, pdf, mp3, mov, mp4, "
+"mpeg files"
+
+msgctxt "paragraphs.paragraphs_type.hero:label"
+msgid "Hero"
+msgstr "Hero"
+
+msgctxt "paragraphs.paragraphs_type.hero:description"
+msgid ""
+"A hero section with an image, informative text, category, and a \"call "
+"to action\" link."
+msgstr ""
+"A hero section with an image, informative text, category, and a \"call "
+"to action\" link."
+
+msgctxt "paragraphs.paragraphs_type.language_selector:label"
+msgid "Language selector"
+msgstr "Language selector"
+
+msgctxt "paragraphs.paragraphs_type.language_selector:description"
+msgid "Enables website visitors to choose their preferred language."
+msgstr "Enables website visitors to choose their preferred language."
+
+msgctxt "paragraphs.paragraphs_type.links:label"
+msgid "Links"
+msgstr "Links"
+
+msgctxt "paragraphs.paragraphs_type.links:description"
+msgid ""
+"Links with icons. Designed for internal/external links and links to "
+"search results. "
+msgstr ""
+"Links with icons. Designed for internal/external links and links to "
+"search results. "
+
+msgctxt "paragraphs.paragraphs_type.medias:label"
+msgid "Media(s)"
+msgstr "Media(s)"
+
+msgctxt "paragraphs.paragraphs_type.nav_grid_manual:label"
+msgid "Navigation grid - manual"
+msgstr "Navigation grid - manual"
+
+msgctxt "paragraphs.paragraphs_type.nav_spots_manual:label"
+msgid "Navigation spots - manual"
+msgstr "Navigation spots - manual"
+
+msgctxt "paragraphs.paragraphs_type.recommendation:label"
+msgid "Recommendation"
+msgstr "Recommendation"
+
+msgctxt "paragraphs.paragraphs_type.recommendation:description"
+msgid "This paragraph is used to recommend a material. "
+msgstr "This paragraph is used to recommend a material. "
+
+msgctxt "paragraphs.paragraphs_type.text_body:label"
+msgid "Text body"
+msgstr "Text body"
+
+msgctxt "paragraphs.paragraphs_type.text_body:description"
+msgid "A basic, formatted body of text."
+msgstr "A basic, formatted body of text."
+
+msgctxt "paragraphs.paragraphs_type.user_registration_information:label"
+msgid "User Registration Information"
+msgstr "User Registration Information"
+
+msgctxt "paragraphs.paragraphs_type.user_registration_information:description"
+msgid ""
+"The \"User Registration Information\" paragraph type is used to "
+"display relevant information about the user registration process."
+msgstr ""
+"The \"User Registration Information\" paragraph type is used to "
+"display relevant information about the user registration process."
+
+msgctxt "paragraphs.paragraphs_type.video:label"
+msgid "Video"
+msgstr "Video"
+
+msgctxt "paragraphs.paragraphs_type.video:description"
+msgid "Enter the URL for the video you want to include."
+msgstr "Enter the URL for the video you want to include."
+
+msgctxt "recurring_events.eventinstance_type.default:label"
+msgid "Default"
+msgstr "Default"
+
+msgctxt "recurring_events.eventseries_type.default:label"
+msgid "Default"
+msgstr "Default"
+
+msgctxt "search_api.index.events:name"
+msgid "Events"
+msgstr "Events"
+
+msgctxt "search_api.server.db:name"
+msgid "DB"
+msgstr "DB"
+
+msgctxt "search_api.server.db_search:name"
+msgid "DB Search"
+msgstr "DB Search"
+
+msgctxt "system.action.media_delete_action:label"
+msgid "Delete media"
+msgstr "Delete media"
+
+msgctxt "system.action.media_publish_action:label"
+msgid "Publish media"
+msgstr "Publish media"
+
+msgctxt "system.action.media_save_action:label"
+msgid "Save media"
+msgstr "Save media"
+
+msgctxt "system.action.media_unpublish_action:label"
+msgid "Unpublish media"
+msgstr "Unpublish media"
+
+msgctxt "system.action.node_delete_action:label"
+msgid "Delete content"
+msgstr "Delete content"
+
+msgctxt "system.action.node_make_sticky_action:label"
+msgid "Make content sticky"
+msgstr "Make content sticky"
+
+msgctxt "system.action.node_make_unsticky_action:label"
+msgid "Make content unsticky"
+msgstr "Make content unsticky"
+
+msgctxt "system.action.node_promote_action:label"
+msgid "Promote content to front page"
+msgstr "Promote content to front page"
+
+msgctxt "system.action.node_publish_action:label"
+msgid "Publish content"
+msgstr "Publish content"
+
+msgctxt "system.action.node_save_action:label"
+msgid "Save content"
+msgstr "Save content"
+
+msgctxt "system.action.node_unpromote_action:label"
+msgid "Remove content from front page"
+msgstr "Remove content from front page"
+
+msgctxt "system.action.node_unpublish_action:label"
+msgid "Unpublish content"
+msgstr "Unpublish content"
+
+msgctxt "system.action.taxonomy_term_publish_action:label"
+msgid "Publish taxonomy term"
+msgstr "Publish taxonomy term"
+
+msgctxt "system.action.taxonomy_term_unpublish_action:label"
+msgid "Unpublish taxonomy term"
+msgstr "Unpublish taxonomy term"
+
+msgctxt "system.action.user_block_user_action:label"
+msgid "Block the selected user(s)"
+msgstr "Block the selected user(s)"
+
+msgctxt "system.action.user_cancel_user_action:label"
+msgid "Cancel the selected user account(s)"
+msgstr "Cancel the selected user account(s)"
+
+msgctxt "system.action.user_unblock_user_action:label"
+msgid "Unblock the selected user(s)"
+msgstr "Unblock the selected user(s)"
+
+msgctxt "system.maintenance:message"
+msgid ""
+"@site is currently under maintenance. We should be back shortly. Thank "
+"you for your patience."
+msgstr ""
+"@site is currently under maintenance. We should be back shortly. Thank "
+"you for your patience."
+
+msgctxt "system.menu.account:label"
+msgid "User account menu"
+msgstr "User account menu"
+
+msgctxt "system.menu.account:description"
+msgid "Links related to the active user account"
+msgstr "Links related to the active user account"
+
+msgctxt "system.menu.admin:label"
+msgid "Administration"
+msgstr "Administration"
+
+msgctxt "system.menu.admin:description"
+msgid "Administrative task links"
+msgstr "Administrative task links"
+
+msgctxt "system.menu.footer:label"
+msgid "Footer"
+msgstr "Footer"
+
+msgctxt "system.menu.footer:description"
+msgid "Site information links"
+msgstr "Site information links"
+
+msgctxt "system.menu.main:label"
+msgid "Main navigation"
+msgstr "Main navigation"
+
+msgctxt "system.menu.main:description"
+msgid "Site section links"
+msgstr "Site section links"
+
+msgctxt "system.menu.tools:label"
+msgid "Tools"
+msgstr "Tools"
+
+msgctxt "system.menu.tools:description"
+msgid "User tool links, often added by modules"
+msgstr "User tool links, often added by modules"
+
+msgctxt "system.site:name"
+msgid "DPL CMS"
+msgstr "DPL CMS"
+
+msgctxt "taxonomy.vocabulary.categories:name"
+msgid "Categories"
+msgstr "Categories"
+
+msgctxt "taxonomy.vocabulary.tags:name"
+msgid "Tags"
+msgstr "Tags"
+
+msgctxt "user.mail:cancel_confirm:subject"
+msgid "Account cancellation request for [user:display-name] at [site:name]"
+msgstr "Account cancellation request for [user:display-name] at [site:name]"
+
+msgctxt "user.mail:cancel_confirm:body"
+msgid ""
+"[user:display-name],\n"
+"\n"
+"A request to cancel your account has been "
+"made at [site:name].\n"
+"\n"
+"You may now cancel your account on "
+"[site:url-brief] by clicking this link or copying and pasting it into "
+"your browser:\n"
+"\n"
+"[user:cancel-url]\n"
+"\n"
+"NOTE: The cancellation of "
+"your account is not reversible.\n"
+"\n"
+"This link expires in one day and "
+"nothing will happen if it is not used.\n"
+"\n"
+"--  [site:name] team"
+msgstr ""
+"[user:display-name],\n"
+"\n"
+"A request to cancel your account has been "
+"made at [site:name].\n"
+"\n"
+"You may now cancel your account on "
+"[site:url-brief] by clicking this link or copying and pasting it into "
+"your browser:\n"
+"\n"
+"[user:cancel-url]\n"
+"\n"
+"NOTE: The cancellation of "
+"your account is not reversible.\n"
+"\n"
+"This link expires in one day and "
+"nothing will happen if it is not used.\n"
+"\n"
+"--  [site:name] team"
+
+msgctxt "user.mail:password_reset:subject"
+msgid "Replacement login information for [user:display-name] at [site:name]"
+msgstr "Replacement login information for [user:display-name] at [site:name]"
+
+msgctxt "user.mail:password_reset:body"
+msgid ""
+"[user:display-name],\n"
+"\n"
+"A request to reset the password for your "
+"account has been made at [site:name].\n"
+"\n"
+"You may now log in by "
+"clicking this link or copying and pasting it into your "
+"browser:\n"
+"\n"
+"[user:one-time-login-url]\n"
+"\n"
+"This link can only be "
+"used once to log in and will lead you to a page where you can set your "
+"password. It expires after one day and nothing will happen if it's not "
+"used.\n"
+"\n"
+"--  [site:name] team"
+msgstr ""
+"[user:display-name],\n"
+"\n"
+"A request to reset the password for your "
+"account has been made at [site:name].\n"
+"\n"
+"You may now log in by "
+"clicking this link or copying and pasting it into your "
+"browser:\n"
+"\n"
+"[user:one-time-login-url]\n"
+"\n"
+"This link can only be "
+"used once to log in and will lead you to a page where you can set your "
+"password. It expires after one day and nothing will happen if it's not "
+"used.\n"
+"\n"
+"--  [site:name] team"
+
+msgctxt "user.mail:register_admin_created:subject"
+msgid "An administrator created an account for you at [site:name]"
+msgstr "An administrator created an account for you at [site:name]"
+
+msgctxt "user.mail:register_admin_created:body"
+msgid ""
+"[user:display-name],\n"
+"\n"
+"A site administrator at [site:name] has "
+"created an account for you. You may now log in by clicking this link "
+"or copying and pasting it into your "
+"browser:\n"
+"\n"
+"[user:one-time-login-url]\n"
+"\n"
+"This link can only be "
+"used once to log in and will lead you to a page where you can set your "
+"password.\n"
+"\n"
+"After setting your password, you will be able to log in "
+"at [site:login-url] in the future using:\n"
+"\n"
+"username: "
+"[user:name]\n"
+"password: Your password\n"
+"\n"
+"--  [site:name] team"
+msgstr ""
+"[user:display-name],\n"
+"\n"
+"A site administrator at [site:name] has "
+"created an account for you. You may now log in by clicking this link "
+"or copying and pasting it into your "
+"browser:\n"
+"\n"
+"[user:one-time-login-url]\n"
+"\n"
+"This link can only be "
+"used once to log in and will lead you to a page where you can set your "
+"password.\n"
+"\n"
+"After setting your password, you will be able to log in "
+"at [site:login-url] in the future using:\n"
+"\n"
+"username: "
+"[user:name]\n"
+"password: Your password\n"
+"\n"
+"--  [site:name] team"
+
+msgctxt "user.mail:register_no_approval_required:subject"
+msgid "Account details for [user:display-name] at [site:name]"
+msgstr "Account details for [user:display-name] at [site:name]"
+
+msgctxt "user.mail:register_no_approval_required:body"
+msgid ""
+"[user:display-name],\n"
+"\n"
+"Thank you for registering at [site:name]. "
+"You may now log in by clicking this link or copying and pasting it "
+"into your browser:\n"
+"\n"
+"[user:one-time-login-url]\n"
+"\n"
+"This link can "
+"only be used once to log in and will lead you to a page where you can "
+"set your password.\n"
+"\n"
+"After setting your password, you will be able "
+"to log in at [site:login-url] in the future using:\n"
+"\n"
+"username: "
+"[user:name]\n"
+"password: Your password\n"
+"\n"
+"--  [site:name] team"
+msgstr ""
+"[user:display-name],\n"
+"\n"
+"Thank you for registering at [site:name]. "
+"You may now log in by clicking this link or copying and pasting it "
+"into your browser:\n"
+"\n"
+"[user:one-time-login-url]\n"
+"\n"
+"This link can "
+"only be used once to log in and will lead you to a page where you can "
+"set your password.\n"
+"\n"
+"After setting your password, you will be able "
+"to log in at [site:login-url] in the future using:\n"
+"\n"
+"username: "
+"[user:name]\n"
+"password: Your password\n"
+"\n"
+"--  [site:name] team"
+
+msgctxt "user.mail:register_pending_approval:subject"
+msgid ""
+"Account details for [user:display-name] at [site:name] (pending admin "
+"approval)"
+msgstr ""
+"Account details for [user:display-name] at [site:name] (pending admin "
+"approval)"
+
+msgctxt "user.mail:register_pending_approval:body"
+msgid ""
+"[user:display-name],\n"
+"\n"
+"Thank you for registering at [site:name]. "
+"Your application for an account is currently pending approval. Once it "
+"has been approved, you will receive another email containing "
+"information about how to log in, set your password, and other "
+"details.\n"
+"\n"
+"--  [site:name] team"
+msgstr ""
+"[user:display-name],\n"
+"\n"
+"Thank you for registering at [site:name]. "
+"Your application for an account is currently pending approval. Once it "
+"has been approved, you will receive another email containing "
+"information about how to log in, set your password, and other "
+"details.\n"
+"\n"
+"--  [site:name] team"
+
+msgctxt "user.mail:register_pending_approval_admin:subject"
+msgid ""
+"Account details for [user:display-name] at [site:name] (pending admin "
+"approval)"
+msgstr ""
+"Account details for [user:display-name] at [site:name] (pending admin "
+"approval)"
+
+msgctxt "user.mail:register_pending_approval_admin:body"
+msgid ""
+"[user:display-name] has applied for an account.\n"
+"\n"
+"[user:edit-url]"
+msgstr ""
+"[user:display-name] has applied for an account.\n"
+"\n"
+"[user:edit-url]"
+
+msgctxt "user.mail:status_activated:subject"
+msgid "Account details for [user:display-name] at [site:name] (approved)"
+msgstr "Account details for [user:display-name] at [site:name] (approved)"
+
+msgctxt "user.mail:status_activated:body"
+msgid ""
+"[user:display-name],\n"
+"\n"
+"Your account at [site:name] has been "
+"activated.\n"
+"\n"
+"You may now log in by clicking this link or copying "
+"and pasting it into your "
+"browser:\n"
+"\n"
+"[user:one-time-login-url]\n"
+"\n"
+"This link can only be "
+"used once to log in and will lead you to a page where you can set your "
+"password.\n"
+"\n"
+"After setting your password, you will be able to log in "
+"at [site:login-url] in the future using:\n"
+"\n"
+"username: "
+"[user:account-name]\n"
+"password: Your password\n"
+"\n"
+"--  [site:name] "
+"team"
+msgstr ""
+"[user:display-name],\n"
+"\n"
+"Your account at [site:name] has been "
+"activated.\n"
+"\n"
+"You may now log in by clicking this link or copying "
+"and pasting it into your "
+"browser:\n"
+"\n"
+"[user:one-time-login-url]\n"
+"\n"
+"This link can only be "
+"used once to log in and will lead you to a page where you can set your "
+"password.\n"
+"\n"
+"After setting your password, you will be able to log in "
+"at [site:login-url] in the future using:\n"
+"\n"
+"username: "
+"[user:account-name]\n"
+"password: Your password\n"
+"\n"
+"--  [site:name] "
+"team"
+
+msgctxt "user.mail:status_blocked:subject"
+msgid "Account details for [user:display-name] at [site:name] (blocked)"
+msgstr "Account details for [user:display-name] at [site:name] (blocked)"
+
+msgctxt "user.mail:status_blocked:body"
+msgid ""
+"[user:display-name],\n"
+"\n"
+"Your account on [site:name] has been "
+"blocked.\n"
+"\n"
+"--  [site:name] team"
+msgstr ""
+"[user:display-name],\n"
+"\n"
+"Your account on [site:name] has been "
+"blocked.\n"
+"\n"
+"--  [site:name] team"
+
+msgctxt "user.mail:status_canceled:subject"
+msgid "Account details for [user:display-name] at [site:name] (canceled)"
+msgstr "Account details for [user:display-name] at [site:name] (canceled)"
+
+msgctxt "user.mail:status_canceled:body"
+msgid ""
+"[user:display-name],\n"
+"\n"
+"Your account on [site:name] has been "
+"canceled.\n"
+"\n"
+"--  [site:name] team"
+msgstr ""
+"[user:display-name],\n"
+"\n"
+"Your account on [site:name] has been "
+"canceled.\n"
+"\n"
+"--  [site:name] team"
+
+msgctxt "user.role.administrator:label"
+msgid "Administrator"
+msgstr "Administrator"
+
+msgctxt "user.role.anonymous:label"
+msgid "Anonymous user"
+msgstr "Anonymous user"
+
+msgctxt "user.role.authenticated:label"
+msgid "Authenticated user"
+msgstr "Authenticated user"
+
+msgctxt "user.role.editor:label"
+msgid "Editor"
+msgstr "Editor"
+
+msgctxt "user.role.local_administrator:label"
+msgid "Local Administrator"
+msgstr "Local Administrator"
+
+msgctxt "user.role.mediator:label"
+msgid "Mediator"
+msgstr "Mediator"
+
+msgctxt "user.role.patron:label"
+msgid "Patron"
+msgstr "Patron"
+
+msgctxt "user.settings:anonymous"
+msgid "Anonymous"
+msgstr "Anonymous"
+
+msgctxt "views.view.content:label"
+msgid "Content"
+msgstr "Content"
+
+msgctxt "views.view.content:description"
+msgid "Find and manage content."
+msgstr "Find and manage content."
+
+msgctxt "views.view.content:display:default:display_title"
+msgid "Default"
+msgstr "Default"
+
+msgctxt "views.view.content:display:default:display_options:title"
+msgid "Content"
+msgstr "Content"
+
+msgctxt "views.view.content:display:default:display_options:fields:title:label"
+msgid "Title"
+msgstr "Title"
+
+msgctxt "views.view.content:display:default:display_options:fields:type:label"
+msgid "Content type"
+msgstr "Content type"
+
+msgctxt "views.view.content:display:default:display_options:fields:name:label"
+msgid "Author"
+msgstr "Author"
+
+msgctxt "views.view.content:display:default:display_options:fields:status:label"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "views.view.content:display:default:display_options:fields:status:settings:format_custom_false"
+msgid "Unpublished"
+msgstr "Unpublished"
+
+msgctxt "views.view.content:display:default:display_options:fields:status:settings:format_custom_true"
+msgid "Published"
+msgstr "Published"
+
+msgctxt "views.view.content:display:default:display_options:fields:changed:label"
+msgid "Updated"
+msgstr "Updated"
+
+msgctxt "views.view.content:display:default:display_options:fields:operations:label"
+msgid "Operations"
+msgstr "Operations"
+
+msgctxt "views.view.content:display:default:display_options:pager:options:tags:next"
+msgid "Next ›"
+msgstr "Next ›"
+
+msgctxt "views.view.content:display:default:display_options:pager:options:tags:previous"
+msgid "‹ Previous"
+msgstr "‹ Previous"
+
+msgctxt "views.view.content:display:default:display_options:pager:options:tags:first"
+msgid "« First"
+msgstr "« First"
+
+msgctxt "views.view.content:display:default:display_options:pager:options:tags:last"
+msgid "Last »"
+msgstr "Last »"
+
+msgctxt "views.view.content:display:default:display_options:exposed_form:options:submit_button"
+msgid "Filter"
+msgstr "Filter"
+
+msgctxt "views.view.content:display:default:display_options:exposed_form:options:reset_button_label"
+msgid "Reset"
+msgstr "Reset"
+
+msgctxt "views.view.content:display:default:display_options:exposed_form:options:exposed_sorts_label"
+msgid "Sort by"
+msgstr "Sort by"
+
+msgctxt "views.view.content:display:default:display_options:exposed_form:options:sort_asc_label"
+msgid "Asc"
+msgstr "Asc"
+
+msgctxt "views.view.content:display:default:display_options:exposed_form:options:sort_desc_label"
+msgid "Desc"
+msgstr "Desc"
+
+msgctxt "views.view.content:display:default:display_options:empty:area_text_custom:content"
+msgid "No content available."
+msgstr "No content available."
+
+msgctxt "views.view.content:display:default:display_options:filters:title:expose:label"
+msgid "Title"
+msgstr "Title"
+
+msgctxt "views.view.content:display:default:display_options:filters:type:expose:label"
+msgid "Content type"
+msgstr "Content type"
+
+msgctxt "views.view.content:display:default:display_options:filters:status:expose:label"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "views.view.content:display:default:display_options:filters:status:group_info:label"
+msgid "Published status"
+msgstr "Published status"
+
+msgctxt "views.view.content:display:default:display_options:filters:status:group_info:group_items:1:title"
+msgid "Published"
+msgstr "Published"
+
+msgctxt "views.view.content:display:default:display_options:filters:status:group_info:group_items:2:title"
+msgid "Unpublished"
+msgstr "Unpublished"
+
+msgctxt "views.view.content:display:default:display_options:filters:langcode:expose:label"
+msgid "Language"
+msgstr "Language"
+
+msgctxt "views.view.content:display:page_1:display_title"
+msgid "Page"
+msgstr "Page"
+
+msgctxt "views.view.content:display:page_1:display_options:menu:title"
+msgid "Content"
+msgstr "Content"
+
+msgctxt "views.view.content:display:page_1:display_options:tab_options:title"
+msgid "Content"
+msgstr "Content"
+
+msgctxt "views.view.content:display:page_1:display_options:tab_options:description"
+msgid "Find and manage content"
+msgstr "Find and manage content"
+
+msgctxt "views.view.content_paragraphs:label"
+msgid "Content lists, embedded in Paragraphs"
+msgstr "Content lists, embedded in Paragraphs"
+
+msgctxt "views.view.content_paragraphs:description"
+msgid ""
+"Lists for displaying content, through embedded views in paragraphs. "
+"Also allows the editor to set filter options in the paragraphs, that "
+"will be sent along using contextual filters. See "
+"dpl_filter_paragraphs.module"
+msgstr ""
+"Lists for displaying content, through embedded views in paragraphs. "
+"Also allows the editor to set filter options in the paragraphs, that "
+"will be sent along using contextual filters. See "
+"dpl_filter_paragraphs.module"
+
+msgctxt "views.view.content_paragraphs:display:default:display_title"
+msgid "Default"
+msgstr "Default"
+
+msgctxt "views.view.content_paragraphs:display:default:display_options:exposed_form:options:submit_button"
+msgid "Apply"
+msgstr "Apply"
+
+msgctxt "views.view.content_paragraphs:display:default:display_options:exposed_form:options:reset_button_label"
+msgid "Reset"
+msgstr "Reset"
+
+msgctxt "views.view.content_paragraphs:display:default:display_options:exposed_form:options:exposed_sorts_label"
+msgid "Sort by"
+msgstr "Sort by"
+
+msgctxt "views.view.content_paragraphs:display:default:display_options:exposed_form:options:sort_asc_label"
+msgid "Asc"
+msgstr "Asc"
+
+msgctxt "views.view.content_paragraphs:display:default:display_options:exposed_form:options:sort_desc_label"
+msgid "Desc"
+msgstr "Desc"
+
+msgctxt "views.view.content_paragraphs:display:default:display_options:arguments:type:exception:title"
+msgid "All"
+msgstr "All"
+
+msgctxt "views.view.content_paragraphs:display:card_grid:display_title"
+msgid "Card grid"
+msgstr "Card grid"
+
+msgctxt "views.view.entity_reference_content:label"
+msgid "Entity reference - content"
+msgstr "Entity reference - content"
+
+msgctxt "views.view.entity_reference_content:description"
+msgid "Used by content reference fields, such as \"field_contents\"."
+msgstr "Used by content reference fields, such as \"field_contents\"."
+
+msgctxt "views.view.entity_reference_content:display:default:display_title"
+msgid "Default"
+msgstr "Default"
+
+msgctxt "views.view.entity_reference_content:display:default:display_options:fields:status:settings:format_custom_false"
+msgid "Unpublished"
+msgstr "Unpublished"
+
+msgctxt "views.view.entity_reference_content:display:default:display_options:fields:status:settings:format_custom_true"
+msgid "Published"
+msgstr "Published"
+
+msgctxt "views.view.entity_reference_content:display:default:display_options:fields:title:alter:text"
+msgid ""
+"<div>\r\n"
+"<strong>{{ title }}</strong><br/>\r\n"
+"<small>{{ nid }} - {{ "
+"type }} - ({{ status }})</small>\r\n"
+"</div>"
+msgstr ""
+"<div>\r\n"
+"<strong>{{ title }}</strong><br/>\r\n"
+"<small>{{ nid }} - {{ "
+"type }} - ({{ status }})</small>\r\n"
+"</div>"
+
+msgctxt "views.view.entity_reference_content:display:default:display_options:pager:options:expose:items_per_page_label"
+msgid "Items per page"
+msgstr "Items per page"
+
+msgctxt "views.view.entity_reference_content:display:default:display_options:pager:options:expose:items_per_page_options_all_label"
+msgid "- All -"
+msgstr "- All -"
+
+msgctxt "views.view.entity_reference_content:display:default:display_options:pager:options:expose:offset_label"
+msgid "Offset"
+msgstr "Offset"
+
+msgctxt "views.view.entity_reference_content:display:default:display_options:exposed_form:options:submit_button"
+msgid "Apply"
+msgstr "Apply"
+
+msgctxt "views.view.entity_reference_content:display:default:display_options:exposed_form:options:reset_button_label"
+msgid "Reset"
+msgstr "Reset"
+
+msgctxt "views.view.entity_reference_content:display:default:display_options:exposed_form:options:exposed_sorts_label"
+msgid "Sort by"
+msgstr "Sort by"
+
+msgctxt "views.view.entity_reference_content:display:default:display_options:exposed_form:options:sort_asc_label"
+msgid "Asc"
+msgstr "Asc"
+
+msgctxt "views.view.entity_reference_content:display:default:display_options:exposed_form:options:sort_desc_label"
+msgid "Desc"
+msgstr "Desc"
+
+msgctxt "views.view.entity_reference_content:display:entity_reference_1:display_title"
+msgid "Entity Reference"
+msgstr "Entity Reference"
+
+msgctxt "views.view.entity_reference_event_instance:label"
+msgid "Entity reference - event instance"
+msgstr "Entity reference - event instance"
+
+msgctxt "views.view.entity_reference_event_instance:display:default:display_title"
+msgid "Default"
+msgstr "Default"
+
+msgctxt "views.view.entity_reference_event_instance:display:default:display_options:fields:status:settings:format_custom_false"
+msgid "Unpublished"
+msgstr "Unpublished"
+
+msgctxt "views.view.entity_reference_event_instance:display:default:display_options:fields:status:settings:format_custom_true"
+msgid "Published"
+msgstr "Published"
+
+msgctxt "views.view.entity_reference_event_instance:display:default:display_options:fields:date__value:settings:one_day"
+msgid "d F Y"
+msgstr "d F Y"
+
+msgctxt "views.view.entity_reference_event_instance:display:default:display_options:fields:date__value:settings:one_month"
+msgid "d - {d} F Y"
+msgstr "d - {d} F Y"
+
+msgctxt "views.view.entity_reference_event_instance:display:default:display_options:fields:date__value:settings:several_months"
+msgid "d F - {d} {F} Y"
+msgstr "d F - {d} {F} Y"
+
+msgctxt "views.view.entity_reference_event_instance:display:default:display_options:fields:date__value:settings:several_years"
+msgid "d F Y - {d} {F} {Y}"
+msgstr "d F Y - {d} {F} {Y}"
+
+msgctxt "views.view.entity_reference_event_instance:display:default:display_options:fields:title:alter:text"
+msgid ""
+"<div>\r\n"
+"<strong>{{ title }}</strong><br/>\r\n"
+"<small>{{ id }} - "
+"<strong>{{date__value}}</strong> {{ date__value_1 }} - ({{ status "
+"}})</small>\r\n"
+"</div>"
+msgstr ""
+"<div>\r\n"
+"<strong>{{ title }}</strong><br/>\r\n"
+"<small>{{ id }} - "
+"<strong>{{date__value}}</strong> {{ date__value_1 }} - ({{ status "
+"}})</small>\r\n"
+"</div>"
+
+msgctxt "views.view.entity_reference_event_instance:display:default:display_options:pager:options:expose:items_per_page_label"
+msgid "Items per page"
+msgstr "Items per page"
+
+msgctxt "views.view.entity_reference_event_instance:display:default:display_options:pager:options:expose:items_per_page_options_all_label"
+msgid "- All -"
+msgstr "- All -"
+
+msgctxt "views.view.entity_reference_event_instance:display:default:display_options:pager:options:expose:offset_label"
+msgid "Offset"
+msgstr "Offset"
+
+msgctxt "views.view.entity_reference_event_instance:display:default:display_options:exposed_form:options:submit_button"
+msgid "Apply"
+msgstr "Apply"
+
+msgctxt "views.view.entity_reference_event_instance:display:default:display_options:exposed_form:options:reset_button_label"
+msgid "Reset"
+msgstr "Reset"
+
+msgctxt "views.view.entity_reference_event_instance:display:default:display_options:exposed_form:options:exposed_sorts_label"
+msgid "Sort by"
+msgstr "Sort by"
+
+msgctxt "views.view.entity_reference_event_instance:display:default:display_options:exposed_form:options:sort_asc_label"
+msgid "Asc"
+msgstr "Asc"
+
+msgctxt "views.view.entity_reference_event_instance:display:default:display_options:exposed_form:options:sort_desc_label"
+msgid "Desc"
+msgstr "Desc"
+
+msgctxt "views.view.entity_reference_event_instance:display:entity_reference_1:display_title"
+msgid "Entity Reference"
+msgstr "Entity Reference"
+
+msgctxt "views.view.entity_reference_event_series:label"
+msgid "Entity reference - event series"
+msgstr "Entity reference - event series"
+
+msgctxt "views.view.entity_reference_event_series:display:default:display_title"
+msgid "Default"
+msgstr "Default"
+
+msgctxt "views.view.entity_reference_event_series:display:default:display_options:fields:status:settings:format_custom_false"
+msgid "Unpublished"
+msgstr "Unpublished"
+
+msgctxt "views.view.entity_reference_event_series:display:default:display_options:fields:status:settings:format_custom_true"
+msgid "Published"
+msgstr "Published"
+
+msgctxt "views.view.entity_reference_event_series:display:default:display_options:fields:title:alter:text"
+msgid ""
+"<div>\r\n"
+"<strong>{{ title }}</strong><br/>\r\n"
+"<small>{{ id }} - "
+"<strong>{{eventseries_start_date}}</strong> - ({{ status "
+"}})</small>\r\n"
+"</div>"
+msgstr ""
+"<div>\r\n"
+"<strong>{{ title }}</strong><br/>\r\n"
+"<small>{{ id }} - "
+"<strong>{{eventseries_start_date}}</strong> - ({{ status "
+"}})</small>\r\n"
+"</div>"
+
+msgctxt "views.view.entity_reference_event_series:display:default:display_options:pager:options:expose:items_per_page_label"
+msgid "Items per page"
+msgstr "Items per page"
+
+msgctxt "views.view.entity_reference_event_series:display:default:display_options:pager:options:expose:items_per_page_options_all_label"
+msgid "- All -"
+msgstr "- All -"
+
+msgctxt "views.view.entity_reference_event_series:display:default:display_options:pager:options:expose:offset_label"
+msgid "Offset"
+msgstr "Offset"
+
+msgctxt "views.view.entity_reference_event_series:display:default:display_options:exposed_form:options:submit_button"
+msgid "Apply"
+msgstr "Apply"
+
+msgctxt "views.view.entity_reference_event_series:display:default:display_options:exposed_form:options:reset_button_label"
+msgid "Reset"
+msgstr "Reset"
+
+msgctxt "views.view.entity_reference_event_series:display:default:display_options:exposed_form:options:exposed_sorts_label"
+msgid "Sort by"
+msgstr "Sort by"
+
+msgctxt "views.view.entity_reference_event_series:display:default:display_options:exposed_form:options:sort_asc_label"
+msgid "Asc"
+msgstr "Asc"
+
+msgctxt "views.view.entity_reference_event_series:display:default:display_options:exposed_form:options:sort_desc_label"
+msgid "Desc"
+msgstr "Desc"
+
+msgctxt "views.view.entity_reference_event_series:display:entity_reference_1:display_title"
+msgid "Entity Reference"
+msgstr "Entity Reference"
+
+msgctxt "views.view.events:label"
+msgid "Events"
+msgstr "Events"
+
+msgctxt "views.view.events:description"
+msgid ""
+"This view displays a list of upcoming events from current day and "
+"onwards."
+msgstr ""
+"This view displays a list of upcoming events from current day and "
+"onwards."
+
+msgctxt "views.view.events:display:default:display_title"
+msgid "Default"
+msgstr "Default"
+
+msgctxt "views.view.events:display:default:display_options:title"
+msgid "Events"
+msgstr "Events"
+
+msgctxt "views.view.events:display:default:display_options:pager:options:expose:items_per_page_label"
+msgid "Items per page"
+msgstr "Items per page"
+
+msgctxt "views.view.events:display:default:display_options:pager:options:expose:items_per_page_options_all_label"
+msgid "- All -"
+msgstr "- All -"
+
+msgctxt "views.view.events:display:default:display_options:pager:options:expose:offset_label"
+msgid "Offset"
+msgstr "Offset"
+
+msgctxt "views.view.events:display:default:display_options:exposed_form:options:submit_button"
+msgid "Apply"
+msgstr "Apply"
+
+msgctxt "views.view.events:display:default:display_options:exposed_form:options:reset_button_label"
+msgid "Reset"
+msgstr "Reset"
+
+msgctxt "views.view.events:display:default:display_options:exposed_form:options:exposed_sorts_label"
+msgid "Sort by"
+msgstr "Sort by"
+
+msgctxt "views.view.events:display:default:display_options:exposed_form:options:sort_asc_label"
+msgid "Asc"
+msgstr "Asc"
+
+msgctxt "views.view.events:display:default:display_options:exposed_form:options:sort_desc_label"
+msgid "Desc"
+msgstr "Desc"
+
+msgctxt "views.view.events:display:default:display_options:exposed_form:options:text_input_required"
+msgid "Select any filter and click on Apply to see results"
+msgstr "Select any filter and click on Apply to see results"
+
+msgctxt "views.view.events:display:default:display_options:exposed_form:options:text_input_required_format"
+msgid "basic"
+msgstr "basic"
+
+msgctxt "views.view.events:display:default:display_options:exposed_form:options:bef:general:secondary_label"
+msgid "Advanced options"
+msgstr "Advanced options"
+
+msgctxt "views.view.events:display:all:display_title"
+msgid "Page"
+msgstr "Page"
+
+msgctxt "views.view.events:display:all:display_options:filters:event_categories:expose:label"
+msgid "Event category"
+msgstr "Event category"
+
+msgctxt "views.view.events:display:related:display_title"
+msgid "Related events"
+msgstr "Related events"
+
+msgctxt "views.view.event_admin:label"
+msgid "Event - admin"
+msgstr "Event - admin"
+
+msgctxt "views.view.event_admin:display:default:display_title"
+msgid "Default"
+msgstr "Default"
+
+msgctxt "views.view.event_admin:display:default:display_options:title"
+msgid "Event - admin"
+msgstr "Event - admin"
+
+msgctxt "views.view.event_admin:display:default:display_options:fields:eventseries_id:label"
+msgid "Series"
+msgstr "Series"
+
+msgctxt "views.view.event_admin:display:default:display_options:fields:eventseries_id:alter:text"
+msgid "{{ eventseries_id }}"
+msgstr "{{ eventseries_id }}"
+
+msgctxt "views.view.event_admin:display:default:display_options:fields:id:label"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "views.view.event_admin:display:default:display_options:fields:title:label"
+msgid "Title"
+msgstr "Title"
+
+msgctxt "views.view.event_admin:display:default:display_options:fields:date__value_1:admin_label"
+msgid "Event Instance entity: Event Date time"
+msgstr "Event Instance entity: Event Date time"
+
+msgctxt "views.view.event_admin:display:default:display_options:fields:date__value_1:settings:one_day"
+msgid "H:i - {H}:{i}"
+msgstr "H:i - {H}:{i}"
+
+msgctxt "views.view.event_admin:display:default:display_options:fields:date__value_1:settings:one_month"
+msgid "H:i - {H}:{i}"
+msgstr "H:i - {H}:{i}"
+
+msgctxt "views.view.event_admin:display:default:display_options:fields:date__value_1:settings:several_months"
+msgid "H:i - {H}:{i}"
+msgstr "H:i - {H}:{i}"
+
+msgctxt "views.view.event_admin:display:default:display_options:fields:date__value_1:settings:several_years"
+msgid "H:i - {H}:{i}"
+msgstr "H:i - {H}:{i}"
+
+msgctxt "views.view.event_admin:display:default:display_options:fields:date__value:label"
+msgid "Event Date"
+msgstr "Event Date"
+
+msgctxt "views.view.event_admin:display:default:display_options:fields:date__value:alter:text"
+msgid ""
+"<strong>{{ date__value }}</strong> | {{ date__value_1 "
+"}}<br>\r\n"
+"<small>{{ recur_type }}</small>"
+msgstr ""
+"<strong>{{ date__value }}</strong> | {{ date__value_1 "
+"}}<br>\r\n"
+"<small>{{ recur_type }}</small>"
+
+msgctxt "views.view.event_admin:display:default:display_options:fields:date__value:settings:one_day"
+msgid "d M Y"
+msgstr "d M Y"
+
+msgctxt "views.view.event_admin:display:default:display_options:fields:date__value:settings:one_month"
+msgid "d - {d} M Y "
+msgstr "d - {d} M Y "
+
+msgctxt "views.view.event_admin:display:default:display_options:fields:date__value:settings:several_months"
+msgid "d M - {d} {M} Y"
+msgstr "d M - {d} {M} Y"
+
+msgctxt "views.view.event_admin:display:default:display_options:fields:date__value:settings:several_years"
+msgid "d M Y - {d} {M} {Y}"
+msgstr "d M Y - {d} {M} {Y}"
+
+msgctxt "views.view.event_admin:display:default:display_options:fields:event_state:label"
+msgid "Event state"
+msgstr "Event state"
+
+msgctxt "views.view.event_admin:display:default:display_options:fields:status:label"
+msgid "Publication status"
+msgstr "Publication status"
+
+msgctxt "views.view.event_admin:display:default:display_options:fields:status:settings:format_custom_false"
+msgid " Unpublished"
+msgstr " Unpublished"
+
+msgctxt "views.view.event_admin:display:default:display_options:fields:status:settings:format_custom_true"
+msgid "Published"
+msgstr "Published"
+
+msgctxt "views.view.event_admin:display:default:display_options:fields:edit_eventseries:label"
+msgid "Series links"
+msgstr "Series links"
+
+msgctxt "views.view.event_admin:display:default:display_options:fields:edit_eventseries:alter:text"
+msgid "<div class=\"button button--small\">{{ edit_eventseries }}</div>"
+msgstr "<div class=\"button button--small\">{{ edit_eventseries }}</div>"
+
+msgctxt "views.view.event_admin:display:default:display_options:fields:edit_eventseries:text"
+msgid "Edit series"
+msgstr "Edit series"
+
+msgctxt "views.view.event_admin:display:default:display_options:fields:operations:label"
+msgid "Instance links"
+msgstr "Instance links"
+
+msgctxt "views.view.event_admin:display:default:display_options:pager:options:tags:first"
+msgid "« First"
+msgstr "« First"
+
+msgctxt "views.view.event_admin:display:default:display_options:pager:options:tags:last"
+msgid "Last »"
+msgstr "Last »"
+
+msgctxt "views.view.event_admin:display:default:display_options:pager:options:expose:items_per_page_label"
+msgid "Items per page"
+msgstr "Items per page"
+
+msgctxt "views.view.event_admin:display:default:display_options:pager:options:expose:items_per_page_options_all_label"
+msgid "- All -"
+msgstr "- All -"
+
+msgctxt "views.view.event_admin:display:default:display_options:pager:options:expose:offset_label"
+msgid "Offset"
+msgstr "Offset"
+
+msgctxt "views.view.event_admin:display:default:display_options:exposed_form:options:submit_button"
+msgid "Apply"
+msgstr "Apply"
+
+msgctxt "views.view.event_admin:display:default:display_options:exposed_form:options:reset_button_label"
+msgid "Reset"
+msgstr "Reset"
+
+msgctxt "views.view.event_admin:display:default:display_options:exposed_form:options:exposed_sorts_label"
+msgid "Sort by"
+msgstr "Sort by"
+
+msgctxt "views.view.event_admin:display:default:display_options:exposed_form:options:sort_asc_label"
+msgid "Asc"
+msgstr "Asc"
+
+msgctxt "views.view.event_admin:display:default:display_options:exposed_form:options:sort_desc_label"
+msgid "Desc"
+msgstr "Desc"
+
+msgctxt "views.view.event_admin:display:default:display_options:filters:combine:expose:label"
+msgid "Search"
+msgstr "Search"
+
+msgctxt "views.view.event_admin:display:default:display_options:filters:combine:expose:placeholder"
+msgid "Search by title, ID.."
+msgstr "Search by title, ID.."
+
+msgctxt "views.view.event_admin:display:default:display_options:filters:date__value:expose:label"
+msgid "Event Date"
+msgstr "Event Date"
+
+msgctxt "views.view.event_admin:display:default:display_options:filters:date__value:group_info:label"
+msgid "Date filters"
+msgstr "Date filters"
+
+msgctxt "views.view.event_admin:display:default:display_options:filters:date__value:group_info:group_items:1:title"
+msgid "Show all events"
+msgstr "Show all events"
+
+msgctxt "views.view.event_admin:display:default:display_options:filters:date__value:group_info:group_items:2:title"
+msgid "Only upcoming events"
+msgstr "Only upcoming events"
+
+msgctxt "views.view.event_admin:display:default:display_options:filters:date__value:group_info:group_items:3:title"
+msgid "Only expired events"
+msgstr "Only expired events"
+
+msgctxt "views.view.event_admin:display:default:display_options:filters:status:expose:label"
+msgid "Publication status"
+msgstr "Publication status"
+
+msgctxt "views.view.event_admin:display:default:display_options:filters:status:group_info:label"
+msgid "Published status"
+msgstr "Published status"
+
+msgctxt "views.view.event_admin:display:default:display_options:filters:status:group_info:group_items:1:title"
+msgid "Published"
+msgstr "Published"
+
+msgctxt "views.view.event_admin:display:default:display_options:filters:status:group_info:group_items:2:title"
+msgid "Unpublished"
+msgstr "Unpublished"
+
+msgctxt "views.view.event_admin:display:overview:display_title"
+msgid "Page"
+msgstr "Page"
+
+msgctxt "views.view.event_admin:display:overview:display_options:menu:title"
+msgid "Events"
+msgstr "Events"
+
+msgctxt "views.view.files:label"
+msgid "Files"
+msgstr "Files"
+
+msgctxt "views.view.files:description"
+msgid "Find and manage files."
+msgstr "Find and manage files."
+
+msgctxt "views.view.files:display:default:display_title"
+msgid "Default"
+msgstr "Default"
+
+msgctxt "views.view.files:display:default:display_options:title"
+msgid "Files"
+msgstr "Files"
+
+msgctxt "views.view.files:display:default:display_options:fields:fid:label"
+msgid "Fid"
+msgstr "Fid"
+
+msgctxt "views.view.files:display:default:display_options:fields:filename:label"
+msgid "Name"
+msgstr "Name"
+
+msgctxt "views.view.files:display:default:display_options:fields:filemime:label"
+msgid "MIME type"
+msgstr "MIME type"
+
+msgctxt "views.view.files:display:default:display_options:fields:filesize:label"
+msgid "Size"
+msgstr "Size"
+
+msgctxt "views.view.files:display:default:display_options:fields:status:label"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "views.view.files:display:default:display_options:fields:status:settings:format_custom_false"
+msgid "Temporary"
+msgstr "Temporary"
+
+msgctxt "views.view.files:display:default:display_options:fields:status:settings:format_custom_true"
+msgid "Permanent"
+msgstr "Permanent"
+
+msgctxt "views.view.files:display:default:display_options:fields:created:label"
+msgid "Upload date"
+msgstr "Upload date"
+
+msgctxt "views.view.files:display:default:display_options:fields:changed:label"
+msgid "Changed date"
+msgstr "Changed date"
+
+msgctxt "views.view.files:display:default:display_options:fields:count:label"
+msgid "Used in"
+msgstr "Used in"
+
+msgctxt "views.view.files:display:default:display_options:fields:count:alter:path"
+msgid "admin/content/files/usage/{{ fid }}"
+msgstr "admin/content/files/usage/{{ fid }}"
+
+msgctxt "views.view.files:display:default:display_options:fields:count:format_plural_string"
+msgid "1 place\003@count places"
+msgstr "1 place\003@count places"
+
+msgctxt "views.view.files:display:default:display_options:pager:options:tags:next"
+msgid "Next ›"
+msgstr "Next ›"
+
+msgctxt "views.view.files:display:default:display_options:pager:options:tags:previous"
+msgid "‹ Previous"
+msgstr "‹ Previous"
+
+msgctxt "views.view.files:display:default:display_options:pager:options:expose:items_per_page_label"
+msgid "Items per page"
+msgstr "Items per page"
+
+msgctxt "views.view.files:display:default:display_options:pager:options:expose:items_per_page_options_all_label"
+msgid "- All -"
+msgstr "- All -"
+
+msgctxt "views.view.files:display:default:display_options:pager:options:expose:offset_label"
+msgid "Offset"
+msgstr "Offset"
+
+msgctxt "views.view.files:display:default:display_options:exposed_form:options:submit_button"
+msgid "Filter"
+msgstr "Filter"
+
+msgctxt "views.view.files:display:default:display_options:exposed_form:options:reset_button_label"
+msgid "Reset"
+msgstr "Reset"
+
+msgctxt "views.view.files:display:default:display_options:exposed_form:options:exposed_sorts_label"
+msgid "Sort by"
+msgstr "Sort by"
+
+msgctxt "views.view.files:display:default:display_options:exposed_form:options:sort_asc_label"
+msgid "Asc"
+msgstr "Asc"
+
+msgctxt "views.view.files:display:default:display_options:exposed_form:options:sort_desc_label"
+msgid "Desc"
+msgstr "Desc"
+
+msgctxt "views.view.files:display:default:display_options:empty:area_text_custom:content"
+msgid "No files available."
+msgstr "No files available."
+
+msgctxt "views.view.files:display:default:display_options:filters:filename:expose:label"
+msgid "Filename"
+msgstr "Filename"
+
+msgctxt "views.view.files:display:default:display_options:filters:filemime:expose:label"
+msgid "MIME type"
+msgstr "MIME type"
+
+msgctxt "views.view.files:display:default:display_options:filters:status:expose:label"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "views.view.files:display:page_1:display_title"
+msgid "Files overview"
+msgstr "Files overview"
+
+msgctxt "views.view.files:display:page_1:display_options:menu:title"
+msgid "Files"
+msgstr "Files"
+
+msgctxt "views.view.files:display:page_2:display_title"
+msgid "File usage"
+msgstr "File usage"
+
+msgctxt "views.view.files:display:page_2:display_options:title"
+msgid "File usage"
+msgstr "File usage"
+
+msgctxt "views.view.files:display:page_2:display_options:fields:entity_label:label"
+msgid "Entity"
+msgstr "Entity"
+
+msgctxt "views.view.files:display:page_2:display_options:fields:type:label"
+msgid "Entity type"
+msgstr "Entity type"
+
+msgctxt "views.view.files:display:page_2:display_options:fields:module:label"
+msgid "Registering module"
+msgstr "Registering module"
+
+msgctxt "views.view.files:display:page_2:display_options:fields:count:label"
+msgid "Use count"
+msgstr "Use count"
+
+msgctxt "views.view.files:display:page_2:display_options:fields:count:format_plural_string"
+msgid "1\003@count"
+msgstr "1\003@count"
+
+msgctxt "views.view.files:display:page_2:display_options:pager:options:tags:next"
+msgid "Next ›"
+msgstr "Next ›"
+
+msgctxt "views.view.files:display:page_2:display_options:pager:options:tags:previous"
+msgid "‹ Previous"
+msgstr "‹ Previous"
+
+msgctxt "views.view.files:display:page_2:display_options:pager:options:expose:items_per_page_label"
+msgid "Items per page"
+msgstr "Items per page"
+
+msgctxt "views.view.files:display:page_2:display_options:pager:options:expose:items_per_page_options_all_label"
+msgid "- All -"
+msgstr "- All -"
+
+msgctxt "views.view.files:display:page_2:display_options:pager:options:expose:offset_label"
+msgid "Offset"
+msgstr "Offset"
+
+msgctxt "views.view.files:display:page_2:display_options:arguments:fid:exception:title"
+msgid "All"
+msgstr "All"
+
+msgctxt "views.view.files:display:page_2:display_options:arguments:fid:title"
+msgid "File usage information for {{ arguments.fid }}"
+msgstr "File usage information for {{ arguments.fid }}"
+
+msgctxt "views.view.media:label"
+msgid "Media"
+msgstr "Media"
+
+msgctxt "views.view.media:description"
+msgid "Find and manage media."
+msgstr "Find and manage media."
+
+msgctxt "views.view.media:display:default:display_title"
+msgid "Default"
+msgstr "Default"
+
+msgctxt "views.view.media:display:default:display_options:title"
+msgid "Media"
+msgstr "Media"
+
+msgctxt "views.view.media:display:default:display_options:fields:media_bulk_form:action_title"
+msgid "Action"
+msgstr "Action"
+
+msgctxt "views.view.media:display:default:display_options:fields:name:label"
+msgid "Media name"
+msgstr "Media name"
+
+msgctxt "views.view.media:display:default:display_options:fields:bundle:label"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "views.view.media:display:default:display_options:fields:uid:label"
+msgid "Author"
+msgstr "Author"
+
+msgctxt "views.view.media:display:default:display_options:fields:status:label"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "views.view.media:display:default:display_options:fields:status:settings:format_custom_false"
+msgid "Unpublished"
+msgstr "Unpublished"
+
+msgctxt "views.view.media:display:default:display_options:fields:status:settings:format_custom_true"
+msgid "Published"
+msgstr "Published"
+
+msgctxt "views.view.media:display:default:display_options:fields:changed:label"
+msgid "Updated"
+msgstr "Updated"
+
+msgctxt "views.view.media:display:default:display_options:fields:operations:label"
+msgid "Operations"
+msgstr "Operations"
+
+msgctxt "views.view.media:display:default:display_options:pager:options:tags:next"
+msgid "Next ›"
+msgstr "Next ›"
+
+msgctxt "views.view.media:display:default:display_options:pager:options:tags:previous"
+msgid "‹ Previous"
+msgstr "‹ Previous"
+
+msgctxt "views.view.media:display:default:display_options:pager:options:tags:first"
+msgid "« First"
+msgstr "« First"
+
+msgctxt "views.view.media:display:default:display_options:pager:options:tags:last"
+msgid "Last »"
+msgstr "Last »"
+
+msgctxt "views.view.media:display:default:display_options:pager:options:expose:items_per_page_label"
+msgid "Items per page"
+msgstr "Items per page"
+
+msgctxt "views.view.media:display:default:display_options:pager:options:expose:items_per_page_options_all_label"
+msgid "- All -"
+msgstr "- All -"
+
+msgctxt "views.view.media:display:default:display_options:pager:options:expose:offset_label"
+msgid "Offset"
+msgstr "Offset"
+
+msgctxt "views.view.media:display:default:display_options:exposed_form:options:submit_button"
+msgid "Filter"
+msgstr "Filter"
+
+msgctxt "views.view.media:display:default:display_options:exposed_form:options:reset_button_label"
+msgid "Reset"
+msgstr "Reset"
+
+msgctxt "views.view.media:display:default:display_options:exposed_form:options:exposed_sorts_label"
+msgid "Sort by"
+msgstr "Sort by"
+
+msgctxt "views.view.media:display:default:display_options:exposed_form:options:sort_asc_label"
+msgid "Asc"
+msgstr "Asc"
+
+msgctxt "views.view.media:display:default:display_options:exposed_form:options:sort_desc_label"
+msgid "Desc"
+msgstr "Desc"
+
+msgctxt "views.view.media:display:default:display_options:empty:area_text_custom:content"
+msgid "No media available."
+msgstr "No media available."
+
+msgctxt "views.view.media:display:default:display_options:filters:name:expose:label"
+msgid "Media name"
+msgstr "Media name"
+
+msgctxt "views.view.media:display:default:display_options:filters:bundle:expose:label"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "views.view.media:display:default:display_options:filters:status:expose:label"
+msgid "True"
+msgstr "True"
+
+msgctxt "views.view.media:display:default:display_options:filters:status:group_info:label"
+msgid "Published status"
+msgstr "Published status"
+
+msgctxt "views.view.media:display:default:display_options:filters:status:group_info:group_items:1:title"
+msgid "Published"
+msgstr "Published"
+
+msgctxt "views.view.media:display:default:display_options:filters:status:group_info:group_items:2:title"
+msgid "Unpublished"
+msgstr "Unpublished"
+
+msgctxt "views.view.media:display:default:display_options:filters:langcode:expose:label"
+msgid "Language"
+msgstr "Language"
+
+msgctxt "views.view.media:display:media_page_list:display_title"
+msgid "Media"
+msgstr "Media"
+
+msgctxt "views.view.media:display:media_page_list:display_options:menu:title"
+msgid "Media"
+msgstr "Media"
+
+msgctxt "views.view.media_library:label"
+msgid "Media library"
+msgstr "Media library"
+
+msgctxt "views.view.media_library:description"
+msgid "Find and manage media."
+msgstr "Find and manage media."
+
+msgctxt "views.view.media_library:display:default:display_title"
+msgid "Default"
+msgstr "Default"
+
+msgctxt "views.view.media_library:display:default:display_options:title"
+msgid "Media"
+msgstr "Media"
+
+msgctxt "views.view.media_library:display:default:display_options:fields:media_bulk_form:action_title"
+msgid "Action"
+msgstr "Action"
+
+msgctxt "views.view.media_library:display:default:display_options:pager:options:tags:first"
+msgid "« First"
+msgstr "« First"
+
+msgctxt "views.view.media_library:display:default:display_options:pager:options:tags:last"
+msgid "Last »"
+msgstr "Last »"
+
+msgctxt "views.view.media_library:display:default:display_options:pager:options:expose:items_per_page_label"
+msgid "Items per page"
+msgstr "Items per page"
+
+msgctxt "views.view.media_library:display:default:display_options:pager:options:expose:items_per_page_options_all_label"
+msgid "- All -"
+msgstr "- All -"
+
+msgctxt "views.view.media_library:display:default:display_options:pager:options:expose:offset_label"
+msgid "Offset"
+msgstr "Offset"
+
+msgctxt "views.view.media_library:display:default:display_options:exposed_form:options:submit_button"
+msgid "Apply filters"
+msgstr "Apply filters"
+
+msgctxt "views.view.media_library:display:default:display_options:exposed_form:options:reset_button_label"
+msgid "Reset"
+msgstr "Reset"
+
+msgctxt "views.view.media_library:display:default:display_options:exposed_form:options:exposed_sorts_label"
+msgid "Sort by"
+msgstr "Sort by"
+
+msgctxt "views.view.media_library:display:default:display_options:exposed_form:options:sort_asc_label"
+msgid "Asc"
+msgstr "Asc"
+
+msgctxt "views.view.media_library:display:default:display_options:exposed_form:options:sort_desc_label"
+msgid "Desc"
+msgstr "Desc"
+
+msgctxt "views.view.media_library:display:default:display_options:empty:area_text_custom:content"
+msgid "No media available."
+msgstr "No media available."
+
+msgctxt "views.view.media_library:display:default:display_options:sorts:created:expose:label"
+msgid "Newest first"
+msgstr "Newest first"
+
+msgctxt "views.view.media_library:display:default:display_options:sorts:name:expose:label"
+msgid "Name (A-Z)"
+msgstr "Name (A-Z)"
+
+msgctxt "views.view.media_library:display:default:display_options:sorts:name_1:expose:label"
+msgid "Name (Z-A)"
+msgstr "Name (Z-A)"
+
+msgctxt "views.view.media_library:display:default:display_options:filters:combine:expose:label"
+msgid "Search"
+msgstr "Search"
+
+msgctxt "views.view.media_library:display:default:display_options:filters:bundle:expose:label"
+msgid "Media type"
+msgstr "Media type"
+
+msgctxt "views.view.media_library:display:default:display_options:filters:bundle:group_info:label"
+msgid "Media type"
+msgstr "Media type"
+
+msgctxt "views.view.media_library:display:page:display_title"
+msgid "Page"
+msgstr "Page"
+
+msgctxt "views.view.media_library:display:page:display_options:fields:media_bulk_form:action_title"
+msgid "Action"
+msgstr "Action"
+
+msgctxt "views.view.media_library:display:page:display_options:fields:edit_media:alter:text"
+msgid "Edit {{ name }}"
+msgstr "Edit {{ name }}"
+
+msgctxt "views.view.media_library:display:page:display_options:fields:edit_media:alter:alt"
+msgid "Edit {{ name }}"
+msgstr "Edit {{ name }}"
+
+msgctxt "views.view.media_library:display:page:display_options:fields:edit_media:text"
+msgid "Edit"
+msgstr "Edit"
+
+msgctxt "views.view.media_library:display:page:display_options:fields:delete_media:alter:text"
+msgid "Delete {{ name }}"
+msgstr "Delete {{ name }}"
+
+msgctxt "views.view.media_library:display:page:display_options:fields:delete_media:alter:alt"
+msgid "Delete {{ name }}"
+msgstr "Delete {{ name }}"
+
+msgctxt "views.view.media_library:display:page:display_options:fields:delete_media:text"
+msgid "Delete"
+msgstr "Delete"
+
+msgctxt "views.view.media_library:display:widget:display_title"
+msgid "Widget"
+msgstr "Widget"
+
+msgctxt "views.view.media_library:display:widget:display_options:arguments:bundle:exception:title"
+msgid "All"
+msgstr "All"
+
+msgctxt "views.view.media_library:display:widget:display_options:header:display_link_grid:label"
+msgid "Grid"
+msgstr "Grid"
+
+msgctxt "views.view.media_library:display:widget:display_options:header:display_link_table:label"
+msgid "Table"
+msgstr "Table"
+
+msgctxt "views.view.media_library:display:widget_table:display_title"
+msgid "Widget (table)"
+msgstr "Widget (table)"
+
+msgctxt "views.view.media_library:display:widget_table:display_options:fields:thumbnail__target_id:label"
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+msgctxt "views.view.media_library:display:widget_table:display_options:fields:name:label"
+msgid "Name"
+msgstr "Name"
+
+msgctxt "views.view.media_library:display:widget_table:display_options:fields:uid:label"
+msgid "Author"
+msgstr "Author"
+
+msgctxt "views.view.media_library:display:widget_table:display_options:fields:changed:label"
+msgid "Updated"
+msgstr "Updated"
+
+msgctxt "views.view.media_library:display:widget_table:display_options:arguments:bundle:exception:title"
+msgid "All"
+msgstr "All"
+
+msgctxt "views.view.media_library:display:widget_table:display_options:header:display_link_grid:label"
+msgid "Grid"
+msgstr "Grid"
+
+msgctxt "views.view.media_library:display:widget_table:display_options:header:display_link_table:label"
+msgid "Table"
+msgstr "Table"
+
+msgctxt "views.view.scheduler_scheduled_content:label"
+msgid "Scheduled Content"
+msgstr "Scheduled Content"
+
+msgctxt "views.view.scheduler_scheduled_content:description"
+msgid "Find and manage scheduled content."
+msgstr "Find and manage scheduled content."
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_title"
+msgid "Master"
+msgstr "Master"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:title"
+msgid "Scheduled Content"
+msgstr "Scheduled Content"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:fields:node_bulk_form:action_title"
+msgid "Action"
+msgstr "Action"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:fields:title:label"
+msgid "Title"
+msgstr "Title"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:fields:type:label"
+msgid "Content Type"
+msgstr "Content Type"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:fields:name:label"
+msgid "Author"
+msgstr "Author"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:fields:status:label"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:fields:status:settings:format_custom_false"
+msgid "Unpublished"
+msgstr "Unpublished"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:fields:status:settings:format_custom_true"
+msgid "Published"
+msgstr "Published"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:fields:publish_on:label"
+msgid "Publish on"
+msgstr "Publish on"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:fields:unpublish_on:label"
+msgid "Unpublish on"
+msgstr "Unpublish on"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:fields:operations:label"
+msgid "Operations"
+msgstr "Operations"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:pager:options:tags:next"
+msgid "next ›"
+msgstr "next ›"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:pager:options:tags:previous"
+msgid "‹ previous"
+msgstr "‹ previous"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:pager:options:tags:first"
+msgid "« first"
+msgstr "« first"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:pager:options:tags:last"
+msgid "last »"
+msgstr "last »"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:exposed_form:options:submit_button"
+msgid "Filter"
+msgstr "Filter"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:exposed_form:options:reset_button_label"
+msgid "Reset"
+msgstr "Reset"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:exposed_form:options:exposed_sorts_label"
+msgid "Sort by"
+msgstr "Sort by"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:exposed_form:options:sort_asc_label"
+msgid "Asc"
+msgstr "Asc"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:exposed_form:options:sort_desc_label"
+msgid "Desc"
+msgstr "Desc"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:empty:area_text_custom:content"
+msgid "No scheduled content."
+msgstr "No scheduled content."
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:filters:title:expose:label"
+msgid "Title"
+msgstr "Title"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:filters:type:expose:label"
+msgid "Content type"
+msgstr "Content type"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:filters:status:expose:label"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:filters:status:group_info:label"
+msgid "Published status"
+msgstr "Published status"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:filters:status:group_info:group_items:1:title"
+msgid "Published"
+msgstr "Published"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:filters:status:group_info:group_items:2:title"
+msgid "Unpublished"
+msgstr "Unpublished"
+
+msgctxt "views.view.scheduler_scheduled_content:display:default:display_options:filters:langcode:expose:label"
+msgid "Language"
+msgstr "Language"
+
+msgctxt "views.view.scheduler_scheduled_content:display:overview:display_title"
+msgid "Content Overview"
+msgstr "Content Overview"
+
+msgctxt "views.view.scheduler_scheduled_content:display:overview:display_options:display_description"
+msgid ""
+"Overview of all scheduled content, as a tab on main 'content admin' "
+"page"
+msgstr ""
+"Overview of all scheduled content, as a tab on main 'content admin' "
+"page"
+
+msgctxt "views.view.scheduler_scheduled_content:display:overview:display_options:display_comment"
+msgid ""
+"Revision nid relationship is required because the content type is only "
+"stored at 'content' level, not 'content revision' level."
+msgstr ""
+"Revision nid relationship is required because the content type is only "
+"stored at 'content' level, not 'content revision' level."
+
+msgctxt "views.view.scheduler_scheduled_content:display:overview:display_options:menu:title"
+msgid "Scheduled Content"
+msgstr "Scheduled Content"
+
+msgctxt "views.view.scheduler_scheduled_content:display:overview:display_options:menu:description"
+msgid "Content that is scheduled for publishing or unpublishing"
+msgstr "Content that is scheduled for publishing or unpublishing"
+
+msgctxt "views.view.scheduler_scheduled_content:display:overview:display_options:tab_options:title"
+msgid "Content"
+msgstr "Content"
+
+msgctxt "views.view.scheduler_scheduled_content:display:overview:display_options:tab_options:description"
+msgid "Find and manage scheduled content"
+msgstr "Find and manage scheduled content"
+
+msgctxt "views.view.scheduler_scheduled_content:display:user_page:display_title"
+msgid "User"
+msgstr "User"
+
+msgctxt "views.view.scheduler_scheduled_content:display:user_page:display_options:empty:area_text_custom:content"
+msgid "No scheduled content for user {{ arguments.uid }}"
+msgstr "No scheduled content for user {{ arguments.uid }}"
+
+msgctxt "views.view.scheduler_scheduled_content:display:user_page:display_options:arguments:uid:exception:title"
+msgid "All"
+msgstr "All"
+
+msgctxt "views.view.scheduler_scheduled_content:display:user_page:display_options:display_description"
+msgid ""
+"Scheduled content tab on user profile, showing just that user's "
+"scheduled content"
+msgstr ""
+"Scheduled content tab on user profile, showing just that user's "
+"scheduled content"
+
+msgctxt "views.view.scheduler_scheduled_content:display:user_page:display_options:display_comment"
+msgid ""
+"Access to the user view is controlled via a custom RouteSubscriber. "
+"The high-level \"view published content\" permission is added to "
+"satisfy the security_review module"
+msgstr ""
+"Access to the user view is controlled via a custom RouteSubscriber. "
+"The high-level \"view published content\" permission is added to "
+"satisfy the security_review module"
+
+msgctxt "views.view.scheduler_scheduled_content:display:user_page:display_options:menu:title"
+msgid "Scheduled"
+msgstr "Scheduled"
+
+msgctxt "views.view.scheduler_scheduled_content:display:user_page:display_options:tab_options:title"
+msgid "Content"
+msgstr "Content"
+
+msgctxt "views.view.scheduler_scheduled_content:display:user_page:display_options:tab_options:description"
+msgid "Find and manage scheduled content"
+msgstr "Find and manage scheduled content"
+
+msgctxt "views.view.taxonomy_term:label"
+msgid "Taxonomy term"
+msgstr "Taxonomy term"
+
+msgctxt "views.view.taxonomy_term:description"
+msgid "Content belonging to a certain taxonomy term."
+msgstr "Content belonging to a certain taxonomy term."
+
+msgctxt "views.view.taxonomy_term:display:default:display_title"
+msgid "Default"
+msgstr "Default"
+
+msgctxt "views.view.taxonomy_term:display:default:display_options:pager:options:expose:items_per_page_label"
+msgid "Items per page"
+msgstr "Items per page"
+
+msgctxt "views.view.taxonomy_term:display:default:display_options:pager:options:expose:items_per_page_options_all_label"
+msgid "- All -"
+msgstr "- All -"
+
+msgctxt "views.view.taxonomy_term:display:default:display_options:pager:options:expose:offset_label"
+msgid "Offset"
+msgstr "Offset"
+
+msgctxt "views.view.taxonomy_term:display:default:display_options:exposed_form:options:submit_button"
+msgid "Apply"
+msgstr "Apply"
+
+msgctxt "views.view.taxonomy_term:display:default:display_options:exposed_form:options:reset_button_label"
+msgid "Reset"
+msgstr "Reset"
+
+msgctxt "views.view.taxonomy_term:display:default:display_options:exposed_form:options:exposed_sorts_label"
+msgid "Sort by"
+msgstr "Sort by"
+
+msgctxt "views.view.taxonomy_term:display:default:display_options:exposed_form:options:sort_asc_label"
+msgid "Asc"
+msgstr "Asc"
+
+msgctxt "views.view.taxonomy_term:display:default:display_options:exposed_form:options:sort_desc_label"
+msgid "Desc"
+msgstr "Desc"
+
+msgctxt "views.view.taxonomy_term:display:default:display_options:arguments:tid:exception:title"
+msgid "All"
+msgstr "All"
+
+msgctxt "views.view.taxonomy_term:display:default:display_options:arguments:tid:title"
+msgid "{{ arguments.tid }}"
+msgstr "{{ arguments.tid }}"
+
+msgctxt "views.view.taxonomy_term:display:feed_1:display_title"
+msgid "Feed"
+msgstr "Feed"
+
+msgctxt "views.view.taxonomy_term:display:page_1:display_title"
+msgid "Page"
+msgstr "Page"
+
+msgctxt "views.view.user_admin_people:label"
+msgid "People"
+msgstr "People"
+
+msgctxt "views.view.user_admin_people:description"
+msgid "Find and manage people interacting with your site."
+msgstr "Find and manage people interacting with your site."
+
+msgctxt "views.view.user_admin_people:display:default:display_title"
+msgid "Default"
+msgstr "Default"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:title"
+msgid "People"
+msgstr "People"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:fields:user_bulk_form:label"
+msgid "Bulk update"
+msgstr "Bulk update"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:fields:name:label"
+msgid "Username"
+msgstr "Username"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:fields:status:label"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:fields:status:settings:format_custom_false"
+msgid "Blocked"
+msgstr "Blocked"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:fields:status:settings:format_custom_true"
+msgid "Active"
+msgstr "Active"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:fields:roles_target_id:label"
+msgid "Roles"
+msgstr "Roles"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:fields:created:label"
+msgid "Member for"
+msgstr "Member for"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:fields:created:settings:future_format"
+msgid "@interval"
+msgstr "@interval"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:fields:created:settings:past_format"
+msgid "@interval"
+msgstr "@interval"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:fields:access:label"
+msgid "Last access"
+msgstr "Last access"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:fields:access:settings:future_format"
+msgid "@interval hence"
+msgstr "@interval hence"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:fields:access:settings:past_format"
+msgid "@interval ago"
+msgstr "@interval ago"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:fields:operations:label"
+msgid "Operations"
+msgstr "Operations"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:pager:options:tags:next"
+msgid "Next ›"
+msgstr "Next ›"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:pager:options:tags:previous"
+msgid "‹ Previous"
+msgstr "‹ Previous"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:pager:options:tags:first"
+msgid "« First"
+msgstr "« First"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:pager:options:tags:last"
+msgid "Last »"
+msgstr "Last »"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:pager:options:expose:items_per_page_label"
+msgid "Items per page"
+msgstr "Items per page"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:pager:options:expose:items_per_page_options_all_label"
+msgid "- All -"
+msgstr "- All -"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:pager:options:expose:offset_label"
+msgid "Offset"
+msgstr "Offset"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:exposed_form:options:submit_button"
+msgid "Filter"
+msgstr "Filter"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:exposed_form:options:reset_button_label"
+msgid "Reset"
+msgstr "Reset"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:exposed_form:options:exposed_sorts_label"
+msgid "Sort by"
+msgstr "Sort by"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:exposed_form:options:sort_asc_label"
+msgid "Asc"
+msgstr "Asc"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:exposed_form:options:sort_desc_label"
+msgid "Desc"
+msgstr "Desc"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:empty:area_text_custom:content"
+msgid "No people available."
+msgstr "No people available."
+
+msgctxt "views.view.user_admin_people:display:default:display_options:filters:combine:expose:label"
+msgid "Name or email contains"
+msgstr "Name or email contains"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:filters:status:group_info:label"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:filters:status:group_info:group_items:1:title"
+msgid "Active"
+msgstr "Active"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:filters:status:group_info:group_items:2:title"
+msgid "Blocked"
+msgstr "Blocked"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:filters:roles_target_id:expose:label"
+msgid "Role"
+msgstr "Role"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:filters:permission:expose:label"
+msgid "Permission"
+msgstr "Permission"
+
+msgctxt "views.view.user_admin_people:display:default:display_options:use_more_text"
+msgid "more"
+msgstr "more"
+
+msgctxt "views.view.user_admin_people:display:page_1:display_title"
+msgid "Page"
+msgstr "Page"
+
+msgctxt "views.view.user_admin_people:display:page_1:display_options:menu:title"
+msgid "List"
+msgstr "List"
+
+msgctxt "views.view.user_admin_people:display:page_1:display_options:menu:description"
+msgid "Find and manage people interacting with your site."
+msgstr "Find and manage people interacting with your site."
+
+msgctxt "views.view.user_admin_people:display:page_1:display_options:tab_options:title"
+msgid "People"
+msgstr "People"
+
+msgctxt "views.view.user_admin_people:display:page_1:display_options:tab_options:description"
+msgid "Manage user accounts, roles, and permissions."
+msgstr "Manage user accounts, roles, and permissions."
+
+msgctxt "views.view.watchdog:label"
+msgid "Watchdog"
+msgstr "Watchdog"
+
+msgctxt "views.view.watchdog:description"
+msgid "Recent log messages"
+msgstr "Recent log messages"
+
+msgctxt "views.view.watchdog:display:default:display_title"
+msgid "Default"
+msgstr "Default"
+
+msgctxt "views.view.watchdog:display:default:display_options:title"
+msgid "Recent log messages"
+msgstr "Recent log messages"
+
+msgctxt "views.view.watchdog:display:default:display_options:fields:nothing:admin_label"
+msgid "Icon"
+msgstr "Icon"
+
+msgctxt "views.view.watchdog:display:default:display_options:fields:wid:label"
+msgid "WID"
+msgstr "WID"
+
+msgctxt "views.view.watchdog:display:default:display_options:fields:severity:label"
+msgid "Severity"
+msgstr "Severity"
+
+msgctxt "views.view.watchdog:display:default:display_options:fields:type:label"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "views.view.watchdog:display:default:display_options:fields:timestamp:label"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "views.view.watchdog:display:default:display_options:fields:message:label"
+msgid "Message"
+msgstr "Message"
+
+msgctxt "views.view.watchdog:display:default:display_options:fields:message:alter:path"
+msgid "admin/reports/dblog/event/{{ wid }}"
+msgstr "admin/reports/dblog/event/{{ wid }}"
+
+msgctxt "views.view.watchdog:display:default:display_options:fields:message:alter:alt"
+msgid "{{ message }}"
+msgstr "{{ message }}"
+
+msgctxt "views.view.watchdog:display:default:display_options:fields:name:label"
+msgid "User"
+msgstr "User"
+
+msgctxt "views.view.watchdog:display:default:display_options:fields:link:label"
+msgid "Operations"
+msgstr "Operations"
+
+msgctxt "views.view.watchdog:display:default:display_options:pager:options:expose:items_per_page_label"
+msgid "Items per page"
+msgstr "Items per page"
+
+msgctxt "views.view.watchdog:display:default:display_options:pager:options:expose:items_per_page_options_all_label"
+msgid "- All -"
+msgstr "- All -"
+
+msgctxt "views.view.watchdog:display:default:display_options:pager:options:expose:offset_label"
+msgid "Offset"
+msgstr "Offset"
+
+msgctxt "views.view.watchdog:display:default:display_options:exposed_form:options:submit_button"
+msgid "Filter"
+msgstr "Filter"
+
+msgctxt "views.view.watchdog:display:default:display_options:exposed_form:options:reset_button_label"
+msgid "Reset"
+msgstr "Reset"
+
+msgctxt "views.view.watchdog:display:default:display_options:exposed_form:options:exposed_sorts_label"
+msgid "Sort by"
+msgstr "Sort by"
+
+msgctxt "views.view.watchdog:display:default:display_options:exposed_form:options:sort_asc_label"
+msgid "Asc"
+msgstr "Asc"
+
+msgctxt "views.view.watchdog:display:default:display_options:exposed_form:options:sort_desc_label"
+msgid "Desc"
+msgstr "Desc"
+
+msgctxt "views.view.watchdog:display:default:display_options:empty:area:admin_label"
+msgid "No log messages available."
+msgstr "No log messages available."
+
+msgctxt "views.view.watchdog:display:default:display_options:empty:area:content"
+msgid "No log messages available."
+msgstr "No log messages available."
+
+msgctxt "views.view.watchdog:display:default:display_options:filters:type:expose:label"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "views.view.watchdog:display:default:display_options:filters:severity:expose:label"
+msgid "Severity"
+msgstr "Severity"
+
+msgctxt "views.view.watchdog:display:page:display_title"
+msgid "Page"
+msgstr "Page"
+
