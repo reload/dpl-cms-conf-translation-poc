@@ -1,30 +1,1367 @@
+# Danish translation of DPL CMS
+#
 msgid ""
 msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2024-02-28 20:41+0100\n"
+"PO-Revision-Date: 2024-02-28 20:41+0100\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
-"Project-Id-Version: dpl-cms-conf-poc\n"
-"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: 
 msgid "React DDB Library"
-msgstr "React DPL Library"
+msgstr ""
 
-#: 
 msgid "Library is present"
-msgstr "Library er "
+msgstr ""
 
-#: 
 msgid "DDB React library is missing (@dir)"
-msgstr "DPL React library mangler (@dir) "
+msgstr ""
 
-#: 
-msgid "Mikkel is testing a new string"
-msgstr "John"
+msgid "Configuration file"
+msgstr ""
 
-#: 
-msgctxt "node.type.campaign:description"
-msgid "Campaign to be shown among search results depending on matching facets and terms"
+msgctxt "DPL Config Import"
+msgid "Select a configuration file in YAML format to upload."
+msgstr ""
+
+msgid "Upload"
+msgstr "Upload"
+
+msgctxt "DPL Config Import"
+msgid "Unable to handle the uploaded file"
+msgstr ""
+
+msgctxt "DPL Config Import"
+msgid "Unable to parse YAML file: %reason"
+msgstr ""
+
+msgctxt "DPL Config Import"
+msgid "Installed modules: %modules_list"
+msgstr ""
+
+msgctxt "DPL Config Import"
+msgid "Failed to install modules: @reason"
+msgstr ""
+
+msgctxt "DPL Config Import"
+msgid "Uninstalled modules: %modules_list"
+msgstr ""
+
+msgctxt "DPL Config Import"
+msgid "Failed to uninstall modules: @reason"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "+ more filters"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Clear all"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Access types"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Close facet browser modal"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Modal for facet browser"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Can always be loaned"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Children or adults"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Creators"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Dk5"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Fiction or non-fiction"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Fictional characters"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Genre and form"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Main languages"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Material types"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Material types general"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Material types specific"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Subjects"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Work types"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Year"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Filter list"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "results"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Show results"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Showing results for \"@query\""
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Showing"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "source"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "add row"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "all indexes"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "audience"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "copy string"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "creator"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "edition"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "date"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "dk5"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "edit cql"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "accessibility"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "All"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "article"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "audio book"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "book"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "ebook"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "fiction"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "literature form"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "material type"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "movie"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "music"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "Non-fiction"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "online"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "physical"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "genre"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "identifier"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "search term"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "language"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "link to this search"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "main creator"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "main title"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "-"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "CQL search string"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "publisher"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "reset"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "search"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "subject"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "advanced search"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "type"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "and"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "not"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "or"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "Link copied to clipboard"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "Copied"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "CQL search"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "Loading results..."
+msgstr ""
+
+msgctxt "advanced search"
+msgid "showing materials"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "Back to advanced search"
+msgstr ""
+
+msgctxt "Po POC"
+msgid "Mikkel is testing normal po translation"
+msgstr ""
+
+msgctxt "Global (Aria)"
+msgid "Close blocked patron modal"
+msgstr ""
+
+msgctxt "Global"
+msgid "Blocked patron body text (d)"
+msgstr ""
+
+msgctxt "Global"
+msgid "Blocked patron title text (d)"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"You are therefore not able to borrow or reserve materials from the "
+"library"
+msgstr ""
+
+msgctxt "Global"
+msgid "Pay your fees here"
+msgstr ""
+
+msgctxt "Global"
+msgid "You have exceeded your fee limit"
+msgstr ""
+
+msgctxt "Global"
+msgid "Blocked patron body text (f)"
+msgstr ""
+
+msgctxt "Global"
+msgid "Blocked patron title text (f)"
+msgstr ""
+
+msgctxt "Global (Aria)"
+msgid "This modal alerts you, that your patron has been blocked"
+msgstr ""
+
+msgctxt "Global"
+msgid "Blocked patron body text (o)"
+msgstr ""
+
+msgctxt "Global"
+msgid "Blocked reason modal title (o)"
+msgstr ""
+
+msgctxt "Global"
+msgid "Blocked patron body text (s)"
+msgstr ""
+
+msgctxt "Global"
+msgid "Blocked patron title text (s)"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"You therefore cannot reserve, borrow or renew loans. Please contact "
+"the library for further information (u)"
+msgstr ""
+
+msgctxt "Global"
+msgid "Your user is blocked (u)"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"You therefore cannot reserve, borrow or renew loans. Please contact "
+"the library for further information (w)"
+msgstr ""
+
+msgctxt "Global"
+msgid "Your user is blocked (w)"
+msgstr ""
+
+msgctxt "Global"
+msgid "Yes, renew"
+msgstr ""
+
+msgctxt "Global"
+msgid "Are you sure you want to renew?"
+msgstr ""
+
+msgctxt "Global"
+msgid "accept modal aria description text"
+msgstr ""
+
+msgctxt "Global"
+msgid "accept modal aria label text"
+msgstr ""
+
+msgctxt "Global"
+msgid "If you renew your fee will be raised"
+msgstr ""
+
+msgctxt "Global"
+msgid "Cancel renewal"
+msgstr ""
+
+msgctxt "Global"
+msgid "Your fee is raised"
+msgstr ""
+
+msgctxt "Global"
+msgid "add @title to favorites list"
+msgstr ""
+
+msgctxt "React apps (Global error handling)"
+msgid "Close"
+msgstr ""
+
+msgctxt "React apps (Global error handling)"
+msgid "An error occurred"
+msgstr ""
+
+msgctxt "Global"
+msgid "Animated series"
+msgstr ""
+
+msgctxt "Global"
+msgid "Audio books"
+msgstr ""
+
+msgctxt "Global"
+msgid "Books"
+msgstr ""
+
+msgctxt "Global"
+msgid "E-books"
+msgstr ""
+
+msgctxt "Global"
+msgid "Movies"
+msgstr ""
+
+msgctxt "Global"
+msgid "Games"
+msgstr ""
+
+msgctxt "Global"
+msgid "Music"
+msgstr ""
+
+msgctxt "Global"
+msgid "Available"
+msgstr ""
+
+msgctxt "Global"
+msgid "Unavailable"
+msgstr ""
+
+msgctxt "Global"
+msgid "by"
+msgstr ""
+
+msgctxt "Global"
+msgid "Change interest period"
+msgstr ""
+
+msgctxt "Global"
+msgid "Change pickup location"
+msgstr ""
+
+msgctxt "Global"
+msgid "Choose one"
+msgstr ""
+
+msgctxt "Global"
+msgid "Close change email modal"
+msgstr ""
+
+msgctxt "Global"
+msgid "Close interest period modal"
+msgstr ""
+
+msgctxt "Global"
+msgid "Close pickup location modal"
+msgstr ""
+
+msgctxt "Global"
+msgid "Close modal aria-label sms"
+msgstr ""
+
+msgctxt "Global"
+msgid "Number @count in line"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"This button opens a modal that covers the entire page and contains the "
+"possibility to delete a selected reservation, or multiple selected "
+"reservations"
+msgstr ""
+
+msgctxt "Global"
+msgid "Cancel"
+msgstr ""
+
+msgctxt "Global"
+msgid "Close delete reservation modal"
+msgstr ""
+
+msgctxt "Global"
+msgid "Cancel reservation"
+msgstr ""
+
+msgctxt "Global"
+msgid "Processing..."
+msgstr ""
+
+msgctxt "Global"
+msgid "Do you want to cancel your reservation?"
+msgstr ""
+
+msgctxt "Global"
+msgid "Something went wrong deleting your reservation. Please try again."
+msgstr ""
+
+msgctxt "Global"
+msgid "Deleting your reservation failed"
+msgstr ""
+
+msgctxt "Global"
+msgid "One reservation was deleted"
+msgstr ""
+
+msgctxt "Global"
+msgid "@count reservations were deleted"
+msgstr ""
+
+msgctxt "Global"
+msgid "Reservation deleted"
+msgstr ""
+
+msgctxt "Global"
+msgid "Reservations deleted"
+msgstr ""
+
+msgctxt "Global"
+msgid "Cancel reservations"
+msgstr ""
+
+msgctxt "Global"
+msgid "You cannot regret this action"
+msgstr ""
+
+msgctxt "Global"
+msgid "Digital reservations"
+msgstr ""
+
+msgctxt "Global"
+msgid "et al."
+msgstr ""
+
+msgctxt "Global"
+msgid "Find on shelf expand button explanation"
+msgstr ""
+
+msgctxt "Global"
+msgid "Find @work on shelf in the @branch branch"
+msgstr ""
+
+msgctxt "Global"
+msgid "Renewable (@count)"
+msgstr ""
+
+msgctxt "Global"
+msgid "Choose all"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"This modal groups loans after due date and makes it possible to renew "
+"said loans"
+msgstr ""
+
+msgctxt "Global"
+msgid "Due date @date"
+msgstr ""
+
+msgctxt "Global"
+msgid "Read more about fees"
+msgstr ""
+
+msgctxt "Global"
+msgid "Expires @date"
+msgstr ""
+
+msgctxt "Global"
+msgid "Close renew loans modal"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"The due date of return is exceeded, therefore you will be charged a "
+"fee, when the item is returned"
+msgstr ""
+
+msgctxt "Global"
+msgid "Go to material details"
+msgstr ""
+
+msgctxt "Global"
+msgid "Select @label for renewal"
+msgstr ""
+
+msgctxt "Global"
+msgid "This modal makes it possible to renew materials"
+msgstr ""
+
+msgctxt "Global"
+msgid "Close modal with grouped loans"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"The item has been lent to you by another library and renewal is "
+"therefore conditional of the acceptance by that library"
+msgstr ""
+
+msgctxt "Global"
+msgid "The item cannot be renewed further"
+msgstr ""
+
+msgctxt "Global"
+msgid "The item is reserved by another patron"
+msgstr ""
+
+msgctxt "Global"
+msgid "Can be returned to all branches of the municipalities libraries"
+msgstr ""
+
+msgctxt "Global"
+msgid "Go to @label material details"
+msgstr ""
+
+msgctxt "Global"
+msgid "Close modal with grouped reservations"
+msgstr ""
+
+msgctxt "Global"
+msgid "This modal makes it possible to delete reservations"
+msgstr ""
+
+msgctxt "Global"
+msgid "Advanced search"
+msgstr ""
+
+msgctxt "Global"
+msgid "in series"
+msgstr ""
+
+msgctxt "Global"
+msgid "in"
+msgstr ""
+
+msgctxt "Global"
+msgid "Start typing in order to search"
+msgstr ""
+
+msgctxt "Global"
+msgid "Loading"
+msgstr ""
+
+msgctxt "Global"
+msgid "loading"
+msgstr ""
+
+msgctxt "Loan list"
+msgid "+ 1 other material"
+msgstr ""
+
+msgctxt "Loan list"
+msgid "+ @count other materials"
+msgstr ""
+
+msgctxt "Global"
+msgid "Longer return time"
+msgstr ""
+
+msgctxt "Global"
+msgid "Returned too late"
+msgstr ""
+
+msgctxt "Global"
+msgid "To be returned soon"
+msgstr ""
+
+msgctxt "Global"
+msgid "and"
+msgstr ""
+
+msgctxt "Global"
+msgid "By"
+msgstr ""
+
+msgctxt "Global"
+msgid "Close material details modal"
+msgstr ""
+
+msgctxt "Global"
+msgid "Expires"
+msgstr ""
+
+msgctxt "Global"
+msgid "Go to eReolen"
+msgstr ""
+
+msgctxt "Global"
+msgid "Loan date"
+msgstr ""
+
+msgctxt "Global"
+msgid "Material Item Number"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"This modal shows material details, and makes it possible to renew a "
+"material, of that material is renewable"
+msgstr ""
+
+msgctxt "Global"
+msgid "Expired"
+msgstr ""
+
+msgctxt "Global"
+msgid "Afleveres"
+msgstr ""
+
+msgctxt "Global"
+msgid "Renew your loans"
+msgstr ""
+
+msgctxt "Global"
+msgid "Set date for when your interest for the material will expire."
+msgstr ""
+
+msgctxt "Global"
+msgid "Change interest deadline"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"Change the amount of time after which you're no longer interested in "
+"this material."
+msgstr ""
+
+msgctxt "Global"
+msgid "Choose pickup library"
+msgstr ""
+
+msgctxt "Global"
+msgid "Decide at which library you want to pickup the material."
+msgstr ""
+
+msgctxt "Global"
+msgid "Change pickup location for your reservation."
+msgstr ""
+
+msgctxt "Global"
+msgid "Multiselect - all option"
+msgstr ""
+
+msgctxt "Global"
+msgid "Your search has 0 results"
+msgstr ""
+
+msgctxt "Global"
+msgid "nr."
+msgstr ""
+
+msgctxt "Global"
+msgid "1 month"
+msgstr ""
+
+msgctxt "Global"
+msgid "1 year"
+msgstr ""
+
+msgctxt "Global"
+msgid "out of"
+msgstr ""
+
+msgctxt "Global"
+msgid "Receive emails about your loans, reservations, and so forth"
+msgstr ""
+
+msgctxt "Global"
+msgid "E-mail"
+msgstr ""
+
+msgctxt "Global"
+msgid "patron page contact info body text"
+msgstr ""
+
+msgctxt "Global"
+msgid "CONTACT INFORMATION"
+msgstr ""
+
+msgctxt "Global"
+msgid "Receive text messages about your loans, reservations, and so forth"
+msgstr ""
+
+msgctxt "Global"
+msgid "Phone number"
+msgstr ""
+
+msgctxt "Global"
+msgid "Change current pin by entering a new pin and saving"
+msgstr ""
+
+msgctxt "Global"
+msgid "PINCODE"
+msgstr ""
+
+msgctxt "Global"
+msgid "Confirm new pin"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"The phone number must be 6 to 15 characters in length and should be "
+"comprised solely of numbers or begin with a +"
+msgstr ""
+
+msgctxt "Global"
+msgid "This modal makes it possible to pause your physical reservations"
+msgstr ""
+
+msgctxt "Global"
+msgid "Pause reservation below inputs text"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"Pause your reservations early, since reservations that are already "
+"being processed, will not be paused."
+msgstr ""
+
+msgctxt "Global"
+msgid "Cancel pause"
+msgstr ""
+
+msgctxt "Global"
+msgid "Close pause reservations modal"
+msgstr ""
+
+msgctxt "Global"
+msgid "Pause period"
+msgstr ""
+
+msgctxt "Global"
+msgid "Choose pause period"
+msgstr ""
+
+msgctxt "Global"
+msgid "Pause reservations on physical items"
+msgstr ""
+
+msgctxt "Global"
+msgid "Read more"
+msgstr ""
+
+msgctxt "Global"
+msgid "Save"
+msgstr ""
+
+msgctxt "Global"
+msgid "Physical reservations"
+msgstr ""
+
+msgctxt "Global"
+msgid "Pick up before @date"
+msgstr ""
+
+msgctxt "Global"
+msgid "Choose pickup branch"
+msgstr ""
+
+msgctxt "Global"
+msgid "Nothing selected"
+msgstr ""
+
+msgctxt "Global"
+msgid "New pin"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"The pincode should be minimum @pincodeLengthMin and maximum "
+"@pincodeLengthMax characters long"
+msgstr ""
+
+msgctxt "Global"
+msgid "The pincodes are not the same"
+msgstr ""
+
+msgctxt "Global"
+msgid "Audiobook"
+msgstr ""
+
+msgctxt "Global"
+msgid "E-book"
+msgstr ""
+
+msgctxt "Global"
+msgid "Podcast"
+msgstr ""
+
+msgctxt "Global"
+msgid "Ready"
+msgstr ""
+
+msgctxt "Global"
+msgid "Ready for pickup"
+msgstr ""
+
+msgctxt "Global"
+msgid "Remove reservation (@amount)"
+msgstr ""
+
+msgctxt "Global"
+msgid "Remove reservations (@amount)"
+msgstr ""
+
+msgctxt "Global"
+msgid "remove @title from favorites list"
+msgstr ""
+
+msgctxt "Renew loan"
+msgid "Renew"
+msgstr ""
+
+msgctxt "Renew loan"
+msgid "Cannot be renewed"
+msgstr ""
+
+msgctxt "Global"
+msgid "Ok"
+msgstr ""
+
+msgctxt "Global"
+msgid "Something went wrong renewing your loans. Please try again."
+msgstr ""
+
+msgctxt "Global"
+msgid "Renewing your loans failed"
+msgstr ""
+
+msgctxt "Global"
+msgid "For some reason, no one of your loans could be renewed."
+msgstr ""
+
+msgctxt "Global"
+msgid "No loans could be renewed"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"{\"type\":\"plural\",\"text\":[\"1 loan has been renewed.\",\"@count "
+"loans have been renewed.\"]}"
+msgstr ""
+
+msgctxt "Global"
+msgid "You have renewed your loans"
+msgstr ""
+
+msgctxt "Global"
+msgid "Something went wrong renewing your loan. Please try again."
+msgstr ""
+
+msgctxt "Global"
+msgid "Renewal of your loan failed"
+msgstr ""
+
+msgctxt "Global"
+msgid "For some reason, your loan could not be renewed."
+msgstr ""
+
+msgctxt "Global"
+msgid "The loan could not be renewed"
+msgstr ""
+
+msgctxt "Global"
+msgid "1 loan was renewed."
+msgstr ""
+
+msgctxt "Global"
+msgid "You have renewed your loan"
+msgstr ""
+
+msgctxt "Renew loan"
+msgid "Processing..."
+msgstr ""
+
+msgctxt "Global"
+msgid "Borrow before @date"
+msgstr ""
+
+msgctxt "Global"
+msgid "Remove your reservation"
+msgstr ""
+
+msgctxt "Global"
+msgid "Apply changes"
+msgstr ""
+
+msgctxt "Global"
+msgid "Date of reservation"
+msgstr ""
+
+msgctxt "Global"
+msgid "Borrow before"
+msgstr ""
+
+msgctxt "Global"
+msgid "Your reservation expires @date!"
+msgstr ""
+
+msgctxt "Global"
+msgid "Pickup deadline"
+msgstr ""
+
+msgctxt "Global"
+msgid "Not interested after"
+msgstr ""
+
+msgctxt "Global"
+msgid "@count queued"
+msgstr ""
+
+msgctxt "Global"
+msgid "Others are queueing for this material"
+msgstr ""
+
+msgctxt "Global"
+msgid "Pickup branch"
+msgstr ""
+
+msgctxt "Global"
+msgid "Status"
+msgstr ""
+
+msgctxt "Global"
+msgid "At the moment you have 0 reservations"
+msgstr ""
+
+msgctxt "Global"
+msgid "day"
+msgstr ""
+
+msgctxt "Global"
+msgid "Online access"
+msgstr ""
+
+msgctxt "Global"
+msgid "At the moment you have 0 reservations on digital items"
+msgstr ""
+
+msgctxt "Global"
+msgid "You are at the front of the queue"
+msgstr ""
+
+msgctxt "Global"
+msgid "Your reservations"
+msgstr ""
+
+msgctxt "Global"
+msgid "Reservations have been paused in the following time span:"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"This button opens a modal that covers the entire page and contains the "
+"possibility to pause physical reservations"
+msgstr ""
+
+msgctxt "Global"
+msgid "Settings"
+msgstr ""
+
+msgctxt "Global"
+msgid "Your reservations are paused"
+msgstr ""
+
+msgctxt "Global"
+msgid "At the moment you have 0 physical reservations"
+msgstr ""
+
+msgctxt "Global"
+msgid "At the moment you have 0 reservations ready for pickup"
+msgstr ""
+
+msgctxt "Global"
+msgid "This material is ready for pickup"
+msgstr ""
+
+msgctxt "Global"
+msgid "You are the only person queued for this material"
+msgstr ""
+
+msgctxt "Global"
+msgid "This material has @count people in queue before you"
+msgstr ""
+
+msgctxt "Global"
+msgid "This material is ready in 1 day"
+msgstr ""
+
+msgctxt "Global"
+msgid "This material is ready in @count days"
+msgstr ""
+
+msgctxt "Global"
+msgid "Close"
+msgstr ""
+
+msgctxt "Global"
+msgid "You are in the reservation queue"
+msgstr ""
+
+msgctxt "Global"
+msgid "Available in @count days"
+msgstr ""
+
+msgctxt "Global"
+msgid "days"
+msgstr ""
+
+msgctxt "Global"
+msgid "queued"
+msgstr ""
+
+msgctxt "Global"
+msgid "There are @count people in the queue before you"
+msgstr ""
+
+msgctxt "Global"
+msgid "Still in queue"
+msgstr ""
+
+msgctxt "Global"
+msgid "Ready for you"
+msgstr ""
+
+msgctxt "Global"
+msgid "Showing @itemsShown out of @hitcount items"
+msgstr ""
+
+msgctxt "Global"
+msgid "Click the button below to close this window"
+msgstr ""
+
+msgctxt "Global"
+msgid "Your reservation has been changed"
+msgstr ""
+
+msgctxt "Global"
+msgid "Dropdown with additional search functions"
+msgstr ""
+
+msgctxt "Global"
+msgid "Screen reader modal description for email"
+msgstr ""
+
+msgctxt "Global"
+msgid "Screen reader modal description for interest period"
+msgstr ""
+
+msgctxt "Global"
+msgid "Screen reader modal description for pickup"
+msgstr ""
+
+msgctxt "Global"
+msgid "Screen reader modal description for sms"
+msgstr ""
+
+msgctxt "Global"
+msgid "Search button"
+msgstr ""
+
+msgctxt "Global"
+msgid "Search header input"
+msgstr ""
+
+msgctxt "Global"
+msgid "Input must contain at least one non-whitespace character."
+msgstr ""
+
+msgctxt "Global"
+msgid "Shift"
+msgstr ""
+
+msgctxt "Global"
+msgid "show more"
+msgstr ""
+
+msgctxt "Global"
+msgid "6 months"
+msgstr ""
+
+msgctxt "Global"
+msgid "Expires soon"
+msgstr ""
+
+msgctxt "Global"
+msgid "Author"
+msgstr ""
+
+msgctxt "Global"
+msgid "Topic"
+msgstr ""
+
+msgctxt "Global"
+msgid "Work"
+msgstr ""
+
+msgctxt "Global"
+msgid "Subject number"
+msgstr ""
+
+msgctxt "Global"
+msgid "3 months"
+msgstr ""
+
+msgctxt "Global"
+msgid "2 months"
+msgstr ""
+
+msgid "Dpl Admin"
+msgstr ""
+
+msgid "Used for the admin interface of the DPL CMS"
+msgstr ""
+
+msgid "DDB React"
+msgstr ""
+
+msgid ""
+"General handling of importing and using the DDB react components as "
+"libraries"
+msgstr ""
+
+msgid "DPL React User Token"
+msgstr ""
+
+msgid "Example content for DPL CMS"
+msgstr ""
+
+msgid "Provides example content for demo sites."
+msgstr ""
+
+msgid "Configuration Import"
+msgstr ""
+
+msgid "Import configuration from YAML files."
+msgstr ""
+
+msgid "Upload configuration"
+msgstr ""
+
+msgid "Upload and import configuration from a YAML file"
+msgstr ""
+
+msgid "DPL React Apps"
+msgstr ""
+
+msgid "For integration of dpl_react apps on the site."
+msgstr ""
+
+msgid "Show all"
+msgstr ""
+
+msgid "Scroll forwards"
+msgstr ""
+
+msgid "Scroll backwards"
+msgstr ""
+
+msgid "By @username"
+msgstr ""
+
+msgid "Upcoming events"
+msgstr ""
+
+msgid "Events in this series"
+msgstr ""
+
+msgid "Tags"
+msgstr "Tags"
+
+msgid "Event"
+msgstr ""
+
+msgid "Skip to main content"
+msgstr "Gå til hovedindhold"
+
+msgid "Time"
+msgstr "Tid"
+
+msgid "Price"
+msgstr ""
+
+msgid "Place"
+msgstr ""
+
+msgid "Partners"
+msgstr ""
+
+msgid "Address"
+msgstr "Adresse"
+
+msgid "Novel"
+msgstr ""
+
+msgid "Custom theme for the Danish Public Libraries"
 msgstr ""
 

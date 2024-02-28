@@ -1,20 +1,14 @@
+# #-#-#-#-#  da.po (PROJECT VERSION)  #-#-#-#-#
+# Danish translation of DPL CMS
+#
 # #-#-#-#-#  da.config.po (PROJECT VERSION)  #-#-#-#-#
 # da translation of DPL CMS
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"#-#-#-#-#  da.po (dpl-cms-conf-poc)  #-#-#-#-#\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
-"Project-Id-Version: dpl-cms-conf-poc\n"
-"Language: da\n"
-"#-#-#-#-#  da.config.po (PROJECT VERSION)  #-#-#-#-#\n"
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2024-02-28 19:54+0100\n"
-"PO-Revision-Date: 2024-02-28 19:54+0100\n"
+"POT-Creation-Date: 2024-02-28 20:41+0100\n"
+"PO-Revision-Date: 2024-02-28 20:41+0100\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "MIME-Version: 1.0\n"
@@ -27,6 +21,22 @@ msgctxt ""
 "settings:format_custom_false"
 msgid " Unpublished"
 msgstr " Unpublished"
+
+msgctxt "Loan list"
+msgid "+ 1 other material"
+msgstr ""
+
+msgctxt "Loan list"
+msgid "+ @count other materials"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "+ more filters"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "-"
+msgstr ""
 
 msgctxt ""
 "core.entity_view_display.eventinstance.default.list:content:date:settings:"
@@ -112,11 +122,31 @@ msgctxt ""
 msgid "1@count"
 msgstr "1@count"
 
+msgctxt "Global"
+msgid "1 loan was renewed."
+msgstr ""
+
+msgctxt "Global"
+msgid "1 month"
+msgstr ""
+
 msgctxt ""
 "views.view.files:display:default:display_options:fields:count:"
 "format_plural_string"
 msgid "1 place@count places"
 msgstr "1 place@count places"
+
+msgctxt "Global"
+msgid "1 year"
+msgstr ""
+
+msgctxt "Global"
+msgid "2 months"
+msgstr ""
+
+msgctxt "Global"
+msgid "3 months"
+msgstr ""
 
 msgctxt "metatag.metatag_defaults.403:label"
 msgid "403 access denied"
@@ -125,6 +155,10 @@ msgstr "403 access denied"
 msgctxt "metatag.metatag_defaults.404:label"
 msgid "404 page not found"
 msgstr "404 page not found"
+
+msgctxt "Global"
+msgid "6 months"
+msgstr ""
 
 msgctxt ""
 "views.view.event_admin:display:default:display_options:fields:"
@@ -187,6 +221,14 @@ msgid ""
 msgstr ""
 "<strong>{{ date__value }}</strong> | {{ date__value_1 }}<br>\r\n"
 "<small>{{ recur_type }}</small>"
+
+msgctxt "Global"
+msgid "@count queued"
+msgstr ""
+
+msgctxt "Global"
+msgid "@count reservations were deleted"
+msgstr ""
 
 msgctxt ""
 "views.view.user_admin_people:display:default:display_options:fields:created:"
@@ -270,6 +312,10 @@ msgstr ""
 "Access to the user view is controlled via a custom RouteSubscriber. The high-"
 "level \"view published content\" permission is added to satisfy the "
 "security_review module"
+
+msgctxt "Search Result"
+msgid "Access types"
+msgstr ""
 
 msgctxt "paragraphs.paragraphs_type.accordion:label"
 msgid "Accordion"
@@ -355,6 +401,9 @@ msgctxt ""
 msgid "Active"
 msgstr "Active"
 
+msgid "Address"
+msgstr "Adresse"
+
 msgctxt "field.field.eventinstance.default.field_event_address:label"
 msgid "Address"
 msgstr "Address"
@@ -384,6 +433,18 @@ msgctxt ""
 "general:secondary_label"
 msgid "Advanced options"
 msgstr "Advanced options"
+
+msgctxt "Global"
+msgid "Advanced search"
+msgstr ""
+
+msgctxt "Global"
+msgid "Afleveres"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "All"
+msgstr ""
 
 msgctxt ""
 "views.view.content_paragraphs:display:default:display_options:arguments:type:"
@@ -428,10 +489,18 @@ msgctxt "user.mail:register_admin_created:subject"
 msgid "An administrator created an account for you at [site:name]"
 msgstr "An administrator created an account for you at [site:name]"
 
+msgctxt "React apps (Global error handling)"
+msgid "An error occurred"
+msgstr ""
+
 msgctxt ""
 "field.field.paragraph.user_registration_information.field_anchor:label"
 msgid "Anchor"
 msgstr "Anchor"
+
+msgctxt "Global"
+msgid "Animated series"
+msgstr ""
 
 msgctxt "user.settings:anonymous"
 msgid "Anonymous"
@@ -483,11 +552,19 @@ msgctxt ""
 msgid "Apply"
 msgstr "Apply"
 
+msgctxt "Global"
+msgid "Apply changes"
+msgstr ""
+
 msgctxt ""
 "views.view.media_library:display:default:display_options:exposed_form:"
 "options:submit_button"
 msgid "Apply filters"
 msgstr "Apply filters"
+
+msgctxt "Global"
+msgid "Are you sure you want to renew?"
+msgstr ""
 
 msgctxt "node.type.article:name"
 msgid "Article"
@@ -577,9 +654,37 @@ msgctxt ""
 msgid "Asc"
 msgstr "Asc"
 
+msgctxt "Global"
+msgid "At the moment you have 0 physical reservations"
+msgstr ""
+
+msgctxt "Global"
+msgid "At the moment you have 0 reservations"
+msgstr ""
+
+msgctxt "Global"
+msgid "At the moment you have 0 reservations on digital items"
+msgstr ""
+
+msgctxt "Global"
+msgid "At the moment you have 0 reservations ready for pickup"
+msgstr ""
+
+msgctxt "Global"
+msgid "Audio books"
+msgstr ""
+
+msgctxt "Global"
+msgid "Audiobook"
+msgstr ""
+
 msgctxt "user.role.authenticated:label"
 msgid "Authenticated user"
 msgstr "Authenticated user"
+
+msgctxt "Global"
+msgid "Author"
+msgstr ""
 
 msgctxt "views.view.content:display:default:display_options:fields:name:label"
 msgid "Author"
@@ -601,6 +706,18 @@ msgctxt ""
 msgid "Author"
 msgstr "Author"
 
+msgctxt "Global"
+msgid "Available"
+msgstr ""
+
+msgctxt "Global"
+msgid "Available in @count days"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "Back to advanced search"
+msgstr ""
+
 msgctxt "filter.format.basic:name"
 msgid "Basic"
 msgstr "Basic"
@@ -621,6 +738,38 @@ msgctxt ""
 msgid "Blocked"
 msgstr "Blocked"
 
+msgctxt "Global"
+msgid "Blocked patron body text (d)"
+msgstr ""
+
+msgctxt "Global"
+msgid "Blocked patron body text (f)"
+msgstr ""
+
+msgctxt "Global"
+msgid "Blocked patron body text (o)"
+msgstr ""
+
+msgctxt "Global"
+msgid "Blocked patron body text (s)"
+msgstr ""
+
+msgctxt "Global"
+msgid "Blocked patron title text (d)"
+msgstr ""
+
+msgctxt "Global"
+msgid "Blocked patron title text (f)"
+msgstr ""
+
+msgctxt "Global"
+msgid "Blocked patron title text (s)"
+msgstr ""
+
+msgctxt "Global"
+msgid "Blocked reason modal title (o)"
+msgstr ""
+
 msgctxt "field.field.node.user_registration.body:label"
 msgid "Body"
 msgstr "Body"
@@ -632,6 +781,18 @@ msgstr "Body"
 msgctxt "field.field.paragraph.user_registration_information.field_body:label"
 msgid "Body"
 msgstr "Body"
+
+msgctxt "Global"
+msgid "Books"
+msgstr ""
+
+msgctxt "Global"
+msgid "Borrow before"
+msgstr ""
+
+msgctxt "Global"
+msgid "Borrow before @date"
+msgstr ""
 
 msgctxt "block.block.claro_breadcrumbs:settings:label"
 msgid "Breadcrumbs"
@@ -647,6 +808,13 @@ msgctxt ""
 msgid "Bulk update"
 msgstr "Bulk update"
 
+msgctxt "Global"
+msgid "By"
+msgstr ""
+
+msgid "By @username"
+msgstr ""
+
 msgctxt "field.field.node.article.field_show_override_author:description"
 msgid ""
 "By default, the author is set to the Drupal user that owns the content."
@@ -660,6 +828,18 @@ msgstr ""
 msgctxt "field.field.media.image.field_byline:label"
 msgid "Byline"
 msgstr "Byline"
+
+msgctxt "Global"
+msgid "CONTACT INFORMATION"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "CQL search"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "CQL search string"
+msgstr ""
 
 msgctxt "node.type.campaign:name"
 msgid "Campaign"
@@ -681,9 +861,41 @@ msgstr ""
 "Campaign to be shown among search results depending on matching facets and "
 "terms"
 
+msgctxt "Search Result"
+msgid "Can always be loaned"
+msgstr ""
+
+msgctxt "Global"
+msgid "Can be returned to all branches of the municipalities libraries"
+msgstr ""
+
+msgctxt "Global"
+msgid "Cancel"
+msgstr ""
+
+msgctxt "Global"
+msgid "Cancel pause"
+msgstr ""
+
+msgctxt "Global"
+msgid "Cancel renewal"
+msgstr ""
+
+msgctxt "Global"
+msgid "Cancel reservation"
+msgstr ""
+
+msgctxt "Global"
+msgid "Cancel reservations"
+msgstr ""
+
 msgctxt "system.action.user_cancel_user_action:label"
 msgid "Cancel the selected user account(s)"
 msgstr "Cancel the selected user account(s)"
+
+msgctxt "Renew loan"
+msgid "Cannot be renewed"
+msgstr ""
 
 msgctxt "field.field.node.article.field_canonical_url:label"
 msgid "Canonical url"
@@ -729,6 +941,32 @@ msgctxt "taxonomy.vocabulary.categories:name"
 msgid "Categories"
 msgstr "Categories"
 
+msgctxt "Global"
+msgid "Change current pin by entering a new pin and saving"
+msgstr ""
+
+msgctxt "Global"
+msgid "Change interest deadline"
+msgstr ""
+
+msgctxt "Global"
+msgid "Change interest period"
+msgstr ""
+
+msgctxt "Global"
+msgid "Change pickup location"
+msgstr ""
+
+msgctxt "Global"
+msgid "Change pickup location for your reservation."
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"Change the amount of time after which you're no longer interested in this "
+"material."
+msgstr ""
+
 msgctxt "views.view.files:display:default:display_options:fields:changed:label"
 msgid "Changed date"
 msgstr "Changed date"
@@ -739,6 +977,14 @@ msgctxt ""
 msgid "Children or adult materials"
 msgstr "Children or adult materials"
 
+msgctxt "Search Result"
+msgid "Children or adults"
+msgstr ""
+
+msgctxt "Global"
+msgid "Choose all"
+msgstr ""
+
 msgctxt "field.field.node.campaign.field_campaign_rules_logic:description"
 msgid ""
 "Choose if all triggers should match (AND) for a campaign to be displayed or "
@@ -747,9 +993,99 @@ msgstr ""
 "Choose if all triggers should match (AND) for a campaign to be displayed or "
 "just one of them (OR)."
 
+msgctxt "Global"
+msgid "Choose one"
+msgstr ""
+
+msgctxt "Global"
+msgid "Choose pause period"
+msgstr ""
+
+msgctxt "Global"
+msgid "Choose pickup branch"
+msgstr ""
+
+msgctxt "Global"
+msgid "Choose pickup library"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Clear all"
+msgstr ""
+
+msgctxt "Global"
+msgid "Click the button below to close this window"
+msgstr ""
+
+msgctxt "Global"
+msgid "Close"
+msgstr ""
+
+msgctxt "React apps (Global error handling)"
+msgid "Close"
+msgstr ""
+
+msgctxt "Global (Aria)"
+msgid "Close blocked patron modal"
+msgstr ""
+
+msgctxt "Global"
+msgid "Close change email modal"
+msgstr ""
+
+msgctxt "Global"
+msgid "Close delete reservation modal"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Close facet browser modal"
+msgstr ""
+
+msgctxt "Global"
+msgid "Close interest period modal"
+msgstr ""
+
+msgctxt "Global"
+msgid "Close material details modal"
+msgstr ""
+
+msgctxt "Global"
+msgid "Close modal aria-label sms"
+msgstr ""
+
+msgctxt "Global"
+msgid "Close modal with grouped loans"
+msgstr ""
+
+msgctxt "Global"
+msgid "Close modal with grouped reservations"
+msgstr ""
+
+msgctxt "Global"
+msgid "Close pause reservations modal"
+msgstr ""
+
+msgctxt "Global"
+msgid "Close pickup location modal"
+msgstr ""
+
+msgctxt "Global"
+msgid "Close renew loans modal"
+msgstr ""
+
 msgctxt "core.entity_view_mode.user.compact:label"
 msgid "Compact"
 msgstr "Compact"
+
+msgid "Configuration Import"
+msgstr ""
+
+msgid "Configuration file"
+msgstr ""
+
+msgctxt "Global"
+msgid "Confirm new pin"
+msgstr ""
 
 msgctxt "field.field.node.user_registration.field_content:label"
 msgid "Content"
@@ -846,6 +1182,14 @@ msgctxt "field.field.paragraph.nav_grid_manual.field_content_references:label"
 msgid "Contents"
 msgstr "Contents"
 
+msgctxt "advanced search"
+msgid "Copied"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Creators"
+msgstr ""
+
 msgctxt ""
 "field.storage.paragraph.field_campaign_rule_facet:settings:allowed_values:2:"
 "label"
@@ -855,6 +1199,9 @@ msgstr "Creators"
 msgctxt "crop.type.focal_point:description"
 msgid "Crop type used by Focal point module."
 msgstr "Crop type used by Focal point module."
+
+msgid "Custom theme for the Danish Public Libraries"
+msgstr ""
 
 msgctxt "core.date_format.medium:pattern"
 msgid "D, m/d/Y - H:i"
@@ -868,12 +1215,21 @@ msgctxt "search_api.server.db_search:name"
 msgid "DB Search"
 msgstr "DB Search"
 
+msgid "DDB React"
+msgstr ""
+
 msgid "DDB React library is missing (@dir)"
-msgstr "DPL React library mangler (@dir) "
+msgstr ""
 
 msgctxt "system.site:name"
 msgid "DPL CMS"
 msgstr "DPL CMS"
+
+msgid "DPL React Apps"
+msgstr ""
+
+msgid "DPL React User Token"
+msgstr ""
 
 msgctxt "language.entity.da:label"
 msgid "Danish"
@@ -894,9 +1250,17 @@ msgctxt "core.date_format.date_full_month:label"
 msgid "Date full month"
 msgstr "Date full month"
 
+msgctxt "Global"
+msgid "Date of reservation"
+msgstr ""
+
 msgctxt "core.date_format.date_short_month:label"
 msgid "Date short month"
 msgstr "Date short month"
+
+msgctxt "Global"
+msgid "Decide at which library you want to pickup the material."
+msgstr ""
 
 msgctxt "linkit.linkit_profile.default:label"
 msgid "Default"
@@ -1002,6 +1366,10 @@ msgctxt ""
 msgid "Delete {{ name }}"
 msgstr "Delete {{ name }}"
 
+msgctxt "Global"
+msgid "Deleting your reservation failed"
+msgstr ""
+
 msgctxt ""
 "views.view.content:display:default:display_options:exposed_form:options:"
 "sort_desc_label"
@@ -1099,15 +1467,50 @@ msgctxt ""
 msgid "Description"
 msgstr "Description"
 
+msgctxt "Global"
+msgid "Digital reservations"
+msgstr ""
+
 msgctxt ""
 "field.field.paragraph.user_registration_information."
 "field_display_in_navigation:label"
 msgid "Display in navigation"
 msgstr "Display in navigation"
 
+msgctxt "Search Result"
+msgid "Dk5"
+msgstr ""
+
+msgctxt "Global"
+msgid "Do you want to cancel your reservation?"
+msgstr ""
+
 msgctxt "media.type.document:label"
 msgid "Document"
 msgstr "Document"
+
+msgid "Dpl Admin"
+msgstr ""
+
+msgctxt "Global"
+msgid "Dropdown with additional search functions"
+msgstr ""
+
+msgctxt "Global"
+msgid "Due date @date"
+msgstr ""
+
+msgctxt "Global"
+msgid "E-book"
+msgstr ""
+
+msgctxt "Global"
+msgid "E-books"
+msgstr ""
+
+msgctxt "Global"
+msgid "E-mail"
+msgstr ""
 
 msgctxt ""
 "views.view.media_library:display:page:display_options:fields:edit_media:text"
@@ -1200,6 +1603,9 @@ msgctxt "views.view.files:display:page_2:display_options:fields:type:label"
 msgid "Entity type"
 msgstr "Entity type"
 
+msgid "Event"
+msgstr ""
+
 msgctxt "views.view.event_admin:display:default:display_options:title"
 msgid "Event - admin"
 msgstr "Event - admin"
@@ -1260,9 +1666,39 @@ msgctxt "views.view.events:label"
 msgid "Events"
 msgstr "Events"
 
+msgid "Events in this series"
+msgstr ""
+
+msgid "Example content for DPL CMS"
+msgstr ""
+
+msgctxt "Global"
+msgid "Expired"
+msgstr ""
+
+msgctxt "Global"
+msgid "Expires"
+msgstr ""
+
+msgctxt "Global"
+msgid "Expires @date"
+msgstr ""
+
+msgctxt "Global"
+msgid "Expires soon"
+msgstr ""
+
 msgctxt "field.field.paragraph.campaign_rule.field_campaign_rule_facet:label"
 msgid "Facet"
 msgstr "Facet"
+
+msgctxt "DPL Config Import"
+msgid "Failed to install modules: @reason"
+msgstr ""
+
+msgctxt "DPL Config Import"
+msgid "Failed to uninstall modules: @reason"
+msgstr ""
 
 msgctxt "core.date_format.fallback:label"
 msgid "Fallback date format"
@@ -1271,6 +1707,10 @@ msgstr "Fallback date format"
 msgctxt "views.view.taxonomy_term:display:feed_1:display_title"
 msgid "Feed"
 msgstr "Feed"
+
+msgctxt "Search Result"
+msgid "Fiction or non-fiction"
+msgstr ""
 
 msgctxt ""
 "field.storage.paragraph.field_campaign_rule_facet:settings:allowed_values:3:"
@@ -1283,6 +1723,10 @@ msgctxt ""
 "label"
 msgid "Fictional character"
 msgstr "Fictional character"
+
+msgctxt "Search Result"
+msgid "Fictional characters"
+msgstr ""
 
 msgctxt "views.view.files:display:default:display_options:fields:fid:label"
 msgid "Fid"
@@ -1370,10 +1814,18 @@ msgctxt ""
 msgid "Filter"
 msgstr "Filter"
 
+msgctxt "Search Result"
+msgid "Filter list"
+msgstr ""
+
 msgctxt ""
 "field.field.paragraph.card_grid_automatic.field_filter_content_types:label"
 msgid "Filter: Content types"
 msgstr "Filter: Content types"
+
+msgctxt "Global"
+msgid "Find @work on shelf in the @branch branch"
+msgstr ""
 
 msgctxt ""
 "views.view.content:display:page_1:display_options:tab_options:description"
@@ -1421,6 +1873,10 @@ msgctxt "views.view.scheduler_scheduled_content:description"
 msgid "Find and manage scheduled content."
 msgstr "Find and manage scheduled content."
 
+msgctxt "Global"
+msgid "Find on shelf expand button explanation"
+msgstr ""
+
 msgctxt "image.style.flag_icon:label"
 msgid "Flag icon"
 msgstr "Flag icon"
@@ -1437,6 +1893,17 @@ msgctxt "system.menu.footer:label"
 msgid "Footer"
 msgstr "Footer"
 
+msgid "For integration of dpl_react apps on the site."
+msgstr ""
+
+msgctxt "Global"
+msgid "For some reason, no one of your loans could be renewed."
+msgstr ""
+
+msgctxt "Global"
+msgid "For some reason, your loan could not be renewed."
+msgstr ""
+
 msgctxt "metatag.metatag_defaults.front:label"
 msgid "Front page"
 msgstr "Front page"
@@ -1449,6 +1916,18 @@ msgctxt "core.entity_view_mode.node.full:label"
 msgid "Full content"
 msgstr "Full content"
 
+msgctxt "Global"
+msgid "Games"
+msgstr ""
+
+msgid ""
+"General handling of importing and using the DDB react components as libraries"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Genre and form"
+msgstr ""
+
 msgctxt ""
 "field.storage.paragraph.field_campaign_rule_facet:settings:allowed_values:5:"
 "label"
@@ -1458,6 +1937,18 @@ msgstr "Genre and form"
 msgctxt "metatag.metatag_defaults.global:label"
 msgid "Global"
 msgstr "Global"
+
+msgctxt "Global"
+msgid "Go to @label material details"
+msgstr ""
+
+msgctxt "Global"
+msgid "Go to eReolen"
+msgstr ""
+
+msgctxt "Global"
+msgid "Go to material details"
+msgstr ""
 
 msgctxt ""
 "views.view.media_library:display:widget:display_options:header:"
@@ -1584,6 +2075,10 @@ msgstr ""
 "If the navigation button title is left blank, it will automatically default "
 "to the paragraph title."
 
+msgctxt "Global"
+msgid "If you renew your fee will be raised"
+msgstr ""
+
 msgctxt "field.field.eventinstance.default.field_event_image:label"
 msgid "Image"
 msgstr "Image"
@@ -1608,6 +2103,9 @@ msgctxt "field.field.paragraph.recommendation.field_image_position_right:label"
 msgid "Image position right"
 msgstr "Image position right"
 
+msgid "Import configuration from YAML files."
+msgstr ""
+
 msgctxt "node.type.user_registration:description"
 msgid "Information on how to register as a user."
 msgstr "Information on how to register as a user."
@@ -1617,6 +2115,14 @@ msgctxt ""
 "third_party_settings:field_group:group_inline_fields:label"
 msgid "Inline fields"
 msgstr "Inline fields"
+
+msgctxt "Global"
+msgid "Input must contain at least one non-whitespace character."
+msgstr ""
+
+msgctxt "DPL Config Import"
+msgid "Installed modules: %modules_list"
+msgstr ""
 
 msgctxt ""
 "views.view.event_admin:display:default:display_options:fields:operations:"
@@ -1757,7 +2263,7 @@ msgid "Last »"
 msgstr "Last »"
 
 msgid "Library is present"
-msgstr "Library er "
+msgstr ""
 
 msgctxt "filter.format.limited:name"
 msgid "Limited"
@@ -1778,6 +2284,10 @@ msgstr "Link"
 msgctxt "field.field.paragraph.links.field_link:label"
 msgid "Link"
 msgstr "Link"
+
+msgctxt "advanced search"
+msgid "Link copied to clipboard"
+msgstr ""
 
 msgctxt ""
 "field.field.paragraph.user_registration_information.field_link_target:label"
@@ -1845,6 +2355,18 @@ msgstr ""
 "allows the editor to set filter options in the paragraphs, that will be sent "
 "along using contextual filters. See dpl_filter_paragraphs.module"
 
+msgctxt "Global"
+msgid "Loading"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "Loading results..."
+msgstr ""
+
+msgctxt "Global"
+msgid "Loan date"
+msgstr ""
+
 msgctxt "user.role.local_administrator:label"
 msgid "Local Administrator"
 msgstr "Local Administrator"
@@ -1852,6 +2374,10 @@ msgstr "Local Administrator"
 msgctxt "image.style.logo:label"
 msgid "Logo"
 msgstr "Logo"
+
+msgctxt "Global"
+msgid "Longer return time"
+msgstr ""
 
 msgctxt ""
 "views.view.files:display:default:display_options:fields:filemime:label"
@@ -1863,6 +2389,10 @@ msgctxt ""
 "label"
 msgid "MIME type"
 msgstr "MIME type"
+
+msgctxt "Search Result"
+msgid "Main languages"
+msgstr ""
 
 msgctxt ""
 "field.storage.paragraph.field_campaign_rule_facet:settings:allowed_values:6:"
@@ -1900,11 +2430,27 @@ msgctxt "views.view.scheduler_scheduled_content:display:default:display_title"
 msgid "Master"
 msgstr "Master"
 
+msgctxt "Global"
+msgid "Material Item Number"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Material types"
+msgstr ""
+
 msgctxt ""
 "field.storage.paragraph.field_campaign_rule_facet:settings:allowed_values:7:"
 "label"
 msgid "Material types"
 msgstr "Material types"
+
+msgctxt "Search Result"
+msgid "Material types general"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Material types specific"
+msgstr ""
 
 msgctxt "views.view.media:display:default:display_options:title"
 msgid "Media"
@@ -1992,8 +2538,25 @@ msgctxt ""
 msgid "Meta tags"
 msgstr "Meta tags"
 
-msgid "Mikkel is testing a new string"
-msgstr "John"
+msgctxt "Po POC"
+msgid "Mikkel is testing normal po translation"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Modal for facet browser"
+msgstr ""
+
+msgctxt "Global"
+msgid "Movies"
+msgstr ""
+
+msgctxt "Global"
+msgid "Multiselect - all option"
+msgstr ""
+
+msgctxt "Global"
+msgid "Music"
+msgstr ""
 
 msgctxt ""
 "field.field.paragraph.event_ticket_category.field_ticket_category_name:label"
@@ -2067,6 +2630,10 @@ msgctxt "core.entity_view_mode.node.nav_teaser:label"
 msgid "Navigation teaser"
 msgstr "Navigation teaser"
 
+msgctxt "Global"
+msgid "New pin"
+msgstr ""
+
 msgctxt ""
 "views.view.media_library:display:default:display_options:sorts:created:"
 "expose:label"
@@ -2111,6 +2678,10 @@ msgctxt ""
 msgid "No files available."
 msgstr "No files available."
 
+msgctxt "Global"
+msgid "No loans could be renewed"
+msgstr ""
+
 msgctxt ""
 "views.view.watchdog:display:default:display_options:empty:area:admin_label"
 msgid "No log messages available."
@@ -2151,13 +2722,32 @@ msgctxt ""
 msgid "No scheduled content."
 msgstr "No scheduled content."
 
+msgctxt "advanced search"
+msgid "Non-fiction"
+msgstr ""
+
 msgctxt "language.entity.zxx:label"
 msgid "Not applicable"
 msgstr "Not applicable"
 
+msgctxt "Global"
+msgid "Not interested after"
+msgstr ""
+
 msgctxt "language.entity.und:label"
 msgid "Not specified"
 msgstr "Not specified"
+
+msgctxt "Global"
+msgid "Nothing selected"
+msgstr ""
+
+msgid "Novel"
+msgstr ""
+
+msgctxt "Global"
+msgid "Number @count in line"
+msgstr ""
 
 msgctxt ""
 "field.storage.node.field_campaign_rules_logic:settings:allowed_values:1:label"
@@ -2279,6 +2869,10 @@ msgctxt ""
 msgid "Offset"
 msgstr "Offset"
 
+msgctxt "Global"
+msgid "Ok"
+msgstr ""
+
 msgctxt "core.base_field_override.media.image.status:settings:on_label"
 msgid "On"
 msgstr "On"
@@ -2320,6 +2914,14 @@ msgctxt ""
 "field_display_in_navigation:settings:on_label"
 msgid "On"
 msgstr "On"
+
+msgctxt "Global"
+msgid "One reservation was deleted"
+msgstr ""
+
+msgctxt "Global"
+msgid "Online access"
+msgstr ""
 
 msgctxt ""
 "views.view.event_admin:display:default:display_options:filters:date__value:"
@@ -2369,6 +2971,10 @@ msgctxt "views.view.watchdog:display:default:display_options:fields:link:label"
 msgid "Operations"
 msgstr "Operations"
 
+msgctxt "Global"
+msgid "Others are queueing for this material"
+msgstr ""
+
 msgctxt "field.field.node.article.field_override_author:label"
 msgid "Override author"
 msgstr "Override author"
@@ -2384,6 +2990,10 @@ msgid ""
 "Overview of all scheduled content, as a tab on main 'content admin' page"
 msgstr ""
 "Overview of all scheduled content, as a tab on main 'content admin' page"
+
+msgctxt "Global"
+msgid "PINCODE"
+msgstr ""
 
 msgctxt "node.type.page:name"
 msgid "Page"
@@ -2553,6 +3163,9 @@ msgctxt "field.field.node.page.field_paragraphs:label"
 msgid "Paragraphs"
 msgstr "Paragraphs"
 
+msgid "Partners"
+msgstr ""
+
 msgctxt "field.field.eventinstance.default.field_event_partners:label"
 msgid "Partners"
 msgstr "Partners"
@@ -2564,6 +3177,28 @@ msgstr "Partners"
 msgctxt "user.role.patron:label"
 msgid "Patron"
 msgstr "Patron"
+
+msgctxt "Global"
+msgid "Pause period"
+msgstr ""
+
+msgctxt "Global"
+msgid "Pause reservation below inputs text"
+msgstr ""
+
+msgctxt "Global"
+msgid "Pause reservations on physical items"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"Pause your reservations early, since reservations that are already being "
+"processed, will not be paused."
+msgstr ""
+
+msgctxt "Global"
+msgid "Pay your fees here"
+msgstr ""
 
 msgctxt "views.view.user_admin_people:display:default:display_options:title"
 msgid "People"
@@ -2589,6 +3224,29 @@ msgctxt ""
 "permission:expose:label"
 msgid "Permission"
 msgstr "Permission"
+
+msgctxt "Global"
+msgid "Phone number"
+msgstr ""
+
+msgctxt "Global"
+msgid "Physical reservations"
+msgstr ""
+
+msgctxt "Global"
+msgid "Pick up before @date"
+msgstr ""
+
+msgctxt "Global"
+msgid "Pickup branch"
+msgstr ""
+
+msgctxt "Global"
+msgid "Pickup deadline"
+msgstr ""
+
+msgid "Place"
+msgstr ""
 
 msgctxt "field.field.eventinstance.default.field_event_place:label"
 msgid "Place"
@@ -2616,9 +3274,16 @@ msgstr ""
 "duplicate content issues and ensuring proper attribution to the original "
 "source."
 
+msgctxt "Global"
+msgid "Podcast"
+msgstr ""
+
 msgctxt "core.entity_view_mode.paragraph.preview:label"
 msgid "Preview"
 msgstr "Preview"
+
+msgid "Price"
+msgstr ""
 
 msgctxt ""
 "field.field.paragraph.event_ticket_category.field_ticket_category_price:label"
@@ -2645,6 +3310,14 @@ msgctxt "block.block.gin_primary_local_tasks:settings:label"
 msgid "Primary tabs"
 msgstr "Primary tabs"
 
+msgctxt "Global"
+msgid "Processing..."
+msgstr ""
+
+msgctxt "Renew loan"
+msgid "Processing..."
+msgstr ""
+
 msgctxt "system.action.node_promote_action:label"
 msgid "Promote content to front page"
 msgstr "Promote content to front page"
@@ -2664,6 +3337,9 @@ msgstr "Promoted to front page"
 msgctxt "core.base_field_override.node.user_registration.promote:label"
 msgid "Promoted to front page"
 msgstr "Promoted to front page"
+
+msgid "Provides example content for demo sites."
+msgstr ""
 
 msgctxt ""
 "views.view.event_admin:display:default:display_options:fields:status:label"
@@ -2793,7 +3469,35 @@ msgid "RSS"
 msgstr "RSS"
 
 msgid "React DDB Library"
-msgstr "React DPL Library"
+msgstr ""
+
+msgctxt "Global"
+msgid "Read more"
+msgstr ""
+
+msgctxt "Global"
+msgid "Read more about fees"
+msgstr ""
+
+msgctxt "Global"
+msgid "Ready"
+msgstr ""
+
+msgctxt "Global"
+msgid "Ready for pickup"
+msgstr ""
+
+msgctxt "Global"
+msgid "Ready for you"
+msgstr ""
+
+msgctxt "Global"
+msgid "Receive emails about your loans, reservations, and so forth"
+msgstr ""
+
+msgctxt "Global"
+msgid "Receive text messages about your loans, reservations, and so forth"
+msgstr ""
 
 msgctxt "views.view.watchdog:description"
 msgid "Recent log messages"
@@ -2833,9 +3537,53 @@ msgctxt "system.action.node_unpromote_action:label"
 msgid "Remove content from front page"
 msgstr "Remove content from front page"
 
+msgctxt "Global"
+msgid "Remove reservation (@amount)"
+msgstr ""
+
+msgctxt "Global"
+msgid "Remove reservations (@amount)"
+msgstr ""
+
+msgctxt "Global"
+msgid "Remove your reservation"
+msgstr ""
+
+msgctxt "Renew loan"
+msgid "Renew"
+msgstr ""
+
+msgctxt "Global"
+msgid "Renew your loans"
+msgstr ""
+
+msgctxt "Global"
+msgid "Renewable (@count)"
+msgstr ""
+
+msgctxt "Global"
+msgid "Renewal of your loan failed"
+msgstr ""
+
+msgctxt "Global"
+msgid "Renewing your loans failed"
+msgstr ""
+
 msgctxt "user.mail:password_reset:subject"
 msgid "Replacement login information for [user:display-name] at [site:name]"
 msgstr "Replacement login information for [user:display-name] at [site:name]"
+
+msgctxt "Global"
+msgid "Reservation deleted"
+msgstr ""
+
+msgctxt "Global"
+msgid "Reservations deleted"
+msgstr ""
+
+msgctxt "Global"
+msgid "Reservations have been paused in the following time span:"
+msgstr ""
 
 msgctxt ""
 "views.view.content:display:default:display_options:exposed_form:options:"
@@ -2921,6 +3669,10 @@ msgctxt ""
 msgid "Reset"
 msgstr "Reset"
 
+msgctxt "Global"
+msgid "Returned too late"
+msgstr ""
+
 msgctxt ""
 "views.view.scheduler_scheduled_content:display:overview:display_options:"
 "display_comment"
@@ -2942,6 +3694,10 @@ msgctxt ""
 "roles_target_id:label"
 msgid "Roles"
 msgstr "Roles"
+
+msgctxt "Global"
+msgid "Save"
+msgstr ""
 
 msgctxt "system.action.node_save_action:label"
 msgid "Save content"
@@ -2982,6 +3738,28 @@ msgstr ""
 "Scheduled content tab on user profile, showing just that user's scheduled "
 "content"
 
+msgctxt "Global"
+msgid "Screen reader modal description for email"
+msgstr ""
+
+msgctxt "Global"
+msgid "Screen reader modal description for interest period"
+msgstr ""
+
+msgctxt "Global"
+msgid "Screen reader modal description for pickup"
+msgstr ""
+
+msgctxt "Global"
+msgid "Screen reader modal description for sms"
+msgstr ""
+
+msgid "Scroll backwards"
+msgstr ""
+
+msgid "Scroll forwards"
+msgstr ""
+
 msgctxt ""
 "views.view.event_admin:display:default:display_options:filters:combine:"
 "expose:label"
@@ -2994,6 +3772,10 @@ msgctxt ""
 msgid "Search"
 msgstr "Search"
 
+msgctxt "Global"
+msgid "Search button"
+msgstr ""
+
 msgctxt ""
 "views.view.event_admin:display:default:display_options:filters:combine:"
 "expose:placeholder"
@@ -3005,6 +3787,10 @@ msgctxt ""
 "field_grid_content:settings:placeholder"
 msgid "Search content.."
 msgstr "Search content.."
+
+msgctxt "Global"
+msgid "Search header input"
+msgstr ""
 
 msgctxt "core.entity_view_mode.node.search_index:label"
 msgid "Search index"
@@ -3021,6 +3807,14 @@ msgstr "Secondary tabs"
 msgctxt "block.block.gin_secondary_local_tasks:settings:label"
 msgid "Secondary tabs"
 msgstr "Secondary tabs"
+
+msgctxt "Global"
+msgid "Select @label for renewal"
+msgstr ""
+
+msgctxt "DPL Config Import"
+msgid "Select a configuration file in YAML format to upload."
+msgstr ""
 
 msgctxt ""
 "views.view.events:display:default:display_options:exposed_form:options:"
@@ -3040,6 +3834,14 @@ msgctxt ""
 msgid "Series links"
 msgstr "Series links"
 
+msgctxt "Global"
+msgid "Set date for when your interest for the material will expire."
+msgstr ""
+
+msgctxt "Global"
+msgid "Settings"
+msgstr ""
+
 msgctxt ""
 "views.view.watchdog:display:default:display_options:fields:severity:label"
 msgid "Severity"
@@ -3051,15 +3853,38 @@ msgctxt ""
 msgid "Severity"
 msgstr "Severity"
 
+msgctxt "Global"
+msgid "Shift"
+msgstr ""
+
+msgid "Show all"
+msgstr ""
+
 msgctxt ""
 "views.view.event_admin:display:default:display_options:filters:date__value:"
 "group_info:group_items:1:title"
 msgid "Show all events"
 msgstr "Show all events"
 
+msgctxt "Search Result"
+msgid "Show results"
+msgstr ""
+
 msgctxt "field.field.paragraph.nav_grid_manual.field_show_subtitles:label"
 msgid "Show subtitles"
 msgstr "Show subtitles"
+
+msgctxt "Search Result"
+msgid "Showing"
+msgstr ""
+
+msgctxt "Global"
+msgid "Showing @itemsShown out of @hitcount items"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Showing results for \"@query\""
+msgstr ""
 
 msgctxt "block.block.novel_branding:settings:label"
 msgid "Site branding"
@@ -3077,6 +3902,21 @@ msgctxt ""
 "views.view.files:display:default:display_options:fields:filesize:label"
 msgid "Size"
 msgstr "Size"
+
+msgid "Skip to main content"
+msgstr "Gå til hovedindhold"
+
+msgctxt "Global"
+msgid "Something went wrong deleting your reservation. Please try again."
+msgstr ""
+
+msgctxt "Global"
+msgid "Something went wrong renewing your loan. Please try again."
+msgstr ""
+
+msgctxt "Global"
+msgid "Something went wrong renewing your loans. Please try again."
+msgstr ""
 
 msgctxt ""
 "views.view.content:display:default:display_options:exposed_form:options:"
@@ -3168,6 +4008,10 @@ msgctxt ""
 msgid "Specify how a linked document should be opened when clicked by a user."
 msgstr "Specify how a linked document should be opened when clicked by a user."
 
+msgctxt "Global"
+msgid "Start typing in order to search"
+msgstr ""
+
 msgctxt "field.field.eventinstance.default.field_event_state:label"
 msgid "State"
 msgstr "State"
@@ -3175,6 +4019,10 @@ msgstr "State"
 msgctxt "field.field.eventseries.default.field_event_state:label"
 msgid "State"
 msgstr "State"
+
+msgctxt "Global"
+msgid "Status"
+msgstr ""
 
 msgctxt ""
 "views.view.content:display:default:display_options:fields:status:label"
@@ -3236,6 +4084,18 @@ msgctxt "block.block.novel_messages:settings:label"
 msgid "Status messages"
 msgstr "Status messages"
 
+msgctxt "Global"
+msgid "Still in queue"
+msgstr ""
+
+msgctxt "Global"
+msgid "Subject number"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "Subjects"
+msgstr ""
+
 msgctxt ""
 "field.storage.paragraph.field_campaign_rule_facet:settings:allowed_values:8:"
 "label"
@@ -3267,6 +4127,9 @@ msgctxt ""
 "field_group:group_tagging:label"
 msgid "Tagging"
 msgstr "Tagging"
+
+msgid "Tags"
+msgstr "Tags"
 
 msgctxt "field.field.eventinstance.default.field_tags:label"
 msgid "Tags"
@@ -3373,6 +4236,46 @@ msgstr ""
 "The \"User Registration Information\" paragraph type is used to display "
 "relevant information about the user registration process."
 
+msgctxt "Global"
+msgid ""
+"The due date of return is exceeded, therefore you will be charged a fee, "
+"when the item is returned"
+msgstr ""
+
+msgctxt "Global"
+msgid "The item cannot be renewed further"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"The item has been lent to you by another library and renewal is therefore "
+"conditional of the acceptance by that library"
+msgstr ""
+
+msgctxt "Global"
+msgid "The item is reserved by another patron"
+msgstr ""
+
+msgctxt "Global"
+msgid "The loan could not be renewed"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"The phone number must be 6 to 15 characters in length and should be "
+"comprised solely of numbers or begin with a +"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"The pincode should be minimum @pincodeLengthMin and maximum "
+"@pincodeLengthMax characters long"
+msgstr ""
+
+msgctxt "Global"
+msgid "The pincodes are not the same"
+msgstr ""
+
 msgctxt "field.field.eventinstance.default.field_teaser_image:description"
 msgid ""
 "The teaser fields are used for the card of display.\r\n"
@@ -3440,6 +4343,23 @@ msgctxt ""
 msgid "The upper limit for a placement/ranking of a term inside a facet group"
 msgstr "The upper limit for a placement/ranking of a term inside a facet group"
 
+msgctxt "Global"
+msgid "There are @count people in the queue before you"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"This button opens a modal that covers the entire page and contains the "
+"possibility to delete a selected reservation, or multiple selected "
+"reservations"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"This button opens a modal that covers the entire page and contains the "
+"possibility to pause physical reservations"
+msgstr ""
+
 msgctxt ""
 "field.field.paragraph.recommendation.field_image_position_right:description"
 msgid ""
@@ -3483,6 +4403,50 @@ msgstr ""
 "and copying this value from the URL. \r\n"
 "\r\n"
 
+msgctxt "Global"
+msgid "This material has @count people in queue before you"
+msgstr ""
+
+msgctxt "Global"
+msgid "This material is ready for pickup"
+msgstr ""
+
+msgctxt "Global"
+msgid "This material is ready in 1 day"
+msgstr ""
+
+msgctxt "Global"
+msgid "This material is ready in @count days"
+msgstr ""
+
+msgctxt "Global (Aria)"
+msgid "This modal alerts you, that your patron has been blocked"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"This modal groups loans after due date and makes it possible to renew said "
+"loans"
+msgstr ""
+
+msgctxt "Global"
+msgid "This modal makes it possible to delete reservations"
+msgstr ""
+
+msgctxt "Global"
+msgid "This modal makes it possible to pause your physical reservations"
+msgstr ""
+
+msgctxt "Global"
+msgid "This modal makes it possible to renew materials"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"This modal shows material details, and makes it possible to renew a "
+"material, of that material is renewable"
+msgstr ""
+
 msgctxt "paragraphs.paragraphs_type.recommendation:description"
 msgid "This paragraph is used to recommend a material. "
 msgstr "This paragraph is used to recommend a material. "
@@ -3510,6 +4474,9 @@ msgstr "Ticket categories"
 msgctxt "paragraphs.paragraphs_type.event_ticket_category:label"
 msgid "Ticket category"
 msgstr "Ticket category"
+
+msgid "Time"
+msgstr "Tid"
 
 msgctxt "field.field.eventinstance.default.field_event_title:label"
 msgid "Title"
@@ -3565,6 +4532,10 @@ msgctxt ""
 msgid "Title"
 msgstr "Title"
 
+msgctxt "Global"
+msgid "To be returned soon"
+msgstr ""
+
 msgctxt "core.entity_view_mode.block.token:label"
 msgid "Token"
 msgstr "Token"
@@ -3597,6 +4568,10 @@ msgctxt "system.menu.tools:label"
 msgid "Tools"
 msgstr "Tools"
 
+msgctxt "Global"
+msgid "Topic"
+msgstr ""
+
 msgctxt "field.field.node.campaign.field_campaign_rules_logic:label"
 msgid "Trigger Logic"
 msgstr "Trigger Logic"
@@ -3628,9 +4603,25 @@ msgctxt ""
 msgid "Type"
 msgstr "Type"
 
+msgctxt "DPL Config Import"
+msgid "Unable to handle the uploaded file"
+msgstr ""
+
+msgctxt "DPL Config Import"
+msgid "Unable to parse YAML file: %reason"
+msgstr ""
+
+msgctxt "Global"
+msgid "Unavailable"
+msgstr ""
+
 msgctxt "system.action.user_unblock_user_action:label"
 msgid "Unblock the selected user(s)"
 msgstr "Unblock the selected user(s)"
+
+msgctxt "DPL Config Import"
+msgid "Uninstalled modules: %modules_list"
+msgstr ""
 
 msgctxt "system.action.node_unpublish_action:label"
 msgid "Unpublish content"
@@ -3710,6 +4701,9 @@ msgctxt ""
 msgid "Unpublished"
 msgstr "Unpublished"
 
+msgid "Upcoming events"
+msgstr ""
+
 msgctxt ""
 "views.view.content:display:default:display_options:fields:changed:label"
 msgid "Updated"
@@ -3724,6 +4718,15 @@ msgctxt ""
 "label"
 msgid "Updated"
 msgstr "Updated"
+
+msgid "Upload"
+msgstr "Upload"
+
+msgid "Upload and import configuration from a YAML file"
+msgstr ""
+
+msgid "Upload configuration"
+msgstr ""
 
 msgctxt "views.view.files:display:default:display_options:fields:created:label"
 msgid "Upload date"
@@ -3750,6 +4753,9 @@ msgid ""
 msgstr ""
 "Used for public credit and copyright information. Will usually be displayed "
 "along with the media."
+
+msgid "Used for the admin interface of the DPL CMS"
+msgstr ""
 
 msgctxt "views.view.files:display:default:display_options:fields:count:label"
 msgid "Used in"
@@ -3818,9 +4824,17 @@ msgctxt "views.view.media_library:display:widget_table:display_title"
 msgid "Widget (table)"
 msgstr "Widget (table)"
 
+msgctxt "Global"
+msgid "Work"
+msgstr ""
+
 msgctxt "field.field.paragraph.recommendation.field_work_id:label"
 msgid "Work ID"
 msgstr "Work ID"
+
+msgctxt "Search Result"
+msgid "Work types"
+msgstr ""
 
 msgctxt ""
 "field.storage.paragraph.field_campaign_rule_facet:settings:allowed_values:9:"
@@ -3846,6 +4860,31 @@ msgctxt ""
 msgid "Y-m-d\\TH:i:s"
 msgstr "Y-m-d\\TH:i:s"
 
+msgctxt "Search Result"
+msgid "Year"
+msgstr ""
+
+msgctxt "Global"
+msgid "Yes, renew"
+msgstr ""
+
+msgctxt "Global"
+msgid "You are at the front of the queue"
+msgstr ""
+
+msgctxt "Global"
+msgid "You are in the reservation queue"
+msgstr ""
+
+msgctxt "Global"
+msgid "You are the only person queued for this material"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"You are therefore not able to borrow or reserve materials from the library"
+msgstr ""
+
 msgctxt "field.field.media.image.field_media_image:description"
 msgid ""
 "You can set a focal point, by clicking on the preview on the image, moving "
@@ -3861,6 +4900,66 @@ msgstr ""
 "keep in focus when it gets cropped.<br>\r\n"
 "Use the \"preview\" function, to see how your image will be cropped across "
 "image styles."
+
+msgctxt "Global"
+msgid "You cannot regret this action"
+msgstr ""
+
+msgctxt "Global"
+msgid "You have exceeded your fee limit"
+msgstr ""
+
+msgctxt "Global"
+msgid "You have renewed your loan"
+msgstr ""
+
+msgctxt "Global"
+msgid "You have renewed your loans"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"You therefore cannot reserve, borrow or renew loans. Please contact the "
+"library for further information (u)"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"You therefore cannot reserve, borrow or renew loans. Please contact the "
+"library for further information (w)"
+msgstr ""
+
+msgctxt "Global"
+msgid "Your fee is raised"
+msgstr ""
+
+msgctxt "Global"
+msgid "Your reservation expires @date!"
+msgstr ""
+
+msgctxt "Global"
+msgid "Your reservation has been changed"
+msgstr ""
+
+msgctxt "Global"
+msgid "Your reservations"
+msgstr ""
+
+msgctxt "Global"
+msgid "Your reservations are paused"
+msgstr ""
+
+msgctxt "Global"
+msgid "Your search has 0 results"
+msgstr ""
+
+msgctxt "Global"
+msgid "Your user is blocked (u)"
+msgstr ""
+
+msgctxt "Global"
+msgid "Your user is blocked (w)"
+msgstr ""
 
 msgctxt "metatag.metatag_defaults.global:tags:title"
 msgid "[current-page:title] | [site:name]"
@@ -4174,6 +5273,26 @@ msgctxt "metatag.metatag_defaults.user:tags:canonical_url"
 msgid "[user:url]"
 msgstr "[user:url]"
 
+msgctxt "Global"
+msgid "accept modal aria description text"
+msgstr ""
+
+msgctxt "Global"
+msgid "accept modal aria label text"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "accessibility"
+msgstr ""
+
+msgctxt "Global"
+msgid "add @title to favorites list"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "add row"
+msgstr ""
+
 msgctxt ""
 "views.view.files:display:default:display_options:fields:count:alter:path"
 msgid "admin/content/files/usage/{{ fid }}"
@@ -4184,11 +5303,55 @@ msgctxt ""
 msgid "admin/reports/dblog/event/{{ wid }}"
 msgstr "admin/reports/dblog/event/{{ wid }}"
 
+msgctxt "advanced search"
+msgid "advanced search"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "all indexes"
+msgstr ""
+
+msgctxt "Global"
+msgid "and"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "and"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "article"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "audience"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "audio book"
+msgstr ""
+
 msgctxt ""
 "views.view.events:display:default:display_options:exposed_form:options:"
 "text_input_required_format"
 msgid "basic"
 msgstr "basic"
+
+msgctxt "advanced search"
+msgid "book"
+msgstr ""
+
+msgctxt "Global"
+msgid "by"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "copy string"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "creator"
+msgstr ""
 
 msgctxt ""
 "core.entity_view_display.eventinstance.default.card:content:date:settings:"
@@ -4318,9 +5481,65 @@ msgctxt ""
 msgid "d. M Y - {d}. {M} {Y}"
 msgstr "d. M Y - {d}. {M} {Y}"
 
+msgctxt "advanced search"
+msgid "date"
+msgstr ""
+
+msgctxt "Global"
+msgid "day"
+msgstr ""
+
+msgctxt "Global"
+msgid "days"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "dk5"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "ebook"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "edit cql"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "edition"
+msgstr ""
+
+msgctxt "Global"
+msgid "et al."
+msgstr ""
+
+msgctxt "advanced search"
+msgid "fiction"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "genre"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "identifier"
+msgstr ""
+
+msgctxt "Global"
+msgid "in"
+msgstr ""
+
+msgctxt "Global"
+msgid "in series"
+msgstr ""
+
 msgctxt "core.date_format.long:pattern"
 msgid "l, F j, Y - H:i"
 msgstr "l, F j, Y - H:i"
+
+msgctxt "advanced search"
+msgid "language"
+msgstr ""
 
 msgctxt ""
 "views.view.scheduler_scheduled_content:display:default:display_options:pager:"
@@ -4328,14 +5547,46 @@ msgctxt ""
 msgid "last »"
 msgstr "last »"
 
+msgctxt "advanced search"
+msgid "link to this search"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "literature form"
+msgstr ""
+
+msgctxt "Global"
+msgid "loading"
+msgstr ""
+
 msgctxt "core.date_format.short:pattern"
 msgid "m/d/Y - H:i"
 msgstr "m/d/Y - H:i"
+
+msgctxt "advanced search"
+msgid "main creator"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "main title"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "material type"
+msgstr ""
 
 msgctxt ""
 "views.view.user_admin_people:display:default:display_options:use_more_text"
 msgid "more"
 msgstr "more"
+
+msgctxt "advanced search"
+msgid "movie"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "music"
+msgstr ""
 
 msgctxt ""
 "views.view.scheduler_scheduled_content:display:default:display_options:pager:"
@@ -4346,6 +5597,88 @@ msgstr "next ›"
 msgctxt "metatag.metatag_defaults.403:tags:robots"
 msgid "noindex"
 msgstr "noindex"
+
+msgctxt "advanced search"
+msgid "not"
+msgstr ""
+
+msgctxt "Global"
+msgid "nr."
+msgstr ""
+
+msgctxt "advanced search"
+msgid "online"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "or"
+msgstr ""
+
+msgctxt "Global"
+msgid "out of"
+msgstr ""
+
+msgctxt "Global"
+msgid "patron page contact info body text"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "physical"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "publisher"
+msgstr ""
+
+msgctxt "Global"
+msgid "queued"
+msgstr ""
+
+msgctxt "Global"
+msgid "remove @title from favorites list"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "reset"
+msgstr ""
+
+msgctxt "Search Result"
+msgid "results"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "search"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "search term"
+msgstr ""
+
+msgctxt "Global"
+msgid "show more"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "showing materials"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "source"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "subject"
+msgstr ""
+
+msgctxt "advanced search"
+msgid "type"
+msgstr ""
+
+msgctxt "Global"
+msgid ""
+"{\"type\":\"plural\",\"text\":[\"1 loan has been renewed.\",\"@count loans "
+"have been renewed.\"]}"
+msgstr ""
 
 msgctxt ""
 "views.view.taxonomy_term:display:default:display_options:arguments:tid:title"
