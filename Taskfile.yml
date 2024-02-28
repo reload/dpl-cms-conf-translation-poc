@@ -546,7 +546,10 @@ tasks:
   translations:conf:merge:
     desc: Merge configuration translations into the combined translation file
     cmds:
-      - msgcat -o web/$PATH_TO_FILE --sort-by-file $FILE_A $FILE_B
+      - echo "web/$PATH_TO_FILE"
+      - echo "$FILE_A"
+      - echo "$FILE_B"
+      - msgcat -o web/$PATH_TO_FILE $FILE_A $FILE_B
       # We need to chown the PO file in the container with the user of the host
       # in order to be able to commit the file afterwards.
       - task translations:chown
