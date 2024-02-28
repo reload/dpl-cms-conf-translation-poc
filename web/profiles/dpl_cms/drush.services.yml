@@ -2,7 +2,7 @@ services:
   dpl_cms.commands:
     class: \Drupal\dpl_cms\Commands\DplCmsCommands
     arguments:
-      - '@ctp.config_manager'
       - '@file_system'
+      - '@module_handler'
     tags:
       - { name: drush.command }
