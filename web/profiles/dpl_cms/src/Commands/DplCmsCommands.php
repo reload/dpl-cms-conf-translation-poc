@@ -5,13 +5,12 @@ namespace Drupal\dpl_cms\Commands;
 use Drupal\Component\Gettext\PoHeader;
 use Drupal\Component\Gettext\PoStreamReader;
 use Drupal\Component\Gettext\PoStreamWriter;
-use Drupal\config_translation_po\Services\CtpConfigManager;
 use Drupal\Core\Config\ConfigFactoryInterface;
 use Drupal\Core\Extension\ModuleHandlerInterface;
 use Drupal\Core\File\FileSystemInterface;
 use Drupal\Core\StringTranslation\StringTranslationTrait;
+use Drupal\dpl_cms\Services\CtpConfigManager;
 use Drush\Commands\DrushCommands;
-
 use function Safe\preg_match;
 
 /**
@@ -196,7 +195,7 @@ class DplCmsCommands extends DrushCommands {
    * Export configuration to a .po file.
    *
    * @param string $langcode
-   *   The langcode to import. Eg. 'en' or 'fr'.
+   *   The langcode to export. Eg. 'en' or 'fr'.
    * @param string $destination
    *   The path to the destination .po file.
    *
