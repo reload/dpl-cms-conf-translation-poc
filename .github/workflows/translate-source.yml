@@ -33,11 +33,23 @@ jobs:
     # Because of 1000 strings limit we'll skip this for now.
     # - name: Scan translations
     #   run: LANGUAGE=da task translations:scan
+    - name: Export Configuration strings
+      run: task translations:conf:export
+      env:
+        LANGUAGE: da
+    - name: Combine po files
+      run: task translations:conf:merge
+      env:
+        FILE_A: web/profiles/dpl_cms/translations/da.po
+        FILE_B: web/profiles/dpl_cms/translations/da.config.po
+        LANGUAGE: da
     # - name: Commit translations
     #   uses: stefanzweifel/git-auto-commit-action@v5
     #   with:
     #     file_pattern: './web/profiles/dpl_cms/translations/*.po'
     #     commit_message: New translations were found
+
+
     - name: Make Poeditor look for changes in translation strings
       uses: distributhor/workflow-webhook@v3
       env:

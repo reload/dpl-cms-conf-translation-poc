@@ -503,6 +503,15 @@ tasks:
       - sh: gh --version && gh auth status
         msg: GitHub CLI is not installed or not authenticated. Please check https://cli.github.com/.
 
+  translations:chown:
+    desc: Chown the PO file in the container with the user of the host
+    cmds:
+      - |
+        export ME=$(id -u);
+        task dev:cli -- chown $ME:$ME web/{{ .PATH_TO_FILE }}
+    env:
+      PATH_TO_FILE: "{{ .PATH_TO_FILE }}"
+
   translations:scan:
     desc: Scan and generate translations
     cmds:
@@ -513,12 +522,35 @@ tasks:
     # Generate translations for custom themes
       - task dev:cli -- drush potion:generate $LANGUAGE themes/custom/ {{ .PO_DIR }} --recursive --default-write-mode=merge
     # Fill translations from db
-      - task dev:cli -- drush potion:fill $LANGUAGE {{ .PO_DIR }}/$LANGUAGE.po
+      - task dev:cli -- drush potion:fill $LANGUAGE {{ .PATH_TO_FILE }}
     # We need to chown the PO file in the container with the user of the host
     # in order to be able to commit the file afterwards.
-      - |
-        export ME=$(id -u);
-        task dev:cli -- chown $ME:$ME web/{{ .PO_DIR }}/$LANGUAGE.po
-    # Default language if nothing else is set:
+      - task translations:chown
     env:
       LANGUAGE: "{{ .LANGUAGE }}"
+      PATH_TO_FILE: "{{ .PO_DIR }}/{{ .LANGUAGE }}.po"
+
+  translations:conf:export:
+    desc: Exports current configuration into po file
+    cmds:
+     # Generate translations from configuration strings
+      - task dev:cli -- drush dpl_cms:export-config-po $LANGUAGE {{ .PATH_TO_FILE }}
+    # We need to chown the PO file in the container with the user of the host
+    # in order to be able to commit the file afterwards.
+      - task translations:chown
+    env:
+      LANGUAGE: "{{ .LANGUAGE }}"
+      PATH_TO_FILE: "{{ .PO_DIR }}/{{ .LANGUAGE }}.config.po"
+
+
+  translations:conf:merge:
+    desc: Merge configuration translations into the combined translation file
+    cmds:
+      - msgcat -o {{ .PATH_TO_FILE }} --sort-by-file {{ .FILE_A }} {{ .FILE_B }}
+      # We need to chown the PO file in the container with the user of the host
+      # in order to be able to commit the file afterwards.
+      - task translations:chown
+    env:
+      LANGUAGE: "{{ .LANGUAGE }}"
+      PATH_TO_FILE: "{{ .PO_DIR }}/{{ .LANGUAGE }}.combined.po"
+
