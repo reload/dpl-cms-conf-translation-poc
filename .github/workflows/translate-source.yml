@@ -79,9 +79,11 @@ jobs:
       with:
         fetch-depth: 0
     - name: Install go-task
-      uses: arduino/setup-task@v1
+      uses: arduino/setup-task@v2
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
+        # Remove this version when go-task have fixed latest issue.
+        version: 3.34.1
     - name: Setup site
       run: task ci:reset
     - name: Separate danish translations into po file
