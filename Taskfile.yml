@@ -523,8 +523,6 @@ tasks:
       - task dev:cli -- drush potion:generate $LANGUAGE themes/custom/ {{ .PO_DIR }} --recursive --default-write-mode=merge
     # Fill translations from db
       - task dev:cli -- drush potion:fill $LANGUAGE $PATH_TO_FILE
-    # We need to chown the PO file in the container with the user of the host
-    # in order to be able to commit the file afterwards.
       - task translations:chown
     env:
       LANGUAGE: "{{ .LANGUAGE }}"
@@ -535,8 +533,6 @@ tasks:
     cmds:
      # Generate translations from configuration strings
       - task dev:cli -- drush dpl_cms:export-config-po $LANGUAGE $PATH_TO_FILE
-    # We need to chown the PO file in the container with the user of the host
-    # in order to be able to commit the file afterwards.
       - task translations:chown
     env:
       LANGUAGE: "{{ .LANGUAGE }}"
@@ -546,14 +542,26 @@ tasks:
   translations:conf:merge:
     desc: Merge configuration translations into the combined translation file
     cmds:
-      - echo "web/$PATH_TO_FILE"
-      - echo "$FILE_A"
-      - echo "$FILE_B"
       - msgcat -o web/$PATH_TO_FILE $FILE_A $FILE_B
-      # We need to chown the PO file in the container with the user of the host
-      # in order to be able to commit the file afterwards.
       - task translations:chown
     env:
       LANGUAGE: "{{ .LANGUAGE }}"
       PATH_TO_FILE: "{{ .PO_DIR }}/{{ .LANGUAGE }}.combined.po"
 
+  translations:separate:translations:
+    desc: Save translations from combined file into separate file
+    cmds:
+      - task dev:cli -- drush dpl_cms:extract-config $LANGUAGE $PATH_TO_FILE
+      - task translations:chown
+    env:
+      LANGUAGE: "{{ .LANGUAGE }}"
+      PATH_TO_FILE: "{{ .PO_DIR }}/{{ .LANGUAGE }}.config.po"
+
+  translations:separate:config:
+    desc: Save configuration translations from combined file into separate file
+    cmds:
+      - task dev:cli -- drush dpl_cms:extract-ui $LANGUAGE $PATH_TO_FILE
+      - task translations:chown
+    env:
+      LANGUAGE: "{{ .LANGUAGE }}"
+      PATH_TO_FILE: "{{ .PO_DIR }}/{{ .LANGUAGE }}.po"
