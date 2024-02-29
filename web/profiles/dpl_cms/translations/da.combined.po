@@ -7,112 +7,112 @@ msgstr ""
 "Project-Id-Version: dpl-cms-conf-poc\n"
 "Language: da\n"
 
-#: 
+#:
 msgid "React DDB Library"
 msgstr "React DPL Library"
 
-#: 
+#:
 msgid "Library is present"
 msgstr "Library er "
 
-#: 
+#:
 msgid "DDB React library is missing (@dir)"
 msgstr "DPL React library mangler (@dir) "
 
-#: 
+#:
 msgctxt "node.type.campaign:description"
 msgid "Campaign to be shown among search results depending on matching facets and terms"
 msgstr "Kampagner er det vildeste. Prøv det! - seriøst! 02:00"
 
-#: 
+#:
 msgid "Configuration file"
 msgstr ""
 
-#: 
+#:
 msgctxt "DPL Config Import"
 msgid "Select a configuration file in YAML format to upload."
 msgstr ""
 
-#: 
+#:
 msgid "Upload"
 msgstr "John"
 
-#: 
+#:
 msgctxt "DPL Config Import"
 msgid "Unable to handle the uploaded file"
 msgstr ""
 
-#: 
+#:
 msgctxt "DPL Config Import"
 msgid "Unable to parse YAML file: %reason"
 msgstr ""
 
-#: 
+#:
 msgctxt "DPL Config Import"
 msgid "Installed modules: %modules_list"
-msgstr ""
+msgstr "Alakazam"
 
-#: 
+#:
 msgctxt "DPL Config Import"
 msgid "Failed to install modules: @reason"
 msgstr ""
 
-#: 
+#:
 msgctxt "DPL Config Import"
 msgid "Uninstalled modules: %modules_list"
 msgstr ""
 
-#: 
+#:
 msgctxt "DPL Config Import"
 msgid "Failed to uninstall modules: @reason"
 msgstr ""
 
-#: 
+#:
 msgctxt "Search Result"
 msgid "+ more filters"
 msgstr ""
 
-#: 
+#:
 msgctxt "Search Result"
 msgid "Clear all"
 msgstr ""
 
-#: 
+#:
 msgctxt "Search Result"
 msgid "Access types"
 msgstr ""
 
-#: 
+#:
 msgctxt "Search Result"
 msgid "Close facet browser modal"
 msgstr ""
 
-#: 
+#:
 msgctxt "Search Result"
 msgid "Modal for facet browser"
 msgstr ""
 
-#: 
+#:
 msgctxt "Search Result"
 msgid "Can always be loaned"
 msgstr ""
 
-#: 
+#:
 msgctxt "Search Result"
 msgid "Children or adults"
 msgstr ""
 
-#: 
+#:
 msgctxt "Search Result"
 msgid "Creators"
 msgstr ""
 
-#: 
+#:
 msgctxt "Search Result"
 msgid "Dk5"
 msgstr ""
 
-#: 
+#:
 msgctxt "Search Result"
 msgid "Fiction or non-fiction"
 msgstr ""
