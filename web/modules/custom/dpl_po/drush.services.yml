@@ -1,6 +1,6 @@
 services:
   dpl_po.commands:
-    class: \Drupal\dpl_po\Commands\DplCmsCommands
+    class: \Drupal\dpl_po\Commands\DplPoCommands
     arguments:
       - '@config.factory'
       - '@dpl_po.config_manager'
