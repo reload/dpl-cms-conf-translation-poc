@@ -29,7 +29,7 @@ msgid "Select a configuration file in YAML format to upload."
 msgstr ""
 
 msgid "Upload"
-msgstr "Lille bæver"
+msgstr "Upload"
 
 msgctxt "DPL Config Import"
 msgid "Unable to handle the uploaded file"
