@@ -35,7 +35,7 @@ msgstr ""
 
 #: 
 msgid "Upload"
-msgstr "Upload"
+msgstr "John"
 
 #: 
 msgctxt "DPL Config Import"
@@ -50,7 +50,7 @@ msgstr ""
 #: 
 msgctxt "DPL Config Import"
 msgid "Installed modules: %modules_list"
-msgstr ""
+msgstr "Alakazam 11.54-poeditor"
 
 #: 
 msgctxt "DPL Config Import"
