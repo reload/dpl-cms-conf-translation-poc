@@ -22,7 +22,7 @@ msgstr "DPL React library mangler (@dir) "
 #: 
 msgctxt "node.type.campaign:description"
 msgid "Campaign to be shown among search results depending on matching facets and terms"
-msgstr "Kampagner er det vildeste. Prøv det! - seriøst! 23:56"
+msgstr "Kampagner er det vildeste. Prøv det! - seriøst! 01:16"
 
 #: 
 msgid "Configuration file"
