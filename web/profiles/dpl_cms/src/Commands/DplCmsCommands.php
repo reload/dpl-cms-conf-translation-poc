@@ -157,11 +157,23 @@ class DplCmsCommands extends DrushCommands {
    *   Imports the configuration po file into the system.
    */
   public function importConfigPoFile(string $langcode, string $source) {
+    $this->setLanguageCode($langcode);
+    $this->setSource($source);
+    $this->validateSource();
+
+    $this->importConfigPoFileBatch();
+
+    $this->io()->success($this->t('Config translations were imported from: @source', ['@source' => $source]));
+  }
+
+  /**
+   * Import a configuration .po file in a batch.
+   */
+  protected function importConfigPoFileBatch(): void {
     $this->moduleHandler->loadInclude('locale', 'bulk.inc');
     $this->moduleHandler->loadInclude('config_translation_po', 'bulk.inc');
 
-    $this->setLanguageCode($langcode);
-    $this->setSource($source);
+    $langcode = $this->getLanguageCode();
     $this->validateSource();
 
     $options =
@@ -189,6 +201,39 @@ class DplCmsCommands extends DrushCommands {
     }
 
     drush_backend_batch_process();
+  }
+
+  /**
+   * Import a configuration .po hosted remotely.
+   *
+   * @param string $langcode
+   *   The langcode to import. Eg. 'en' or 'fr'.
+   * @param string $url
+   *   The url to the source .po file.
+   *
+   * @command dpl_cms:import-remote-config-po
+   * @usage drush dpl_cms:import-remote-config-po da https://some-url.com/da.config.po
+   *   Imports the remote configuration po file into the system.
+   */
+  public function importRemoteConfigPoFile(string $langcode, string $url): void {
+    $this->setLanguageCode($langcode);
+    $this->setDestination($this->fileSystem->realpath('public://config.po'));
+    $this->validateDestination();
+
+    if (!$uri = system_retrieve_file($url, $this->fileSystem->tempnam('temporary://', 'po_config_'), FALSE, FileSystemInterface::EXISTS_REPLACE)) {
+      $this->io()->error($this->t('Config translations could not be imported from: @url', ['@url' => $url]));
+    }
+
+    $file = new \SplFileInfo($this->fileSystem->realpath($uri));
+    if (!$destination = $this->moveFile($file)) {
+      $this->io()->error($this->t('Could not create config PO file.'));
+      return;
+    }
+
+    $this->setSource($destination);
+    $this->importConfigPoFileBatch();
+    $this->io()->success($this->t('Config translations were imported from: @url', ['@url' => $url]));
+    $this->fileSystem->delete($this->getDestination());
   }
 
   /**
