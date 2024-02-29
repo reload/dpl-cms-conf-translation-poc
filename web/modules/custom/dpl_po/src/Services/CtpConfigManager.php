@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\dpl_cms\Services;
+namespace Drupal\dpl_po\Services;
 
 use Drupal\Component\Gettext\PoItem;
 use Drupal\config_translation_po\Services\CtpConfigManager as OrgCtpConfigManager;

@@ -53,7 +53,6 @@ jobs:
     #     file_pattern: './web/profiles/dpl_cms/translations/*.combined.po'
     #     commit_message: New translations were found
 
-
     - name: Make Poeditor look for changes in translation strings
       uses: distributhor/workflow-webhook@v3
       env:

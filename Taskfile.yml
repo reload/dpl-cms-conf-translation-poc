@@ -532,7 +532,7 @@ tasks:
     desc: Exports current configuration into po file
     cmds:
      # Generate translations from configuration strings
-      - task dev:cli -- drush dpl_cms:export-config-po $LANGUAGE $PATH_TO_FILE
+      - task dev:cli -- drush dpl_po:export-config-po $LANGUAGE $PATH_TO_FILE
       - task translations:chown
     env:
       LANGUAGE: "{{ .LANGUAGE }}"
@@ -550,7 +550,7 @@ tasks:
   translations:separate:translations:
     desc: Save translations from combined file into separate file
     cmds:
-      - task dev:cli -- drush dpl_cms:extract-ui $LANGUAGE $SOURCE $PATH_TO_FILE
+      - task dev:cli -- drush dpl_po:extract-ui $LANGUAGE $SOURCE $PATH_TO_FILE
       - task translations:chown
     env:
       LANGUAGE: "{{ .LANGUAGE }}"
@@ -560,7 +560,7 @@ tasks:
   translations:separate:config:
     desc: Save configuration translations from combined file into separate file
     cmds:
-      - task dev:cli -- drush dpl_cms:extract-config $LANGUAGE $SOURCE $PATH_TO_FILE
+      - task dev:cli -- drush dpl_po:extract-config $LANGUAGE $SOURCE $PATH_TO_FILE
       - task translations:chown
     env:
       LANGUAGE: "{{ .LANGUAGE }}"

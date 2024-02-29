@@ -18,6 +18,7 @@ module:
   dblog: 0
   devel_generate: 0
   dpl_admin: 0
+  dpl_po: 0
   dpl_react: 0
   dpl_react_apps: 0
   dynamic_entity_reference: 0

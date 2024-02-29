@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\dpl_cms\Commands;
+namespace Drupal\dpl_po\Commands;
 
 use Drupal\Component\Gettext\PoHeader;
 use Drupal\Component\Gettext\PoStreamReader;
@@ -9,14 +9,14 @@ use Drupal\Core\Config\ConfigFactoryInterface;
 use Drupal\Core\Extension\ModuleHandlerInterface;
 use Drupal\Core\File\FileSystemInterface;
 use Drupal\Core\StringTranslation\StringTranslationTrait;
-use Drupal\dpl_cms\Services\CtpConfigManager;
+use Drupal\dpl_po\Services\CtpConfigManager;
 use Drush\Commands\DrushCommands;
 use function Safe\preg_match;
 
 /**
  * A Drush commandfile.
  */
-class DplCmsCommands extends DrushCommands {
+class DplPoCommands extends DrushCommands {
   use StringTranslationTrait;
 
   /**
@@ -47,7 +47,7 @@ class DplCmsCommands extends DrushCommands {
   }
 
   /**
-   *
+   * Set the source.
    */
   protected function setSource(string $path) {
     $this->source = $path;
@@ -94,8 +94,8 @@ class DplCmsCommands extends DrushCommands {
    * @param string $destination
    *   The path to the destination .po file.
    *
-   * @command dpl_cms:extract-config
-   * @usage drush dpl_cms:extract-config da da.po
+   * @command dpl_po:extract-config
+   * @usage drush dpl_po:extract-config da da.po
    *   Extracts strings with config context and writes a fie with it.
    */
   public function createPoFileConfigOnly($langcode, $source, $destination) {
@@ -124,8 +124,8 @@ class DplCmsCommands extends DrushCommands {
    * @param string $destination
    *   The path to the destination .po file.
    *
-   * @command dpl_cms:extract-ui
-   * @usage drush dpl_cms:extract-ui da da.po
+   * @command dpl_po:extract-ui
+   * @usage drush dpl_po:extract-ui da da.po
    *   Extracts strings with config context and writes a fie with it.
    */
   public function createPoFileUiOnly($langcode, $source, $destination) {
@@ -152,8 +152,8 @@ class DplCmsCommands extends DrushCommands {
    * @param string $source
    *   The path to the source .po file.
    *
-   * @command dpl_cms:import-config-po
-   * @usage drush dpl_cms:import-config-po da da.config.po
+   * @command dpl_po:import-config-po
+   * @usage drush dpl_po:import-config-po da da.config.po
    *   Imports the configuration po file into the system.
    */
   public function importConfigPoFile(string $langcode, string $source) {
@@ -211,8 +211,8 @@ class DplCmsCommands extends DrushCommands {
    * @param string $url
    *   The url to the source .po file.
    *
-   * @command dpl_cms:import-remote-config-po
-   * @usage drush dpl_cms:import-remote-config-po da https://some-url.com/da.config.po
+   * @command dpl_po:import-remote-config-po
+   * @usage drush dpl_po:import-remote-config-po da https://some-url.com/da.config.po
    *   Imports the remote configuration po file into the system.
    */
   public function importRemoteConfigPoFile(string $langcode, string $url): void {
@@ -244,8 +244,8 @@ class DplCmsCommands extends DrushCommands {
    * @param string $destination
    *   The path to the destination .po file.
    *
-   * @command dpl_cms:export-config-po
-   * @usage drush dpl_cms:export-config-po da da.config.po
+   * @command dpl_po:export-config-po
+   * @usage drush dpl_po:export-config-po da da.config.po
    *   Imports the configuration po file into the system.
    */
   public function exportConfigPoFile(string $langcode, string $destination) {
