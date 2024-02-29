@@ -103,5 +103,5 @@ environments:
       service: cli
     - name: import danish config translations
       schedule: "M/2 * * * *"
-      command: drush dpl_po:import-remote-config-po da https://github.com/reload/dpl-cms/translations/da.config.po
+      command: drush dpl_po:import-remote-config-po da https://reload.github.io/dpl-cms/translations/da.config.po
       service: cli
